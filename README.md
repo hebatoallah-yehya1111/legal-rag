@@ -53,16 +53,6 @@ PDF (data/raw/)
   -> vector_store (data/processed/)
   -> api.py /ask  [retrieve top-k articles, generate cited answer]
 ```
-
-## Next steps
-
-1. Add the source PDF to `data/raw/egyptian_civil_code.pdf`
-2. Implement `extract_raw_blocks` and `parse_articles` in `ingestion.py`
-3. Run `dvc repro` to build `articles.json` and validate it
-4. Wire real embeddings + Chroma into `rag.py`
-5. Set up MLflow experiment tracking for chunking configs
-6. Add RAGAS evaluation on a 20+ question test set
-
 ## Development
 
 ```bash
