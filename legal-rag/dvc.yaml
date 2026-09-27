@@ -1,0 +1,16 @@
+stages:
+  build_corpus:
+    cmd: python -m legal_rag.ingestion --pdf data/raw/egyptian_civil_code.pdf --out data/processed/articles.json
+    deps:
+      - data/raw/egyptian_civil_code.pdf
+      - src/legal_rag/ingestion.py
+    outs:
+      - data/processed/articles.json
+
+  build_index:
+    cmd: python -m legal_rag.build_index --in data/processed/articles.json --out data/processed/vector_store
+    deps:
+      - data/processed/articles.json
+      - src/legal_rag/rag.py
+    outs:
+      - data/processed/vector_store
