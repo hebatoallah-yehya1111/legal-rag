@@ -4,16 +4,18 @@ __pycache__/
 venv/
 *.egg-info/
 
-# DVC-tracked data - the .dvc pointer files stay in git, the data doesn't
 /data/raw/*
 /data/processed/*
 !/data/raw/.gitkeep
 !/data/processed/.gitkeep
+!/data/raw/*.dvc
+!/data/processed/*.dvc
 
 .env
 reports/*.html
 reports/*.png
 mlruns/
 .pytest_cache/
-.ruff_cache/scratch.pyscratch.py
+.ruff_cache/
+
 scratch.py
