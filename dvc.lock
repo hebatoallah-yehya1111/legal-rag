@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  build_corpus:
+    cmd: python -m src.ingestion --pdf data/raw/egyptian_civil_code.pdf --out 
+      data/processed/articles.json
+    deps:
+    - path: data/raw/egyptian_civil_code.pdf
+      hash: md5
+      md5: 5086ef5f16f15d856278db943e58e948
+      size: 2599703
+    - path: src/ingestion.py
+      hash: md5
+      md5: 3eba8b73ca86354f2d6ead6bf9ace405
+      size: 12749
+    - path: src/schema.py
+      hash: md5
+      md5: 0a2d220e4d39158da81c683eba4d107d
+      size: 465
+    outs:
+    - path: data/processed/articles.json
+      hash: md5
+      md5: fb153518b49b54baf07eb112c278f549
+      size: 1285866
