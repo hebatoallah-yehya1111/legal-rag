@@ -1,0 +1,26 @@
+[1mdiff --git a/dvc.yaml b/dvc.yaml[m
+[1mindex c6ed167..7acf5c5 100644[m
+[1m--- a/dvc.yaml[m
+[1m+++ b/dvc.yaml[m
+[36m@@ -1,16 +1,9 @@[m
+ stages:[m
+   build_corpus:[m
+[31m-    cmd: python -m legal_rag.ingestion --pdf data/raw/egyptian_civil_code.pdf --out data/processed/articles.json[m
+[32m+[m[32m    cmd: python -m src.ingestion --pdf data/raw/egyptian_civil_code.pdf --out data/processed/articles.json[m
+     deps:[m
+       - data/raw/egyptian_civil_code.pdf[m
+[31m-      - src/legal_rag/ingestion.py[m
+[32m+[m[32m      - src/ingestion.py[m
+[32m+[m[32m      - src/schema.py[m
+     outs:[m
+[31m-      - data/processed/articles.json[m
+[31m-[m
+[31m-  build_index:[m
+[31m-    cmd: python -m legal_rag.build_index --in data/processed/articles.json --out data/processed/vector_store[m
+[31m-    deps:[m
+[31m-      - data/processed/articles.json[m
+[31m-      - src/legal_rag/rag.py[m
+[31m-    outs:[m
+[31m-      - data/processed/vector_store[m
+[32m+[m[32m      - data/processed/articles.json[m
+\ No newline at end of file[m
