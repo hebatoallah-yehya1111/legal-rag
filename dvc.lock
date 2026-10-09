@@ -21,3 +21,20 @@ stages:
       hash: md5
       md5: fb153518b49b54baf07eb112c278f549
       size: 1285866
+  build_chunks:
+    cmd: python -m src.chunking --input data/processed/articles.json --out 
+      data/processed/chunks.json
+    deps:
+    - path: data/processed/articles.json
+      hash: md5
+      md5: fb153518b49b54baf07eb112c278f549
+      size: 1285866
+    - path: src/chunking.py
+      hash: md5
+      md5: fc3cc2b2abd97076106453ea30327b81
+      size: 6310
+    outs:
+    - path: data/processed/chunks.json
+      hash: md5
+      md5: 1015a868598f1eb03961d77ae23d24c4
+      size: 1384621

@@ -7,3 +7,11 @@ stages:
       - src/schema.py
     outs:
       - data/processed/articles.json
+
+  build_chunks:
+    cmd: python -m src.chunking --input data/processed/articles.json --out data/processed/chunks.json
+    deps:
+      - data/processed/articles.json
+      - src/chunking.py
+    outs:
+      - data/processed/chunks.json
