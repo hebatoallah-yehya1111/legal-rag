@@ -15,3 +15,12 @@ stages:
       - src/chunking.py
     outs:
       - data/processed/chunks.json
+
+    build_index:
+    cmd: python -m src.indexing --input data/processed/chunks.json --out data/processed/vector_store
+    deps:
+      - data/processed/chunks.json
+      - src/indexing.py
+      - src/config.py
+    outs:
+      - data/processed/vector_store
