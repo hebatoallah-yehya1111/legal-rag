@@ -1,58 +1,42 @@
-"""FastAPI application exposing the legal RAG system.
+"""FastAPI application for the Egyptian Civil Code RAG system."""
 
-Run locally with:
-    uvicorn legal_rag.api:app --reload --port 8000
-"""
+from functools import lru_cache
 
-from __future__ import annotations
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel, Field
 
-import logging
-from contextlib import asynccontextmanager
-
-from fastapi import FastAPI
-
-from legal_rag import config
-from legal_rag.rag import LegalRAG
-from legal_rag.schema import AskRequest, AskResponse, HealthResponse
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-rag = LegalRAG()
-
-
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    """Load the corpus and build the index once at startup.
-
-    TODO: currently tolerant of a missing corpus file so the service can
-    boot before Step 0 (ingestion) is finished; documents_indexed will be 0.
-    """
-    try:
-        rag.load_corpus(config.PROCESSED_JSON_PATH)
-        rag.build_index()
-    except FileNotFoundError:
-        logger.warning(
-            "No processed corpus found at %s yet - run ingestion first.",
-            config.PROCESSED_JSON_PATH,
-        )
-    yield
-
+from src.rag import LegalRAG
 
 app = FastAPI(
-    title="Arabic Legal Document Q&A",
-    description="RAG system over the Egyptian Civil Code with cited answers.",
+    title="Egyptian Civil Code RAG API",
+    description="Arabic and English legal question answering.",
     version="0.1.0",
-    lifespan=lifespan,
 )
 
 
-@app.get("/health", response_model=HealthResponse)
-def health() -> HealthResponse:
-    return HealthResponse(status="healthy", documents_indexed=rag.documents_indexed)
+class AskRequest(BaseModel):
+    question: str = Field(min_length=3, max_length=2000)
+    top_k: int = Field(default=5, ge=1, le=10)
 
 
-@app.post("/ask", response_model=AskResponse)
-def ask(request: AskRequest) -> AskResponse:
-    answer, sources = rag.ask(request.question)
-    return AskResponse(answer=answer, sources=sources)
+@lru_cache(maxsize=1)
+def get_rag() -> LegalRAG:
+    return LegalRAG()
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
+
+@app.post("/ask")
+def ask(request: AskRequest):
+    try:
+        rag = get_rag()
+        rag.top_k = request.top_k
+        return rag.answer(request.question)
+    except Exception as exc:
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to process the question. Check the application logs.",
+        ) from exc
