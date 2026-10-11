@@ -1,0 +1,272 @@
+[
+  {
+    "id": "q001",
+    "question": "ما القانون الذي يحكم الالتزامات غير التعاقدية؟",
+    "language": "ar",
+    "ground_truth": "يسري على الالتزامات غير التعاقدية قانون البلد الذي وقع فيه الفعل المنشئ للالتزام، مع استثناء يتعلق ببعض الأفعال الضارة التي تقع في الخارج وتكون مشروعة في مصر.",
+    "article_number": 21,
+    "reference_text": "Non-contractual obligations are governed by the law of the State in whose territory the act that gave rise to the obligation took place.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q002",
+    "question": "ما القانون الذي يحكم الاختصاص والإجراءات؟",
+    "language": "ar",
+    "ground_truth": "تخضع قواعد الاختصاص وجميع المسائل الخاصة بالإجراءات لقانون البلد الذي تقام فيه الدعوى أو تباشر فيه الإجراءات.",
+    "article_number": 22,
+    "reference_text": "Principles of competence of courts and all questions of procedure are governed by the law of the country in which the action is brought, or in which the proceedings are taken.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q003",
+    "question": "متى لا تسري أحكام المواد الخاصة بالقانون الواجب التطبيق؟",
+    "language": "ar",
+    "ground_truth": "لا تسري أحكام المواد السابقة إذا وجد نص مخالف في قانون خاص أو في معاهدة دولية نافذة في مصر.",
+    "article_number": 23,
+    "reference_text": "The preceding rules do not apply where a special law or an international treaty in force in Egypt provides otherwise.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q004",
+    "question": "كيف يجب تنفيذ العقد وفقًا للقانون المدني؟",
+    "language": "ar",
+    "ground_truth": "يجب تنفيذ العقد طبقًا لما اشتمل عليه وبطريقة تتفق مع ما يوجبه حسن النية، ولا يقتصر أثره على الشروط الصريحة بل يمتد إلى مستلزماته وفقًا للقانون والعرف والعدالة وطبيعة الالتزام.",
+    "article_number": 148,
+    "reference_text": "A contract must be performed in accordance with its contents and in compliance with the requirements of good faith.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q005",
+    "question": "ماذا يجوز للقاضي أن يفعل إذا تضمن عقد الإذعان شروطًا تعسفية؟",
+    "language": "ar",
+    "ground_truth": "يجوز للقاضي تعديل الشروط التعسفية أو إعفاء الطرف المذعن منها وفقًا لمقتضيات العدالة، ويقع باطلًا كل اتفاق على خلاف ذلك.",
+    "article_number": 149,
+    "reference_text": "When a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform them in accordance with equity.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q006",
+    "question": "What does the Civil Code require regarding good-faith performance of a contract?",
+    "language": "en",
+    "ground_truth": "A contract must be performed according to its contents and in compliance with the requirements of good faith; it also covers necessary consequences arising from law, usage and equity according to the nature of the obligation.",
+    "article_number": 148,
+    "reference_text": "A contract must be performed in accordance with its contents and in compliance with the requirements of good faith.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q007",
+    "question": "What happens when a contract of adhesion contains unfair or leonine conditions?",
+    "language": "en",
+    "ground_truth": "The judge may modify the unfair conditions or relieve the adhering party from performing them according to equity, and an agreement to the contrary is void.",
+    "article_number": 149,
+    "reference_text": "When a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform these conditions in accordance with the principles of equity.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q008",
+    "question": "متى لا يكون الشخص مسؤولًا عن التعويض بسبب سبب خارج عن إرادته؟",
+    "language": "ar",
+    "ground_truth": "في غياب نص أو اتفاق مخالف، لا يكون الشخص ملزمًا بالتعويض إذا أثبت أن الضرر نتج عن سبب أجنبي عنه، مثل الحادث الفجائي أو القوة القاهرة أو خطأ المضرور أو خطأ الغير.",
+    "article_number": 165,
+    "reference_text": "A person is not liable to make reparation if he proves that the injury resulted from a cause beyond his control, such as unforeseen circumstances, force majeure, the fault of the victim or of a third party.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q009",
+    "question": "ما أثر الدفاع الشرعي على المسؤولية عن الضرر؟",
+    "language": "ar",
+    "ground_truth": "من أحدث ضررًا في حالة دفاع شرعي عن نفسه أو ماله أو عن نفس الغير أو ماله لا يكون مسؤولًا، بشرط ألا يتجاوز القدر الضروري للدفاع؛ وإلا التزم بتعويض يراعى فيه مقتضيات العدالة.",
+    "article_number": 166,
+    "reference_text": "A person who causes an injury in legitimate defense is not responsible provided that he does not exceed the measures necessary for his defense.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q010",
+    "question": "متى يمكن أن يُعفى الموظف العام من المسؤولية عن عمل أضر بالغير؟",
+    "language": "ar",
+    "ground_truth": "لا يكون الموظف العام مسؤولًا إذا نفذ أمرًا من رئيس كان ملزمًا بطاعته أو اعتقد وجوب طاعته، وأثبت اعتقاده بمشروعية العمل لأسباب معقولة وأنه راعى الحيطة في عمله.",
+    "article_number": 167,
+    "reference_text": "A public official is not responsible if he acted in pursuance of an order from a superior which he had to obey or thought he had to obey, and he had reasonable grounds for believing the act lawful and acted with care.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q011",
+    "question": "ماذا يحدث إذا تسبب شخص في ضرر لتفادي ضرر أكبر؟",
+    "language": "ar",
+    "ground_truth": "إذا سبب شخص ضررًا للغير لتفادي ضرر أكبر محدق به أو بغيره، فلا يكون ملزمًا إلا بالتعويض الذي يراه القاضي مناسبًا.",
+    "article_number": 168,
+    "reference_text": "A person who causes injury to another in order to avoid greater injury is only responsible for such damages as the judge deems equitable.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q012",
+    "question": "كيف تكون مسؤولية عدة أشخاص عن عمل ضار واحد؟",
+    "language": "ar",
+    "ground_truth": "إذا تعدد المسؤولون عن عمل ضار كانوا متضامنين في التزامهم بتعويض الضرر، وتكون المسؤولية بينهم بالتساوي ما لم يحدد القاضي نصيب كل منهم.",
+    "article_number": 169,
+    "reference_text": "When several persons are responsible for an injury, they are jointly and severally responsible to make reparation; liability is shared equally unless the judge fixes individual shares.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q013",
+    "question": "What is the effect of force majeure or the victim’s fault on tort liability?",
+    "language": "en",
+    "ground_truth": "A person is not liable to make reparation if the injury resulted from a cause beyond his control, including unforeseen circumstances, force majeure, the victim’s fault or a third party’s fault, unless law or agreement provides otherwise.",
+    "article_number": 165,
+    "reference_text": "A person is not liable to make reparation if he proves that the injury resulted from a cause beyond his control.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q014",
+    "question": "How does the Code treat several persons responsible for the same injury?",
+    "language": "en",
+    "ground_truth": "They are jointly and severally responsible to make reparation for the injury; their liability is shared equally unless the judge fixes each person’s share.",
+    "article_number": 169,
+    "reference_text": "When several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q015",
+    "question": "متى يُجبر المدين على التنفيذ العيني؟",
+    "language": "ar",
+    "ground_truth": "يُجبر المدين، بعد إعذاره وفقًا للقانون، على تنفيذ التزامه تنفيذًا عينيًا متى كان ذلك ممكنًا، وإذا كان التنفيذ العيني مرهقًا جاز له الاقتصار على تعويض نقدي بشروط معينة.",
+    "article_number": 203,
+    "reference_text": "A debtor shall be compelled, upon being summoned, specifically to perform his obligation if such performance is possible.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q016",
+    "question": "What happens when the obligation is to transfer ownership of a specifically identified thing?",
+    "language": "en",
+    "ground_truth": "Subject to the rules on transcription, an obligation to transfer ownership or another real right transfers that right automatically when the object is specifically identified and owned by the debtor.",
+    "article_number": 204,
+    "reference_text": "An obligation to transfer ownership or any other real right transfers that right ipso facto if the object is specifically identified and owned by the debtor.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q017",
+    "question": "ما المقصود بالالتزام المضاف إلى أجل؟",
+    "language": "ar",
+    "ground_truth": "يكون الالتزام لأجل إذا كان نفاذه أو انقضاؤه مترتبًا على أمر مستقبل محقق الوقوع، ويعد الأمر محقق الوقوع إذا كان وقوعه حتميًا ولو لم يُعرف وقت وقوعه.",
+    "article_number": 271,
+    "reference_text": "An obligation is for a term if its performance or extinction depends on a future certain event.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q018",
+    "question": "كيف يحدد القاضي الأجل إذا كان المدين لا يلتزم بالوفاء إلا عند المقدرة أو الميسرة؟",
+    "language": "ar",
+    "ground_truth": "يعين القاضي ميعادًا مناسبًا لحلول الأجل مع مراعاة موارد المدين الحالية والمستقبلة والعناية المتوقعة من رجل حريص على الوفاء بالتزامه.",
+    "article_number": 272,
+    "reference_text": "The judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and the diligence of a man anxious to perform his obligations.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q019",
+    "question": "ما تعريف عقد البيع في القانون المدني؟",
+    "language": "ar",
+    "ground_truth": "البيع عقد يلتزم فيه البائع بأن ينقل للمشتري ملكية شيء أو حقًا ماليًا آخر في مقابل ثمن نقدي.",
+    "article_number": 418,
+    "reference_text": "Sale is a contract whereby the vendor binds himself to transfer to the purchaser the ownership of a thing or any other property right in consideration of a price in money.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q020",
+    "question": "What must a purchaser know about the thing sold?",
+    "language": "en",
+    "ground_truth": "The purchaser must have sufficient knowledge of the thing sold; this is sufficient when the contract describes the thing and its essential qualities so that it can be identified.",
+    "article_number": 419,
+    "reference_text": "The purchaser must have a sufficient acquaintance with the thing sold.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q021",
+    "question": "ما التزام البائع فيما يتعلق بنقل الحق المبيع؟",
+    "language": "ar",
+    "ground_truth": "يلتزم البائع باتخاذ ما هو ضروري لنقل الحق المبيع إلى المشتري، والامتناع عن أي عمل يجعل نقل الحق مستحيلًا أو عسيرًا.",
+    "article_number": 428,
+    "reference_text": "The vendor is bound to do what is necessary to transfer the right sold to the purchaser and to abstain from any act making the transfer impossible or difficult.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q022",
+    "question": "ما الذي يضمنه البائع للمشتري بالنسبة للانتفاع بالمبيع؟",
+    "language": "ar",
+    "ground_truth": "يضمن البائع عدم التعرض للمشتري في الانتفاع بالمبيع كله أو بعضه، سواء كان التعرض من فعله أو من فعل أجنبي تتوافر له شروط الحق المحتج به على المشتري.",
+    "article_number": 439,
+    "reference_text": "The vendor warrants the purchaser against disturbance in his enjoyment of the thing sold, totally or partially.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q023",
+    "question": "What is the default rule for costs and fees of a sale?",
+    "language": "en",
+    "ground_truth": "Unless an agreement or usage provides otherwise, the purchaser bears the costs of the deed of sale, stamp duties, transcription fees and other expenses.",
+    "article_number": 462,
+    "reference_text": "In the absence of an agreement or usage to the contrary, the costs of the deed of sale, stamp duties, transcription fees and all other expenses are borne by the purchaser.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q024",
+    "question": "ما مدة تقادم دعوى ضمان العيب في المبيع؟",
+    "language": "ar",
+    "ground_truth": "تسقط دعوى الضمان بالتقادم بعد سنة من وقت تسليم المبيع، ولو لم يكتشف المشتري العيب إلا بعد ذلك، ما لم يقبل البائع مدة أطول، ولا يجوز للبائع التمسك بالتقادم إذا تعمد إخفاء العيب غشًا.",
+    "article_number": 452,
+    "reference_text": "An action on a warranty is prescribed in one year from delivery, subject to the statutory exceptions.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q025",
+    "question": "متى يكون شرط إسقاط ضمان العيب أو تقليله باطلًا؟",
+    "language": "ar",
+    "ground_truth": "يجوز للمتعاقدين زيادة الضمان أو إنقاصه أو إسقاطه باتفاق خاص، لكن الشرط الذي يسقط الضمان أو ينقصه يكون باطلًا إذا تعمد البائع إخفاء العيب في المبيع غشًا.",
+    "article_number": 453,
+    "reference_text": "The parties may increase, restrict or abolish the warranty, but a clause abolishing or restricting it is void if the vendor fraudulently conceals defects.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q026",
+    "question": "ما التزام المستأجر بشأن دفع الأجرة؟",
+    "language": "ar",
+    "ground_truth": "يجب على المستأجر دفع الأجرة في المواعيد المتفق عليها، وإذا لم يوجد اتفاق ففي المواعيد التي يحددها عرف الجهة، ويكون الوفاء في موطن المستأجر ما لم يوجد اتفاق أو عرف مخالف.",
+    "article_number": 586,
+    "reference_text": "The lessee must pay the rent at the agreed times, or at times established by local custom in the absence of agreement.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q027",
+    "question": "ما واجب المستأجر إذا ظهرت حاجة إلى إصلاحات عاجلة في العين المؤجرة؟",
+    "language": "ar",
+    "ground_truth": "يجب على المستأجر أن يبادر إلى إخطار المؤجر بكل أمر يستوجب تدخله، ومن ذلك الحاجة إلى ترميمات مستعجلة أو اكتشاف عيب أو وقوع اغتصاب أو تعرض أو ضرر من الغير.",
+    "article_number": 585,
+    "reference_text": "The lessee must forthwith notify the lessor of all matters requiring his intervention, such as urgent repairs, defects, encroachments and disturbances or damage by third parties.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q028",
+    "question": "Who is generally responsible for fire damage to leased property?",
+    "language": "en",
+    "ground_truth": "The lessee is responsible for damage to the leased property by fire unless he proves that the cause was not imputable to him. Where several lessees occupy the property, liability is allocated as provided by the article, subject to the stated exception.",
+    "article_number": 584,
+    "reference_text": "The lessee is responsible for damage to the leased property by fire, unless he can establish that the cause thereof was not imputable to him.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q029",
+    "question": "من يملك حق الشفعة في الحالات التي يحددها القانون؟",
+    "language": "ar",
+    "ground_truth": "يثبت حق الشفعة، بحسب الحالات، لمالك الرقبة، والشريك في الشيوع، وصاحب حق الانتفاع، وبعض أصحاب حقوق الحكر، والجار المالك في الحالات المنصوص عليها.",
+    "article_number": 936,
+    "reference_text": "The right of preemption belongs to specified persons including the bare owner, co-owner in common, usufructuary, certain hekr holders and the neighboring owner in stated cases.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q030",
+    "question": "What was the exact temperature recorded in Cairo at noon yesterday?",
+    "language": "en",
+    "ground_truth": "The Egyptian Civil Code document does not contain this information, so the question cannot be answered from the provided source.",
+    "article_number": null,
+    "reference_text": null,
+    "scope": "out_of_scope"
+  }
+]

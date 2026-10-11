@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "q001",
+    "question": "ما القانون الذي يحكم الالتزامات غير التعاقدية؟",
+    "language": "ar",
+    "ground_truth": "يسري على الالتزامات غير التعاقدية قانون البلد الذي وقع فيه الفعل المنشئ للالتزام، مع استثناء يتعلق ببعض الأفعال الضارة التي تقع في الخارج وتكون مشروعة في مصر.",
+    "reference_text": "Non-contractual obligations are governed by the law of the State in whose territory the act that gave rise to the obligation took place.",
+    "scope": "in_scope",
+    "answer": "لا يمكنني تحديد القانون الذي يحكم الالتزامات غير التعاقدية استناداً إلى السياق الذي تم استرجاعه.",
+    "citations": [
+      "Egyptian Civil Code, Article 1014",
+      "Egyptian Civil Code, Article 746",
+      "Egyptian Civil Code, Article 672",
+      "Egyptian Civil Code, Article 157",
+      "Egyptian Civil Code, Article 695"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.6312623620033264,
+        "is_repealed": false
+      },
+      {
+        "article_number": 746,
+        "citation": "Egyptian Civil Code, Article 746",
+        "distance": 0.6431259512901306,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.6819837093353271,
+        "is_repealed": false
+      },
+      {
+        "article_number": 157,
+        "citation": "Egyptian Civil Code, Article 157",
+        "distance": 0.6883862614631653,
+        "is_repealed": false
+      },
+      {
+        "article_number": 695,
+        "citation": "Egyptian Civil Code, Article 695",
+        "distance": 0.7006227970123291,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract.",
+      "Arabic:\nاذا لم يقم المدين بالتزامه كان للمستحق ان يطلب تنفيذ العقد ، فان كان ايضا العقد بعوض جاز له ان يطلب فسخه مع التعويض ان كان له محل. الفصل الثالث عقد التامين ١- احكام عامه",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place.",
+      "Arabic:\n( ١ ( في العقود الملزمه للجانبين ، اذا لم يوف احد المتعاقدين بالتزامه جاز للمتعاقد االخر بعد اعذاره المدين ان يطالب بتنفيذ العقد او بفسخه ، مع التعويض في الهالتين ان كان له مقتض. ( ٢ ( ويجوز للقاضي ان يمنح المدين اجال اذا اقتضت الظروف ذلك ، كما يجوز له ان يرفض الفسخ اذا كان ما لم يرف به المدين قليل االهميه بالنسبه الي االلتزام في جملته.\n\nEnglish:\nIn bilateral contracts (contrats synallagmatiques) if one of the parties does not perform his obligation, the other party may, after serving a formal summons on the debtor, demand the performance of the contract or its rescission, with damages, if due, in either case. The judge may grant additional time to the debtor, if it is necessary as a result of the circumstances. The judge may also reject an application for rescission when the part of the contract which the debtor has failed to perform is of little importance in comparison with the obligation in its entirety.",
+      "Arabic:\n(١( اذا كان العقد قد ابرم لمده غير معينه ، ونقضه احد المتعاقدين دون مراعاه لميعاد االخطار ، او قبل انقضاء هذا الميعاد ، لزمه ان يعوض المتعاقد االخر عن مده هذا الميعاد او عن المده الباقيه منه . ويشمل التعويض فوق االجر المحدد الذي كان يستحق خالل هذه المده جميع ملحقات االجر التي تكون ثابته ومعينه ، مع مراعاه ما تقضي به القوانين الخاصه. (٢( واذا فسخ العقد بتعسف من احد المتعاقدين كان للمتعاقد االخر ، الي مستحقا جانب التعويض الذي يكون له بسبب عدم مراعاه ميعاد االخطار ، فسخا تعسفيا الحق في تعويض ما اصابه من ضرر بسبب فسخ العقد . تعسفيا ويعتبر الفصل اذا وقع بسبب حجوز اوقعت تحت يد رب العمل ، او وقع هذا الفصل بسبب ديون يكون العامل قد التزم بها للغير.\n\nEnglish:\nWhen a contract entered into for an indefinite period is terminated by one of the parties without observing the delay required for notice or before the end of this delay, he is bound to compensate the other party for the whole period of the notice or for the portion thereof still to run. Subject to the provisions of special laws on the subject, such compensation will include, in addition to the fixed salary due for this period, all additional remuneration, provided the amount of such remuneration is fixed and defined. When the contract is terminated vexatiously by one of the contracting parties, the other party may, in addition to the compensations due owing to failure to observe the delay required for notice, claim damages for the prejudice resulting from the unjustified termination of the contract. Discharge is deemed to be unjustified if it takes place as a result of the service of an attachment on the master or on account of debts contracted by the worker to third parties."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q002",
+    "question": "ما القانون الذي يحكم الاختصاص والإجراءات؟",
+    "language": "ar",
+    "ground_truth": "تخضع قواعد الاختصاص وجميع المسائل الخاصة بالإجراءات لقانون البلد الذي تقام فيه الدعوى أو تباشر فيه الإجراءات.",
+    "reference_text": "Principles of competence of courts and all questions of procedure are governed by the law of the country in which the action is brought, or in which the proceedings are taken.",
+    "scope": "in_scope",
+    "answer": "القانون الذي يحكم الاختصاص والإجراءات هو **المادة 22 من قانون المدني المصري**، حيث ينص على أن “مبادئ الاختصاص وجميع المسائل الخاصة بالإجراءات تُحكم بقانون البلد الذي تُقَدَّم فيه الدعوى أو تُباشر فيه الإجراءات.”  \n\n(المادة 22)",
+    "citations": [
+      "Egyptian Civil Code, Article 22",
+      "Egyptian Civil Code, Article 86",
+      "Egyptian Civil Code, Article 200",
+      "Egyptian Civil Code, Article 1014",
+      "Egyptian Civil Code, Article 388"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 22,
+        "citation": "Egyptian Civil Code, Article 22",
+        "distance": 0.814765453338623,
+        "is_repealed": false
+      },
+      {
+        "article_number": 86,
+        "citation": "Egyptian Civil Code, Article 86",
+        "distance": 0.924390971660614,
+        "is_repealed": false
+      },
+      {
+        "article_number": 200,
+        "citation": "Egyptian Civil Code, Article 200",
+        "distance": 0.9672431945800781,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.9691075086593628,
+        "is_repealed": false
+      },
+      {
+        "article_number": 388,
+        "citation": "Egyptian Civil Code, Article 388",
+        "distance": 0.9857375621795654,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nيسري علي قواعد االختصاص وجميع المسائل الخاصه باالجراءات قانون البلد الذي تقام فيه الدعوي او تباشر فيه االجراءات.\n\nEnglish:\nPrinciples of competence of courts and all questions of procedure are governed by the law of the country in which the action is brought, or in which the proceedings are taken.",
+      "Arabic:\nالحقوق التي ترد علي شيء غير مادي تنظمها قوانين خاصه.\n\nEnglish:\nRights in respect of a non-material object are regulated by special laws.",
+      "Arabic:\nيقدر القاضي ، عند عدم النص ، ما اذا كان هناك التزام طبيعي. وفي كل حال ال يجوز ان يقوم التزام طبيعي يخالف النظام العام.\n\nEnglish:\nThe judge shall decide, in the absence of any provision of the law, whether a natural obligation exists. There cannot ever be a natural obligation that is contrary to public policy.",
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract.",
+      "Arabic:\n(١( ال يجوز الترول عن التقادم قبل ثبوت الحق فيه ، كما ال يجوز االتفاق علي ان يتم التقادم في مده تختلف عن المده التي عليها القانون. (٢( وانما يجوز لكل شخص يملك التصرف في حقوقه ان يترل ولو ضمنا عن التقادم بعد ثبوت الحق فيه ، علي ان هذا الترول ال ينفذ في حق الدائنين اذا صدر اضرارا بهم. الباب السادس اثبات االلتزام المواد من ٣٨٩ الي ٤١٧ ملغاه الكتاب الثاني العقود المسماه الباب االول العقود التي تقع علي الملكيه الفصل االول البيع ١- البيع بوجه عام اركان البيع\n\nEnglish:\nA debtor cannot renounce the benefits of prescription before he has acquired the right to invoke it nor can he agree to a term of prescription other than that fixed by law. A person, however, who is legally capable of disposing of his rights, may renounce even tacitly, a right to prescription which he is in a position to invoke; but a renunciation made to the detriment of his creditors will have no effect against them. Articles 389-417 repealed 1.Sale in General Elements of Sale"
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q003",
+    "question": "متى لا تسري أحكام المواد الخاصة بالقانون الواجب التطبيق؟",
+    "language": "ar",
+    "ground_truth": "لا تسري أحكام المواد السابقة إذا وجد نص مخالف في قانون خاص أو في معاهدة دولية نافذة في مصر.",
+    "reference_text": "The preceding rules do not apply where a special law or an international treaty in force in Egypt provides otherwise.",
+    "scope": "in_scope",
+    "answer": "لا يمكنني تحديد متى لا تسري أحكام المواد الخاصة بالقانون الواجب التطبيق استناداً إلى السياق القانوني الذي تم إحضاره.",
+    "citations": [
+      "Egyptian Civil Code, Article 200",
+      "Egyptian Civil Code, Article 1014",
+      "Egyptian Civil Code, Article 672",
+      "Egyptian Civil Code, Article 147",
+      "Egyptian Civil Code, Article 172"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 200,
+        "citation": "Egyptian Civil Code, Article 200",
+        "distance": 0.8188422918319702,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.8391929864883423,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.8456916809082031,
+        "is_repealed": false
+      },
+      {
+        "article_number": 147,
+        "citation": "Egyptian Civil Code, Article 147",
+        "distance": 0.8568152785301208,
+        "is_repealed": false
+      },
+      {
+        "article_number": 172,
+        "citation": "Egyptian Civil Code, Article 172",
+        "distance": 0.8895556926727295,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nيقدر القاضي ، عند عدم النص ، ما اذا كان هناك التزام طبيعي. وفي كل حال ال يجوز ان يقوم التزام طبيعي يخالف النظام العام.\n\nEnglish:\nThe judge shall decide, in the absence of any provision of the law, whether a natural obligation exists. There cannot ever be a natural obligation that is contrary to public policy.",
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract.",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place.",
+      "Arabic:\n( ١ ( العقد شريعه المتعاقدين ، فال يجوز نقضه وال تعديله اال باتفاق الطرفين ، او لالسباب التي يقررها القانون. ( ٢ ومع ذلك اذا طرات حوادث استثنائيه عامه لم يكن في الوسع توقعها ( وترتب علي حدوثها ان تنفيذ االلتزام التعاقدي ، وان لم يصبح مستحيال ، صار مرهقا للمدين بحيث يهدده بخساره فادحه ، جاز للقاضي تبعا للظروف وسد الموازنه بين مصلحه الطرفين ان يرد االلتزام المرهق الي الحد المعقول. ويقع باطال كل اتفاق علي خالف ذلك.\n\nEnglish:\nThe contract makes the law of the parties. It can be revoked or altered only by mutual consent of the parties or for reasons provided for by law. When, however, as a result of exceptional and unpredictable events of a general character, the performance of the contractual obligation, without becoming impossible, becomes excessively onerous in such way as to threaten the debtor with exorbitant loss, the judge may according to the circumstances, and after taking into consideration the interests of both parties, reduce to reasonable limits, the obligation that has become excessive. Any agreement to the contrary is void.",
+      "Arabic:\n( ١ تسقط بالتقادم دعوي التعويض الناشئه عن العمل غير المشروع ( بانقضاء ثالث سنوات من اليوم الذي علم فيه المضرور بحدوث الفور وبالشخص المسئول عنه. وتسقط هذه الدعوي في كل حال ، بانقضاء خمس عشره سنه من يوم وقوع العمل غير المشروع. ( ٢ ( علي انه اذا كانت هذه الدعوي ناشئه عن جريمه ، وكانت الدعوي الجنائيه لم تسقط بعد انقضاء المواعيد المذكوره في الفقره السابقه ، فان دعوي التعويض ال تسقط اال بسقوط الدعوي الجنائيه. ٢ - المسئوليه عن عمل الغير\n\nEnglish:\nAn action for damages arising from an unlawful act is prescribed after three years from the date upon which the victim knew of the injury and identity of the person who was responsible. An action for damages is prescribed in any case after fifteen years from the date on which the unlawful act was committed. When a claim arises out of a penal offence and the penal action is not prescribed after the delays set out in the preceding paragraph, the action for damages is only prescribed when the penal action itself is prescribed. 2- Liability arising from the acts of another"
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q004",
+    "question": "كيف يجب تنفيذ العقد وفقًا للقانون المدني؟",
+    "language": "ar",
+    "ground_truth": "يجب تنفيذ العقد طبقًا لما اشتمل عليه وبطريقة تتفق مع ما يوجبه حسن النية، ولا يقتصر أثره على الشروط الصريحة بل يمتد إلى مستلزماته وفقًا للقانون والعرف والعدالة وطبيعة الالتزام.",
+    "reference_text": "A contract must be performed in accordance with its contents and in compliance with the requirements of good faith.",
+    "scope": "in_scope",
+    "answer": "**تنفيذ العقد وفقًا للقانون المدني المصري**  \n\n1. **الالتزام بالالتزام**  \n   - يُفترض أن يُنفّذ كل طرف ما يلتزم به في العقد.  \n   - إذا لم يوفّ أحد المتعاقدين بالتزامه، يحق للطرف الآخر، بعد إبلاغ المدين، أن يطالب **بنفاذ العقد** أو **بفسخه**، مع التعويض إذا كان ذلك مستحقًا.  \n     - يُستند إلى **المادة 746** و**المادة 157** من القانون المدني.  \n\n2. **التحكم في تعديل أو إلغاء العقد**  \n   - لا يجوز تعديل أو إلغاء العقد إلا بموافقة الطرفين أو لأسباب يقرّها القانون.  \n   - في حال وقوع أحداث استثنائية غير متوقعة تجعل الالتزام غير ممكن أو مفرطًا في الأعباء، يجوز للمدّعي أن يطلب تعديل الالتزام إلى حد معقول، ويُقرّ ذلك من قبل القاضي وفقًا للظروف.  \n     - يُستند إلى **المادة 147**.  \n\n3. **التصحيح في حال وجود أخطاء أو انحرافات**  \n   - إذا حدث انحراف أو خطأ في تطبيق الأتعاب على العقود الفردية، يحق للمتضرر (المستهلك أو الملتزم) تصحيح المبلغ أو استرداد ما دفعه زائدًا، أو استكمال ما نقص من الأتعاب.  \n     - يُستند إلى **المادة 672**.  \n\n4. **الاستثناءات الخاصة**  \n   - في بعض الحالات الخاصة (مثل عقود الوقف)، قد تُطبق قواعد خاصة بتنفيذ العقد، كما هو موضح في **المادة 1014**، لكن القواعد العامة المذكورة أعلاه لا تزال سارية.  \n\n> **ملاحظة**: هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 1014",
+      "Egyptian Civil Code, Article 746",
+      "Egyptian Civil Code, Article 147",
+      "Egyptian Civil Code, Article 157",
+      "Egyptian Civil Code, Article 672"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.7098355293273926,
+        "is_repealed": false
+      },
+      {
+        "article_number": 746,
+        "citation": "Egyptian Civil Code, Article 746",
+        "distance": 0.7318049669265747,
+        "is_repealed": false
+      },
+      {
+        "article_number": 147,
+        "citation": "Egyptian Civil Code, Article 147",
+        "distance": 0.7638428211212158,
+        "is_repealed": false
+      },
+      {
+        "article_number": 157,
+        "citation": "Egyptian Civil Code, Article 157",
+        "distance": 0.7694451212882996,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.7695292234420776,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract.",
+      "Arabic:\nاذا لم يقم المدين بالتزامه كان للمستحق ان يطلب تنفيذ العقد ، فان كان ايضا العقد بعوض جاز له ان يطلب فسخه مع التعويض ان كان له محل. الفصل الثالث عقد التامين ١- احكام عامه",
+      "Arabic:\n( ١ ( العقد شريعه المتعاقدين ، فال يجوز نقضه وال تعديله اال باتفاق الطرفين ، او لالسباب التي يقررها القانون. ( ٢ ومع ذلك اذا طرات حوادث استثنائيه عامه لم يكن في الوسع توقعها ( وترتب علي حدوثها ان تنفيذ االلتزام التعاقدي ، وان لم يصبح مستحيال ، صار مرهقا للمدين بحيث يهدده بخساره فادحه ، جاز للقاضي تبعا للظروف وسد الموازنه بين مصلحه الطرفين ان يرد االلتزام المرهق الي الحد المعقول. ويقع باطال كل اتفاق علي خالف ذلك.\n\nEnglish:\nThe contract makes the law of the parties. It can be revoked or altered only by mutual consent of the parties or for reasons provided for by law. When, however, as a result of exceptional and unpredictable events of a general character, the performance of the contractual obligation, without becoming impossible, becomes excessively onerous in such way as to threaten the debtor with exorbitant loss, the judge may according to the circumstances, and after taking into consideration the interests of both parties, reduce to reasonable limits, the obligation that has become excessive. Any agreement to the contrary is void.",
+      "Arabic:\n( ١ ( في العقود الملزمه للجانبين ، اذا لم يوف احد المتعاقدين بالتزامه جاز للمتعاقد االخر بعد اعذاره المدين ان يطالب بتنفيذ العقد او بفسخه ، مع التعويض في الهالتين ان كان له مقتض. ( ٢ ( ويجوز للقاضي ان يمنح المدين اجال اذا اقتضت الظروف ذلك ، كما يجوز له ان يرفض الفسخ اذا كان ما لم يرف به المدين قليل االهميه بالنسبه الي االلتزام في جملته.\n\nEnglish:\nIn bilateral contracts (contrats synallagmatiques) if one of the parties does not perform his obligation, the other party may, after serving a formal summons on the debtor, demand the performance of the contract or its rescission, with damages, if due, in either case. The judge may grant additional time to the debtor, if it is necessary as a result of the circumstances. The judge may also reject an application for rescission when the part of the contract which the debtor has failed to perform is of little importance in comparison with the obligation in its entirety.",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q005",
+    "question": "ماذا يجوز للقاضي أن يفعل إذا تضمن عقد الإذعان شروطًا تعسفية؟",
+    "language": "ar",
+    "ground_truth": "يجوز للقاضي تعديل الشروط التعسفية أو إعفاء الطرف المذعن منها وفقًا لمقتضيات العدالة، ويقع باطلًا كل اتفاق على خلاف ذلك.",
+    "reference_text": "When a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform them in accordance with equity.",
+    "scope": "in_scope",
+    "answer": "لا يمكن تحديد ما يجوز للقاضي فعله في هذه الحالة استناداً إلى النصوص القانونية التي تم إحضارها. لا تتضمن المقالات المذكورة (746، 172، 221، 1014، 672) أي نص يخص عقود الإذعان أو شروط تعسفية. لذلك لا يمكن استنتاج إجراء محدد للقاضي من هذه المقتطفات.",
+    "citations": [
+      "Egyptian Civil Code, Article 746",
+      "Egyptian Civil Code, Article 172",
+      "Egyptian Civil Code, Article 221",
+      "Egyptian Civil Code, Article 1014",
+      "Egyptian Civil Code, Article 672"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 746,
+        "citation": "Egyptian Civil Code, Article 746",
+        "distance": 0.6590204834938049,
+        "is_repealed": false
+      },
+      {
+        "article_number": 172,
+        "citation": "Egyptian Civil Code, Article 172",
+        "distance": 0.6636984944343567,
+        "is_repealed": false
+      },
+      {
+        "article_number": 221,
+        "citation": "Egyptian Civil Code, Article 221",
+        "distance": 0.6724597811698914,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.6850787401199341,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.7078327536582947,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا لم يقم المدين بالتزامه كان للمستحق ان يطلب تنفيذ العقد ، فان كان ايضا العقد بعوض جاز له ان يطلب فسخه مع التعويض ان كان له محل. الفصل الثالث عقد التامين ١- احكام عامه",
+      "Arabic:\n( ١ تسقط بالتقادم دعوي التعويض الناشئه عن العمل غير المشروع ( بانقضاء ثالث سنوات من اليوم الذي علم فيه المضرور بحدوث الفور وبالشخص المسئول عنه. وتسقط هذه الدعوي في كل حال ، بانقضاء خمس عشره سنه من يوم وقوع العمل غير المشروع. ( ٢ ( علي انه اذا كانت هذه الدعوي ناشئه عن جريمه ، وكانت الدعوي الجنائيه لم تسقط بعد انقضاء المواعيد المذكوره في الفقره السابقه ، فان دعوي التعويض ال تسقط اال بسقوط الدعوي الجنائيه. ٢ - المسئوليه عن عمل الغير\n\nEnglish:\nAn action for damages arising from an unlawful act is prescribed after three years from the date upon which the victim knew of the injury and identity of the person who was responsible. An action for damages is prescribed in any case after fifteen years from the date on which the unlawful act was committed. When a claim arises out of a penal offence and the penal action is not prescribed after the delays set out in the preceding paragraph, the action for damages is only prescribed when the penal action itself is prescribed. 2- Liability arising from the acts of another",
+      "Arabic:\n( ١ ( اذا لم يكن التعويض مقدرا في العقد او بنص في القانون ، فالقاضي هو الذي يقدره ، ويشمل التعويض ما لحق الدائن من خساره وما فاته من كسب ، بشرط ان يكون هذا نتيجه طبيعيه لعدم الوفاء بااللتزام او للتاخر في الوفاء به ، ويعتبر الضرر نتيجه طبيعيه اذا لم يكن في استطاعه الدائن ان يتوقاه ببذل جهد معقول. )٢ ومع ذلك اذا كان االلتزام مصدره العقد ، فال يلتزم المد̈ين الذي لم ( غشا جسيما يرتكب او خطا اال بتعويض الضرر الذي كان يمكن توقعه عاده وقت التعاقد.\n\nEnglish:\nThe judge will fix the amount of damages, if it has not been fixed in the contract or by law. The amount of damages includes losses suffered by the creditor and profits of which he has been deprived, provided that they are the normal result of the failure to perform the obligation or of delay in such performance. These losses shall be considered to be a normal result, if the creditor is not able to avoid them by making a reasonable effort. When, however, the obligation arises from a contract, a debtor who has not been guilty of fraud or gross negligence will not be held liable for damages greater than those which could have normally been foreseen at the time of entering into the contract.",
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract.",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q006",
+    "question": "What does the Civil Code require regarding good-faith performance of a contract?",
+    "language": "en",
+    "ground_truth": "A contract must be performed according to its contents and in compliance with the requirements of good faith; it also covers necessary consequences arising from law, usage and equity according to the nature of the obligation.",
+    "reference_text": "A contract must be performed in accordance with its contents and in compliance with the requirements of good faith.",
+    "scope": "in_scope",
+    "answer": "I’m sorry, but the retrieved excerpts do not contain any provision that specifically addresses the requirement of good‑faith performance of a contract. Therefore, I cannot determine what the Civil Code requires in this regard from the provided context.",
+    "citations": [
+      "Egyptian Civil Code, Article 135",
+      "Egyptian Civil Code, Article 123",
+      "Egyptian Civil Code, Article 152",
+      "Egyptian Civil Code, Article 695",
+      "Egyptian Civil Code, Article 1014"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 135,
+        "citation": "Egyptian Civil Code, Article 135",
+        "distance": 0.8396937847137451,
+        "is_repealed": false
+      },
+      {
+        "article_number": 123,
+        "citation": "Egyptian Civil Code, Article 123",
+        "distance": 0.8789111971855164,
+        "is_repealed": false
+      },
+      {
+        "article_number": 152,
+        "citation": "Egyptian Civil Code, Article 152",
+        "distance": 0.8805937170982361,
+        "is_repealed": false
+      },
+      {
+        "article_number": 695,
+        "citation": "Egyptian Civil Code, Article 695",
+        "distance": 0.8891117572784424,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.901900589466095,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا كان محل االلتزام مخالفا للنظام العام او االداب كان العقد باطال. السبب\n\nEnglish:\nA contract is void if its object is contrary to public policy or morality. Consideration:",
+      "Arabic:\nال يؤثر في صحه العقد مجرد الغلط في الحساب. وال غلطات القلم ، ولكن يجب تصحيح الغلط.\n\nEnglish:\nMere mistakes of calculation or clerical mistakes do not affect the validity of a contract; these errors must, however, be corrected.",
+      "Arabic:\nال يرتب العقد التزاما في ذمه الغير. ولكن يجوز ان يكسبه حقا.\n\nEnglish:\nA contract does not create obligations binding upon third parties, but may create rights in their favor.",
+      "Arabic:\n(١( اذا كان العقد قد ابرم لمده غير معينه ، ونقضه احد المتعاقدين دون مراعاه لميعاد االخطار ، او قبل انقضاء هذا الميعاد ، لزمه ان يعوض المتعاقد االخر عن مده هذا الميعاد او عن المده الباقيه منه . ويشمل التعويض فوق االجر المحدد الذي كان يستحق خالل هذه المده جميع ملحقات االجر التي تكون ثابته ومعينه ، مع مراعاه ما تقضي به القوانين الخاصه. (٢( واذا فسخ العقد بتعسف من احد المتعاقدين كان للمتعاقد االخر ، الي مستحقا جانب التعويض الذي يكون له بسبب عدم مراعاه ميعاد االخطار ، فسخا تعسفيا الحق في تعويض ما اصابه من ضرر بسبب فسخ العقد . تعسفيا ويعتبر الفصل اذا وقع بسبب حجوز اوقعت تحت يد رب العمل ، او وقع هذا الفصل بسبب ديون يكون العامل قد التزم بها للغير.\n\nEnglish:\nWhen a contract entered into for an indefinite period is terminated by one of the parties without observing the delay required for notice or before the end of this delay, he is bound to compensate the other party for the whole period of the notice or for the portion thereof still to run. Subject to the provisions of special laws on the subject, such compensation will include, in addition to the fixed salary due for this period, all additional remuneration, provided the amount of such remuneration is fixed and defined. When the contract is terminated vexatiously by one of the contracting parties, the other party may, in addition to the compensations due owing to failure to observe the delay required for notice, claim damages for the prejudice resulting from the unjustified termination of the contract. Discharge is deemed to be unjustified if it takes place as a result of the service of an attachment on the master or on account of debts contracted by the worker to third parties.",
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q007",
+    "question": "What happens when a contract of adhesion contains unfair or leonine conditions?",
+    "language": "en",
+    "ground_truth": "The judge may modify the unfair conditions or relieve the adhering party from performing them according to equity, and an agreement to the contrary is void.",
+    "reference_text": "When a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform these conditions in accordance with the principles of equity.",
+    "scope": "in_scope",
+    "answer": "عندما يتضمن عقد الإذعان شروطاً تعسفية أو تعسفية (ليونية)، يجوز للقاضي تعديل هذه الشروط أو إعفاء الطرف المذعن منها وفقاً لمبادئ العدالة. أي اتفاق يُحاول أن يخل بهذا الحكم يُعتبر باطلاً.  \n(المادة 149 من قانون المدني المصري)\n\n**ملاحظة:** يُقصد بـ“عقد الإذعان” عقد يتم فيه قبول الطرف المذعن للشروط التي يضعها الطرف الآخر، ولا يُسمح بمناقشتها (المادة 100).  \n\n> هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 149",
+      "Egyptian Civil Code, Article 100",
+      "Egyptian Civil Code, Article 695",
+      "Egyptian Civil Code, Article 147",
+      "Egyptian Civil Code, Article 157"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 149,
+        "citation": "Egyptian Civil Code, Article 149",
+        "distance": 0.8660283088684082,
+        "is_repealed": false
+      },
+      {
+        "article_number": 100,
+        "citation": "Egyptian Civil Code, Article 100",
+        "distance": 1.0416910648345947,
+        "is_repealed": false
+      },
+      {
+        "article_number": 695,
+        "citation": "Egyptian Civil Code, Article 695",
+        "distance": 1.1215564012527466,
+        "is_repealed": false
+      },
+      {
+        "article_number": 147,
+        "citation": "Egyptian Civil Code, Article 147",
+        "distance": 1.1482043266296387,
+        "is_repealed": false
+      },
+      {
+        "article_number": 157,
+        "citation": "Egyptian Civil Code, Article 157",
+        "distance": 1.1539515256881714,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا تم العقد بطريق االذعان وكان قد تضمن شروطا تعسفيه جاز للقاضي ان يعدل هذه الشروط او ان يعفي الطرف المذعن منها ، وذلك وفقا لما تقضي به العداله. ويقع باطال كل اتفاق علي خالف ذلك.\n\nEnglish:\nWhen a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform these conditions in accordance with the principles of equity. Any agreement to the contrary is void.",
+      "Arabic:\nالقبول في عقود االذعان يقتصر علي مجرد التسليم بشروط مقرره يضعها الموجب وال يقبل مناقشه فيها.\n\nEnglish:\nAcceptance in the case of a contract of adhesion is confined to adhesion to standard conditions which are drawn up by the offeror and which are not subject to discussion.",
+      "Arabic:\n(١( اذا كان العقد قد ابرم لمده غير معينه ، ونقضه احد المتعاقدين دون مراعاه لميعاد االخطار ، او قبل انقضاء هذا الميعاد ، لزمه ان يعوض المتعاقد االخر عن مده هذا الميعاد او عن المده الباقيه منه . ويشمل التعويض فوق االجر المحدد الذي كان يستحق خالل هذه المده جميع ملحقات االجر التي تكون ثابته ومعينه ، مع مراعاه ما تقضي به القوانين الخاصه. (٢( واذا فسخ العقد بتعسف من احد المتعاقدين كان للمتعاقد االخر ، الي مستحقا جانب التعويض الذي يكون له بسبب عدم مراعاه ميعاد االخطار ، فسخا تعسفيا الحق في تعويض ما اصابه من ضرر بسبب فسخ العقد . تعسفيا ويعتبر الفصل اذا وقع بسبب حجوز اوقعت تحت يد رب العمل ، او وقع هذا الفصل بسبب ديون يكون العامل قد التزم بها للغير.\n\nEnglish:\nWhen a contract entered into for an indefinite period is terminated by one of the parties without observing the delay required for notice or before the end of this delay, he is bound to compensate the other party for the whole period of the notice or for the portion thereof still to run. Subject to the provisions of special laws on the subject, such compensation will include, in addition to the fixed salary due for this period, all additional remuneration, provided the amount of such remuneration is fixed and defined. When the contract is terminated vexatiously by one of the contracting parties, the other party may, in addition to the compensations due owing to failure to observe the delay required for notice, claim damages for the prejudice resulting from the unjustified termination of the contract. Discharge is deemed to be unjustified if it takes place as a result of the service of an attachment on the master or on account of debts contracted by the worker to third parties.",
+      "Arabic:\n( ١ ( العقد شريعه المتعاقدين ، فال يجوز نقضه وال تعديله اال باتفاق الطرفين ، او لالسباب التي يقررها القانون. ( ٢ ومع ذلك اذا طرات حوادث استثنائيه عامه لم يكن في الوسع توقعها ( وترتب علي حدوثها ان تنفيذ االلتزام التعاقدي ، وان لم يصبح مستحيال ، صار مرهقا للمدين بحيث يهدده بخساره فادحه ، جاز للقاضي تبعا للظروف وسد الموازنه بين مصلحه الطرفين ان يرد االلتزام المرهق الي الحد المعقول. ويقع باطال كل اتفاق علي خالف ذلك.\n\nEnglish:\nThe contract makes the law of the parties. It can be revoked or altered only by mutual consent of the parties or for reasons provided for by law. When, however, as a result of exceptional and unpredictable events of a general character, the performance of the contractual obligation, without becoming impossible, becomes excessively onerous in such way as to threaten the debtor with exorbitant loss, the judge may according to the circumstances, and after taking into consideration the interests of both parties, reduce to reasonable limits, the obligation that has become excessive. Any agreement to the contrary is void.",
+      "Arabic:\n( ١ ( في العقود الملزمه للجانبين ، اذا لم يوف احد المتعاقدين بالتزامه جاز للمتعاقد االخر بعد اعذاره المدين ان يطالب بتنفيذ العقد او بفسخه ، مع التعويض في الهالتين ان كان له مقتض. ( ٢ ( ويجوز للقاضي ان يمنح المدين اجال اذا اقتضت الظروف ذلك ، كما يجوز له ان يرفض الفسخ اذا كان ما لم يرف به المدين قليل االهميه بالنسبه الي االلتزام في جملته.\n\nEnglish:\nIn bilateral contracts (contrats synallagmatiques) if one of the parties does not perform his obligation, the other party may, after serving a formal summons on the debtor, demand the performance of the contract or its rescission, with damages, if due, in either case. The judge may grant additional time to the debtor, if it is necessary as a result of the circumstances. The judge may also reject an application for rescission when the part of the contract which the debtor has failed to perform is of little importance in comparison with the obligation in its entirety."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q008",
+    "question": "متى لا يكون الشخص مسؤولًا عن التعويض بسبب سبب خارج عن إرادته؟",
+    "language": "ar",
+    "ground_truth": "في غياب نص أو اتفاق مخالف، لا يكون الشخص ملزمًا بالتعويض إذا أثبت أن الضرر نتج عن سبب أجنبي عنه، مثل الحادث الفجائي أو القوة القاهرة أو خطأ المضرور أو خطأ الغير.",
+    "reference_text": "A person is not liable to make reparation if he proves that the injury resulted from a cause beyond his control, such as unforeseen circumstances, force majeure, the fault of the victim or of a third party.",
+    "scope": "in_scope",
+    "answer": "لا يُعَدّ الشخص مسؤولاً عن التعويض عندما يكون سبب الضرر خارج إرادته، وفقاً للمواد التالية من قانون المدني المصري:\n\n1. **المادة 217**  \n   - يُسمح للمدين بالتحمل أو الإعفاء من المسؤولية عن أحداث غير متوقعة أو قوى قاهرة، مع استثناء المسؤولية عن الغش أو الخطأ الجسيم.  \n   - إذا كان السبب خارج إرادة المدين (مثل حادث غير متوقع أو قوة قاهرة) ولا يُعزى إلى غش أو خطأ جسيم، فيمكن أن يُعفى من المسؤولية تماماً أو يُخفف عنها حسب الاتفاق.\n\n2. **المادة 221**  \n   - إذا كان الالتزام ناتجاً عن عقد، لا يُعزى للمدين مسؤولية تعويضات تتجاوز ما كان يمكن توقعه طبيعيًا عند توقيع العقد، ما لم يُعزى ذلك إلى غش أو خطأ جسيم.  \n   - أي ضرر ناتج عن سبب خارج إرادة المدين يُعتبر نتيجة طبيعية، وبالتالي لا يُفرض عليه تعويض يتجاوز ما كان متوقعًا.\n\n**ملحوظة:** هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 221",
+      "Egyptian Civil Code, Article 672",
+      "Egyptian Civil Code, Article 716",
+      "Egyptian Civil Code, Article 217",
+      "Egyptian Civil Code, Article 192"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 221,
+        "citation": "Egyptian Civil Code, Article 221",
+        "distance": 0.7081469297409058,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.7233734130859375,
+        "is_repealed": false
+      },
+      {
+        "article_number": 716,
+        "citation": "Egyptian Civil Code, Article 716",
+        "distance": 0.7321612238883972,
+        "is_repealed": false
+      },
+      {
+        "article_number": 217,
+        "citation": "Egyptian Civil Code, Article 217",
+        "distance": 0.7778557538986206,
+        "is_repealed": false
+      },
+      {
+        "article_number": 192,
+        "citation": "Egyptian Civil Code, Article 192",
+        "distance": 0.7794424295425415,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n( ١ ( اذا لم يكن التعويض مقدرا في العقد او بنص في القانون ، فالقاضي هو الذي يقدره ، ويشمل التعويض ما لحق الدائن من خساره وما فاته من كسب ، بشرط ان يكون هذا نتيجه طبيعيه لعدم الوفاء بااللتزام او للتاخر في الوفاء به ، ويعتبر الضرر نتيجه طبيعيه اذا لم يكن في استطاعه الدائن ان يتوقاه ببذل جهد معقول. )٢ ومع ذلك اذا كان االلتزام مصدره العقد ، فال يلتزم المد̈ين الذي لم ( غشا جسيما يرتكب او خطا اال بتعويض الضرر الذي كان يمكن توقعه عاده وقت التعاقد.\n\nEnglish:\nThe judge will fix the amount of damages, if it has not been fixed in the contract or by law. The amount of damages includes losses suffered by the creditor and profits of which he has been deprived, provided that they are the normal result of the failure to perform the obligation or of delay in such performance. These losses shall be considered to be a normal result, if the creditor is not able to avoid them by making a reasonable effort. When, however, the obligation arises from a contract, a debtor who has not been guilty of fraud or gross negligence will not be held liable for damages greater than those which could have normally been foreseen at the time of entering into the contract.",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place.",
+      "Arabic:\n)١( يجوز للوكيل ان يترل في اي وقت عن الوكاله ولو وجد اتفاق يخالف ذلك ، ويتم التنازل باعالنه للموكل . فاذا كانت الوكاله باجر فان الوكيل ملزما يكون بتعويض الموكل عن الضرر الذي لحقه من جراء التنازل في وقت غير مناسب وبغير عذر مقبول. ٢( غير انه ال يجوز للوكيل ان يترل عن الوكاله متي كانت صادره ) لصالح اجنبي اال اذا وجدت اسباب جديه تبرر ذلك علي ان يخطر االجنبي وقتا بهذا التنازل ، وان يهمله ليتخذ ما يلزم لصيانه مصالحه.\n\nEnglish:\nThe mandatary may, at any time and notwithstanding an agreement to the contrary, renounce his mandate. Renunciation is effected by notification to the mandator. When the mandate is remunerated, the mandatary must indemnify the mandator for loss sustained by him as a result of his renunciation, if it is intempestive or unjustified. The mandatory, however, has not the right to renounce a mandate given in the interests of a third party, unless there are serious reasons justifying such remuneration and unless he notifies the third party and gives him time to take such action as may be necessary to safeguard his interests.",
+      "Arabic:\n( ١ ( يجوز االتفاق علي ان يتحمل المدين تبعه الحادث المفاجئ والقوه القاهره. ( ٢ وكذلك يجوز االتفاق علي اعفاء المدين من ايه مسئوليه تترتب علي ( عدم تنفيذ التزامه التعاقدي اال ما ينشا عن غشه او عن خطئه الجسيم ، ومع ذلك يجوز للمدين ان يشترط عدم مسئوليته عن الغش او الخطا الجسيم الذي يقع من اشخاص يستخدمهم في تنفيذ التزامه. ( ٣ ويقع باطال كل شرط يقضي باالعفاء من المسئوليه المترتبه علي ( العمل غير المشروع.\n\nEnglish:\nThe debtor may by agreement accept liability for unforeseen events and for cases of force majeure. The debtor may by agreement be discharged from all liability for his failure to perform the contractual obligation, with the exception of liability arising from his fraud or gross negligence. The debtor may, nevertheless, stipulate that he shall not be liable for fraud or gross negligence committed by persons whom he employs for the performance of his obligation. Any clause discharging a person from responsibility for unlawful acts, is void.",
+      "Arabic:\n)١ ( يجب علي الفضولي ان يبذل في القيام بالعمل عنايه الشخص العادي ، ويكون مسئوال عن خطئه. ومع ذلك يجوز للقاضي ان ينقص التعويض المترتب علي هذا الخطا ، اذا كانت الظروف تبرر ذلك. )٢ ( واذا عهد الفضولي الي غيره بكل العمل او ببعضه كان مسئوال عن تصرفات نائبه ، دون اخالل بما لرب العمل من الرجوع مباشره علي هذا النائب. )٣ ( واذا تعدد الفضوليون في القيام بعمل واحد ، كانوا متضامنين في المسئوليه.\n\nEnglish:\nA voluntary agent must us in the management of the work he has undertaken all the care that one would expect from a reasonable person and shall be responsible for his mistakes. The judge may, however, reduce the amount of damages due as a result of such mistakes, if circumstances justify such a reduction. When a voluntary agent delegates to a third party the whole or part of the work of which he has assumed the management, he shall be responsible for the acts of his delegate, without prejudice to the right of the person for whom he acts to his direct remedy against the delegate. When there are several voluntary agents doing the same work, they are all jointly and severally responsible."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q009",
+    "question": "ما أثر الدفاع الشرعي على المسؤولية عن الضرر؟",
+    "language": "ar",
+    "ground_truth": "من أحدث ضررًا في حالة دفاع شرعي عن نفسه أو ماله أو عن نفس الغير أو ماله لا يكون مسؤولًا، بشرط ألا يتجاوز القدر الضروري للدفاع؛ وإلا التزم بتعويض يراعى فيه مقتضيات العدالة.",
+    "reference_text": "A person who causes an injury in legitimate defense is not responsible provided that he does not exceed the measures necessary for his defense.",
+    "scope": "in_scope",
+    "answer": "أثر الدفاع الشرعي على المسؤولية عن الضرر يُنص عليه في المادة 168 من قانون المدني المصري، حيث يُقر أن:\n\n> “من سبب ضرراً للغير ليتفادي ضرراً أكبر يهدده أو يهدد غيره، لا يكون ملزماً بالتعويض الذي يراه القاضي مناسباً.”  \n> (المادة 168)\n\nبمعنى أن الشخص الذي يسبب الضرر في إطار دفاع شرعي (مثلاً دفاع عن النفس أو دفاع عن شخص آخر) لا يُعَدّ مسؤولاً عن جميع الأضرار التي قد يسببها، بل يُعَدّ مسؤولاً فقط عن الأضرار التي يراها القاضي معقولة ومناسبة للظروف.  \n\nهذا يختلف عن المسؤولية العامة المنصوص عليها في المادة 163، التي تُلزم كل خطأ يسبب ضرراً للغير بالتعويض، إذ يُخفّض أو يُحدّ من المسؤولية في حالات الدفاع الشرعي وفقاً للمادة 168.  \n\n**ملاحظة:** هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 175",
+      "Egyptian Civil Code, Article 169",
+      "Egyptian Civil Code, Article 177",
+      "Egyptian Civil Code, Article 168"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 163,
+        "citation": "Egyptian Civil Code, Article 163",
+        "distance": 0.8149245977401733,
+        "is_repealed": false
+      },
+      {
+        "article_number": 175,
+        "citation": "Egyptian Civil Code, Article 175",
+        "distance": 0.8345881700515747,
+        "is_repealed": false
+      },
+      {
+        "article_number": 169,
+        "citation": "Egyptian Civil Code, Article 169",
+        "distance": 0.8741065263748169,
+        "is_repealed": false
+      },
+      {
+        "article_number": 177,
+        "citation": "Egyptian Civil Code, Article 177",
+        "distance": 0.8744122385978699,
+        "is_repealed": false
+      },
+      {
+        "article_number": 168,
+        "citation": "Egyptian Civil Code, Article 168",
+        "distance": 0.8978825807571411,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nكل خطا سبب ضررا للغير يلزم من ارتكبه بالتعويض.\n\nEnglish:\nEvery fault which cause injury to another, imposes an obligation to make reparation upon the person by whom it is committed.",
+      "Arabic:\nللمسئول عن عمل الغير حق الرجوع عليه في الحدود التي يكون فيها هذا الغير مسئوال عن تعويض الضرر. ٣ - المسئوليه الناشئه عن االشياء\n\nEnglish:\nA person responsible for an act of another person has a claim for redress against that other person to the extent that the other person is responsible for the reparation of the injury. 3- Liability Arising from Things",
+      "Arabic:\nاذا تعدد المسئولون عن عمل ضار كانوا متضامنين في التزامهم بتعويض الضرر ، وتكون المسئوليه فيما بينهم بالتساوي ، اال اذا عين القاضي نصيب كل منهم في التعويض.\n\nEnglish:\nWhen several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury. The liability will be shared equally between them, unless the judge fixes their individual share in the damage due.",
+      "Arabic:\n( ١ حارس البناء ، ولو لم يكن مالكا له ، مسئول عما يحدث انهدام البناء ( من ضرر ، ولو كان ا داما جزئيا ، ما لم يثبت ان الحادث ال يرجع سببه الي اهمال في الصيانه او قدم في البناء او عيب فيه. ( ٢ ويجوز لمن كان مهددا بضرر يصيبه من البناء ان يطالب المالك ( باتخاذ ما يلزم من التدابير الضروريه لدرء الخطر فان لم يقم المالك بذلك جاز الحصول علي اذن من المحكمه في اتخاذ هذه التدابير علي حسابه.\n\nEnglish:\nA person in charge of a building, even if he is not its owner, is liable for damage caused by the collapse of the building, even if such collapse is partial, unless he shows that the accident did not occur as a result of negligent maintenance or the age of, or the defect in the building. A person who is in danger of damage from a building is entitled to call on the owner to take the necessary precautions to prevent the danger, and if the owner fails to take such precautions, to obtain an order from the Court authorizing him to take necessary precautions himself at the cost of the owner.",
+      "Arabic:\nمن سبب ضررا للغير ليتفادي ضررا اكبر محدقا به او بغيره ، ال يكون ملزما اال بالتعويض الذي يراه القاضي مناسبا.\n\nEnglish:\nA person who causes injury to another person, in order to avoid greater injury that threatens him or a third party, is only responsible for such damages as the judge deems equitable."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q010",
+    "question": "متى يمكن أن يُعفى الموظف العام من المسؤولية عن عمل أضر بالغير؟",
+    "language": "ar",
+    "ground_truth": "لا يكون الموظف العام مسؤولًا إذا نفذ أمرًا من رئيس كان ملزمًا بطاعته أو اعتقد وجوب طاعته، وأثبت اعتقاده بمشروعية العمل لأسباب معقولة وأنه راعى الحيطة في عمله.",
+    "reference_text": "A public official is not responsible if he acted in pursuance of an order from a superior which he had to obey or thought he had to obey, and he had reasonable grounds for believing the act lawful and acted with care.",
+    "scope": "in_scope",
+    "answer": "لا يمكن للموظف العام أن يُعفى من المسؤولية عن عمل أضر بالغير إذا كان هذا العمل يُعد عملًا غير مشروع. وفقًا للمادة 217 من قانون المدني المصري، يُعتبر أي شرط يُعفي شخصًا من المسؤولية عن أعمال غير مشروعه غير صالح، أي أنه لا يُستثنى من المسؤولية. لذلك، لا توجد حالة تُسمح فيها بالاستثناء من المسؤولية في مثل هذه الحالة.",
+    "citations": [
+      "Egyptian Civil Code, Article 192",
+      "Egyptian Civil Code, Article 172",
+      "Egyptian Civil Code, Article 715",
+      "Egyptian Civil Code, Article 696",
+      "Egyptian Civil Code, Article 217"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 192,
+        "citation": "Egyptian Civil Code, Article 192",
+        "distance": 0.8942644000053406,
+        "is_repealed": false
+      },
+      {
+        "article_number": 172,
+        "citation": "Egyptian Civil Code, Article 172",
+        "distance": 0.8973535895347595,
+        "is_repealed": false
+      },
+      {
+        "article_number": 715,
+        "citation": "Egyptian Civil Code, Article 715",
+        "distance": 0.8978475332260132,
+        "is_repealed": false
+      },
+      {
+        "article_number": 696,
+        "citation": "Egyptian Civil Code, Article 696",
+        "distance": 0.8997973203659058,
+        "is_repealed": false
+      },
+      {
+        "article_number": 217,
+        "citation": "Egyptian Civil Code, Article 217",
+        "distance": 0.9398017525672913,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١ ( يجب علي الفضولي ان يبذل في القيام بالعمل عنايه الشخص العادي ، ويكون مسئوال عن خطئه. ومع ذلك يجوز للقاضي ان ينقص التعويض المترتب علي هذا الخطا ، اذا كانت الظروف تبرر ذلك. )٢ ( واذا عهد الفضولي الي غيره بكل العمل او ببعضه كان مسئوال عن تصرفات نائبه ، دون اخالل بما لرب العمل من الرجوع مباشره علي هذا النائب. )٣ ( واذا تعدد الفضوليون في القيام بعمل واحد ، كانوا متضامنين في المسئوليه.\n\nEnglish:\nA voluntary agent must us in the management of the work he has undertaken all the care that one would expect from a reasonable person and shall be responsible for his mistakes. The judge may, however, reduce the amount of damages due as a result of such mistakes, if circumstances justify such a reduction. When a voluntary agent delegates to a third party the whole or part of the work of which he has assumed the management, he shall be responsible for the acts of his delegate, without prejudice to the right of the person for whom he acts to his direct remedy against the delegate. When there are several voluntary agents doing the same work, they are all jointly and severally responsible.",
+      "Arabic:\n( ١ تسقط بالتقادم دعوي التعويض الناشئه عن العمل غير المشروع ( بانقضاء ثالث سنوات من اليوم الذي علم فيه المضرور بحدوث الفور وبالشخص المسئول عنه. وتسقط هذه الدعوي في كل حال ، بانقضاء خمس عشره سنه من يوم وقوع العمل غير المشروع. ( ٢ ( علي انه اذا كانت هذه الدعوي ناشئه عن جريمه ، وكانت الدعوي الجنائيه لم تسقط بعد انقضاء المواعيد المذكوره في الفقره السابقه ، فان دعوي التعويض ال تسقط اال بسقوط الدعوي الجنائيه. ٢ - المسئوليه عن عمل الغير\n\nEnglish:\nAn action for damages arising from an unlawful act is prescribed after three years from the date upon which the victim knew of the injury and identity of the person who was responsible. An action for damages is prescribed in any case after fifteen years from the date on which the unlawful act was committed. When a claim arises out of a penal offence and the penal action is not prescribed after the delays set out in the preceding paragraph, the action for damages is only prescribed when the penal action itself is prescribed. 2- Liability arising from the acts of another",
+      "Arabic:\n)١( بجوز للموكل في اي وقت ان ينهي الوكاله او يقيدها ولو وجد اتفاق ملزما يخالف ذلك . فاذا كانت الوكاله باجر فان الموكل يكون بتعويض الوكيل عن الضرر الذي لحقه من جراء في وقت غير مناسب او بغير عذر مقبول. ) ٢( علي انه اذا كانت الوكاله صادره لصالح الوكيل او لصالح اجنبي ، فال يجوز للموكل ان ينهي الوكاله او يقيدها دون رضاء من صدرت الوكاله لصالحه.\n\nEnglish:\nThe mandator may, at any time and notwithstanding any agreement to the contrary, revoke or restrict the mandate. When, however, the mandate is remunerated, the mandator must indemnify the mandatory for loss sustained by him as a result of an intempestive or unjustified revocation. When, however, the mandate has been given in the interests of a mandatary or of a third party, the mandator is not entitled to revoke or restrict the mandate without the consent of the person in whose interest the mandate was granted.",
+      "Arabic:\n(١( يجوز الحكم بالتعويض عن الفصل ولو لم بصدر هذا الفصل من رب العمل ، اذا كان هذا االخير قد دفع ، وعلي االخص بمعاملته الجائزه او مخالفته شروط العقد ، الي ان يكون هو في الظاهر الذي انهي العقد. (٢( ونقل العامل الي مركز اقل ميزه او مالءمه من المركز الذي كان تعسفيا يشغله لغير ما ذنب جناه ، ال يعد عمال بطريق غير مباشر اذا ما اقتضته مصلحه العمل ، ولكنه يعد كذلك اذا كان الغرض منه اساءه العامل .\n\nEnglish:\nCompensation on dismissal may be granted, even though the master has not himself dismissed the worker, if the master, by his own actions and especially vexatious treatment or by a breach of the conditions of contract, has obliged the worker to appear to have terminated the contract himself. The transfer of a worker, without fault on his part, to a less profitable or less suitable post than that which he is occupying, is not deemed to be an indirect vexatious act if such transfer is necessary in the interests of the work. The transfer will, however, be deemed a vexatious act if it is made with the object of injuring the worker.",
+      "Arabic:\n( ١ ( يجوز االتفاق علي ان يتحمل المدين تبعه الحادث المفاجئ والقوه القاهره. ( ٢ وكذلك يجوز االتفاق علي اعفاء المدين من ايه مسئوليه تترتب علي ( عدم تنفيذ التزامه التعاقدي اال ما ينشا عن غشه او عن خطئه الجسيم ، ومع ذلك يجوز للمدين ان يشترط عدم مسئوليته عن الغش او الخطا الجسيم الذي يقع من اشخاص يستخدمهم في تنفيذ التزامه. ( ٣ ويقع باطال كل شرط يقضي باالعفاء من المسئوليه المترتبه علي ( العمل غير المشروع.\n\nEnglish:\nThe debtor may by agreement accept liability for unforeseen events and for cases of force majeure. The debtor may by agreement be discharged from all liability for his failure to perform the contractual obligation, with the exception of liability arising from his fraud or gross negligence. The debtor may, nevertheless, stipulate that he shall not be liable for fraud or gross negligence committed by persons whom he employs for the performance of his obligation. Any clause discharging a person from responsibility for unlawful acts, is void."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q011",
+    "question": "ماذا يحدث إذا تسبب شخص في ضرر لتفادي ضرر أكبر؟",
+    "language": "ar",
+    "ground_truth": "إذا سبب شخص ضررًا للغير لتفادي ضرر أكبر محدق به أو بغيره، فلا يكون ملزمًا إلا بالتعويض الذي يراه القاضي مناسبًا.",
+    "reference_text": "A person who causes injury to another in order to avoid greater injury is only responsible for such damages as the judge deems equitable.",
+    "scope": "in_scope",
+    "answer": "إذا تسبب شخص في ضرر لتفادي ضرر أكبر، فإن القانون المصري يُنص على أن يكون مسؤولاً فقط عن الأضرار التي يراها القاضي مناسبةً، ولا يُلزم بموجب ذلك تعويض كامل عن الضرر الذي سببه. هذا يُستخلص من المادة 168 من قانون المدني المصري.  \n\n**ملاحظة:** هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 168",
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 175",
+      "Egyptian Civil Code, Article 665",
+      "Egyptian Civil Code, Article 169"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 168,
+        "citation": "Egyptian Civil Code, Article 168",
+        "distance": 0.8243139982223511,
+        "is_repealed": false
+      },
+      {
+        "article_number": 163,
+        "citation": "Egyptian Civil Code, Article 163",
+        "distance": 0.9232631921768188,
+        "is_repealed": false
+      },
+      {
+        "article_number": 175,
+        "citation": "Egyptian Civil Code, Article 175",
+        "distance": 0.9671005010604858,
+        "is_repealed": false
+      },
+      {
+        "article_number": 665,
+        "citation": "Egyptian Civil Code, Article 665",
+        "distance": 1.029811143875122,
+        "is_repealed": false
+      },
+      {
+        "article_number": 169,
+        "citation": "Egyptian Civil Code, Article 169",
+        "distance": 1.0336076021194458,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nمن سبب ضررا للغير ليتفادي ضررا اكبر محدقا به او بغيره ، ال يكون ملزما اال بالتعويض الذي يراه القاضي مناسبا.\n\nEnglish:\nA person who causes injury to another person, in order to avoid greater injury that threatens him or a third party, is only responsible for such damages as the judge deems equitable.",
+      "Arabic:\nكل خطا سبب ضررا للغير يلزم من ارتكبه بالتعويض.\n\nEnglish:\nEvery fault which cause injury to another, imposes an obligation to make reparation upon the person by whom it is committed.",
+      "Arabic:\nللمسئول عن عمل الغير حق الرجوع عليه في الحدود التي يكون فيها هذا الغير مسئوال عن تعويض الضرر. ٣ - المسئوليه الناشئه عن االشياء\n\nEnglish:\nA person responsible for an act of another person has a claim for redress against that other person to the extent that the other person is responsible for the reparation of the injury. 3- Liability Arising from Things",
+      "Arabic:\n)١( اذا هلك الشيء بسبب حادث مفاجئ قبل تسليمه لرب العمل ، فليس للمقاول ان يطالب ال بثمن عمله وال برد نفقاته ، ويكون هالك الماده علي من قام بتوريدها من الطرفين. ) ٢( اما اذا كان المقاول قد اعذر ان يسلم الشيء ، او كان هالك الشيء او راجعا تلفه قبل التسليم الي خطئه ، وجب عليه ان يعوض رب العمل عما يكون هذا قد ورده من ماده للعمل. ) ٣( فاذا كان رب العمل هو الذي اعذر ان يتسلم الشيء ، او كان هالك راجعا الشيء او تلفه الي خطا منه او الي عيب في الماده التي قام بتوريدها ، كان هالك الماده عليه وكان للمقاول الحق في االجر وفي التعويض عند االقتضاء.\n\nEnglish:\nWhen works are destroyed by a fortuitous event, before delivery to the master, the contractor has no claim either for the price of his work, or for reimbursement of his expenses. The loss of materials falls on the party who supplied them. When, however, the contractor fails to comply with a formal summons to deliver the work or when the works are destroyed or deteriorate before the delivery by the fault of the contractor, he is under a liability to indemnify the master for the materials supplied to carry out the works. When a master is formally summoned to take delivery of the works or when the works are destroyed or deteriorate by the fault of the master or by reason of a defect in the materials supplied by him, the master shall bear the loss resulting from the destruction of the materials and is liable to the contractor for his remuneration in addition to such compensation as may be due.",
+      "Arabic:\nاذا تعدد المسئولون عن عمل ضار كانوا متضامنين في التزامهم بتعويض الضرر ، وتكون المسئوليه فيما بينهم بالتساوي ، اال اذا عين القاضي نصيب كل منهم في التعويض.\n\nEnglish:\nWhen several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury. The liability will be shared equally between them, unless the judge fixes their individual share in the damage due."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q012",
+    "question": "كيف تكون مسؤولية عدة أشخاص عن عمل ضار واحد؟",
+    "language": "ar",
+    "ground_truth": "إذا تعدد المسؤولون عن عمل ضار كانوا متضامنين في التزامهم بتعويض الضرر، وتكون المسؤولية بينهم بالتساوي ما لم يحدد القاضي نصيب كل منهم.",
+    "reference_text": "When several persons are responsible for an injury, they are jointly and severally responsible to make reparation; liability is shared equally unless the judge fixes individual shares.",
+    "scope": "in_scope",
+    "answer": "مسؤولية عدة أشخاص عن عمل ضار واحد تُحدد في القانون المدني المصري على النحو التالي:\n\n1. **التضامن** – يُعَدّ كل من المسؤولين مسؤولاً بالتضامن عن تعويض الضرر، أي أن المتضرر يمكنه المطالبة بالكمية الكاملة من أيٍّ من المسؤولين.  \n2. **التقسيم بالتساوي** – في غياب أي حكم قضائي يحدد خلاف ذلك، تُقسم المسؤولية بين المسؤولين بالتساوي.  \n3. **تحديد نصيب كل مسؤول** – يجوز للقاضي أن يحدد نصيب كل مسؤول في التعويض، في حال كان ذلك مناسباً للظروف.  \n\nهذا ما ينص عليه **المادة 169 من القانون المدني**.  \n\nوبالإضافة إلى ذلك، تنص المادة 163 على أن كل خطأ يسبب ضرراً للآخر يوجب على من ارتكبه تعويضاً، وتُعطي المادة 175 حق المتضرر في الرجوع على المسؤول عن عمل آخر في حدود ما يحق له من تعويض.  \n\n> **ملاحظة**: هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 169",
+      "Egyptian Civil Code, Article 707",
+      "Egyptian Civil Code, Article 277",
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 175"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 169,
+        "citation": "Egyptian Civil Code, Article 169",
+        "distance": 0.9048675298690796,
+        "is_repealed": false
+      },
+      {
+        "article_number": 707,
+        "citation": "Egyptian Civil Code, Article 707",
+        "distance": 0.9197680950164795,
+        "is_repealed": false
+      },
+      {
+        "article_number": 277,
+        "citation": "Egyptian Civil Code, Article 277",
+        "distance": 0.9282186031341553,
+        "is_repealed": false
+      },
+      {
+        "article_number": 163,
+        "citation": "Egyptian Civil Code, Article 163",
+        "distance": 0.9322689175605774,
+        "is_repealed": false
+      },
+      {
+        "article_number": 175,
+        "citation": "Egyptian Civil Code, Article 175",
+        "distance": 0.948570966720581,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا تعدد المسئولون عن عمل ضار كانوا متضامنين في التزامهم بتعويض الضرر ، وتكون المسئوليه فيما بينهم بالتساوي ، اال اذا عين القاضي نصيب كل منهم في التعويض.\n\nEnglish:\nWhen several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury. The liability will be shared equally between them, unless the judge fixes their individual share in the damage due.",
+      "Arabic:\n)١( اذا تعدد الوكالء كانوا مسئولين بالتضامن متي كانت الوكاله غير قالبه لالنقسام ، او كان الضرر الذي اصاب الموكل نتيجه خطا مشترك . علي مجاوزا او الوكالء ولو كانوا متضامنين ال يسالون عما فعله احدهم حدود متعسفا الوكاله او في تنفيذها. ٢( واذا عين الوكالء في عقد واحد دون ان يرخص في انفرادهم في ) العمل ، كان عليهم ان يعملوا مجتمعين اال اذا كان العمل مما ال يحتاج فيه الي تبادل الراي كقبض الدين او وفائه.\n\nEnglish:\nWhen several mandataries are appointed, they are jointly and severally liable if the mandate is indivisible or if the damage sustained by the mandator is the result of their common fault. Mandataries, however, even if joint and several, are not responsible for the acts done by their comandataries in excess of the limits of the mandate or by a wrongful use of the mandate. When several mandataries are appointed by the same document without being authorized to act severally, they must act jointly except in cases where an exchange of view is not essential, such as receiving a payment of paying a debt.",
+      "Arabic:\nاذا كان الخيار للمدين ، ثم استحال تنفيذ كل من االشياء المتعدده التي اشتمل عليها محل االلتزام ، وكان المدين مسئوال عن هذه االستحاله ولو فيما يتعلق بواحده من هذه االشياء كان ملزما بان يدفع قيمه اخر شيء استحال تنفيذه. ٢- االلتزام البدلي",
+      "Arabic:\nكل خطا سبب ضررا للغير يلزم من ارتكبه بالتعويض.\n\nEnglish:\nEvery fault which cause injury to another, imposes an obligation to make reparation upon the person by whom it is committed.",
+      "Arabic:\nللمسئول عن عمل الغير حق الرجوع عليه في الحدود التي يكون فيها هذا الغير مسئوال عن تعويض الضرر. ٣ - المسئوليه الناشئه عن االشياء\n\nEnglish:\nA person responsible for an act of another person has a claim for redress against that other person to the extent that the other person is responsible for the reparation of the injury. 3- Liability Arising from Things"
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q013",
+    "question": "What is the effect of force majeure or the victim’s fault on tort liability?",
+    "language": "en",
+    "ground_truth": "A person is not liable to make reparation if the injury resulted from a cause beyond his control, including unforeseen circumstances, force majeure, the victim’s fault or a third party’s fault, unless law or agreement provides otherwise.",
+    "reference_text": "A person is not liable to make reparation if he proves that the injury resulted from a cause beyond his control.",
+    "scope": "in_scope",
+    "answer": "I’m sorry, but the retrieved excerpts do not provide any information about the effect of force majeure or the victim’s fault on tort liability. Therefore, I cannot determine the answer from the given context.",
+    "citations": [
+      "Egyptian Civil Code, Article 221",
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 172",
+      "Egyptian Civil Code, Article 175",
+      "Egyptian Civil Code, Article 672"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 221,
+        "citation": "Egyptian Civil Code, Article 221",
+        "distance": 0.8814501762390137,
+        "is_repealed": false
+      },
+      {
+        "article_number": 163,
+        "citation": "Egyptian Civil Code, Article 163",
+        "distance": 0.895965576171875,
+        "is_repealed": false
+      },
+      {
+        "article_number": 172,
+        "citation": "Egyptian Civil Code, Article 172",
+        "distance": 0.9318552017211914,
+        "is_repealed": false
+      },
+      {
+        "article_number": 175,
+        "citation": "Egyptian Civil Code, Article 175",
+        "distance": 0.9709296822547913,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.9851499199867249,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n( ١ ( اذا لم يكن التعويض مقدرا في العقد او بنص في القانون ، فالقاضي هو الذي يقدره ، ويشمل التعويض ما لحق الدائن من خساره وما فاته من كسب ، بشرط ان يكون هذا نتيجه طبيعيه لعدم الوفاء بااللتزام او للتاخر في الوفاء به ، ويعتبر الضرر نتيجه طبيعيه اذا لم يكن في استطاعه الدائن ان يتوقاه ببذل جهد معقول. )٢ ومع ذلك اذا كان االلتزام مصدره العقد ، فال يلتزم المد̈ين الذي لم ( غشا جسيما يرتكب او خطا اال بتعويض الضرر الذي كان يمكن توقعه عاده وقت التعاقد.\n\nEnglish:\nThe judge will fix the amount of damages, if it has not been fixed in the contract or by law. The amount of damages includes losses suffered by the creditor and profits of which he has been deprived, provided that they are the normal result of the failure to perform the obligation or of delay in such performance. These losses shall be considered to be a normal result, if the creditor is not able to avoid them by making a reasonable effort. When, however, the obligation arises from a contract, a debtor who has not been guilty of fraud or gross negligence will not be held liable for damages greater than those which could have normally been foreseen at the time of entering into the contract.",
+      "Arabic:\nكل خطا سبب ضررا للغير يلزم من ارتكبه بالتعويض.\n\nEnglish:\nEvery fault which cause injury to another, imposes an obligation to make reparation upon the person by whom it is committed.",
+      "Arabic:\n( ١ تسقط بالتقادم دعوي التعويض الناشئه عن العمل غير المشروع ( بانقضاء ثالث سنوات من اليوم الذي علم فيه المضرور بحدوث الفور وبالشخص المسئول عنه. وتسقط هذه الدعوي في كل حال ، بانقضاء خمس عشره سنه من يوم وقوع العمل غير المشروع. ( ٢ ( علي انه اذا كانت هذه الدعوي ناشئه عن جريمه ، وكانت الدعوي الجنائيه لم تسقط بعد انقضاء المواعيد المذكوره في الفقره السابقه ، فان دعوي التعويض ال تسقط اال بسقوط الدعوي الجنائيه. ٢ - المسئوليه عن عمل الغير\n\nEnglish:\nAn action for damages arising from an unlawful act is prescribed after three years from the date upon which the victim knew of the injury and identity of the person who was responsible. An action for damages is prescribed in any case after fifteen years from the date on which the unlawful act was committed. When a claim arises out of a penal offence and the penal action is not prescribed after the delays set out in the preceding paragraph, the action for damages is only prescribed when the penal action itself is prescribed. 2- Liability arising from the acts of another",
+      "Arabic:\nللمسئول عن عمل الغير حق الرجوع عليه في الحدود التي يكون فيها هذا الغير مسئوال عن تعويض الضرر. ٣ - المسئوليه الناشئه عن االشياء\n\nEnglish:\nA person responsible for an act of another person has a claim for redress against that other person to the extent that the other person is responsible for the reparation of the injury. 3- Liability Arising from Things",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q014",
+    "question": "How does the Code treat several persons responsible for the same injury?",
+    "language": "en",
+    "ground_truth": "They are jointly and severally responsible to make reparation for the injury; their liability is shared equally unless the judge fixes each person’s share.",
+    "reference_text": "When several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury.",
+    "scope": "in_scope",
+    "answer": "According to the Egyptian Civil Code, when more than one person is responsible for the same injury, they are **jointly and severally liable** for the reparation.  Their liability is normally divided equally among them, **unless the judge determines a different share** for each defendant.  \n(Article 169)\n\nIn addition, a person who is liable for another’s act may seek recovery from that other person to the extent that the latter is responsible for the damage (Article 175).  \n\n*This answer is general legal information and not a substitute for advice from a qualified Egyptian lawyer.*",
+    "citations": [
+      "Egyptian Civil Code, Article 169",
+      "Egyptian Civil Code, Article 175",
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 168",
+      "Egyptian Civil Code, Article 711"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 169,
+        "citation": "Egyptian Civil Code, Article 169",
+        "distance": 0.7786678075790405,
+        "is_repealed": false
+      },
+      {
+        "article_number": 175,
+        "citation": "Egyptian Civil Code, Article 175",
+        "distance": 0.837287425994873,
+        "is_repealed": false
+      },
+      {
+        "article_number": 163,
+        "citation": "Egyptian Civil Code, Article 163",
+        "distance": 0.8659643530845642,
+        "is_repealed": false
+      },
+      {
+        "article_number": 168,
+        "citation": "Egyptian Civil Code, Article 168",
+        "distance": 0.8945895433425903,
+        "is_repealed": false
+      },
+      {
+        "article_number": 711,
+        "citation": "Egyptian Civil Code, Article 711",
+        "distance": 0.999615490436554,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا تعدد المسئولون عن عمل ضار كانوا متضامنين في التزامهم بتعويض الضرر ، وتكون المسئوليه فيما بينهم بالتساوي ، اال اذا عين القاضي نصيب كل منهم في التعويض.\n\nEnglish:\nWhen several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury. The liability will be shared equally between them, unless the judge fixes their individual share in the damage due.",
+      "Arabic:\nللمسئول عن عمل الغير حق الرجوع عليه في الحدود التي يكون فيها هذا الغير مسئوال عن تعويض الضرر. ٣ - المسئوليه الناشئه عن االشياء\n\nEnglish:\nA person responsible for an act of another person has a claim for redress against that other person to the extent that the other person is responsible for the reparation of the injury. 3- Liability Arising from Things",
+      "Arabic:\nكل خطا سبب ضررا للغير يلزم من ارتكبه بالتعويض.\n\nEnglish:\nEvery fault which cause injury to another, imposes an obligation to make reparation upon the person by whom it is committed.",
+      "Arabic:\nمن سبب ضررا للغير ليتفادي ضررا اكبر محدقا به او بغيره ، ال يكون ملزما اال بالتعويض الذي يراه القاضي مناسبا.\n\nEnglish:\nA person who causes injury to another person, in order to avoid greater injury that threatens him or a third party, is only responsible for such damages as the judge deems equitable.",
+      "Arabic:\nيكون الموكل مسئوال عما اصاب الوكيل من ضرر دون خطا منه بسبب تنفيذا . تنفيذ الوكاله معتادا\n\nEnglish:\nThe mandator is responsible for injury sustained by the mandatary, without fault on his part, in the normal performance of the mandate."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q015",
+    "question": "متى يُجبر المدين على التنفيذ العيني؟",
+    "language": "ar",
+    "ground_truth": "يُجبر المدين، بعد إعذاره وفقًا للقانون، على تنفيذ التزامه تنفيذًا عينيًا متى كان ذلك ممكنًا، وإذا كان التنفيذ العيني مرهقًا جاز له الاقتصار على تعويض نقدي بشروط معينة.",
+    "reference_text": "A debtor shall be compelled, upon being summoned, specifically to perform his obligation if such performance is possible.",
+    "scope": "in_scope",
+    "answer": "يُجبر المدين على التنفيذ العيني عندما يطلب المستحق تنفيذ العقد، أي عندما يرفع دعوى تنفيذ العقد أمام المحكمة. وفي حال كان العقد يُعطي حقاً في التعويض، يجوز للمستحق طلب فسخ العقد مع التعويض إذا كان له محل.  \n(المادة 746 من قانون المدني المصري)",
+    "citations": [
+      "Egyptian Civil Code, Article 172",
+      "Egyptian Civil Code, Article 274",
+      "Egyptian Civil Code, Article 544",
+      "Egyptian Civil Code, Article 255",
+      "Egyptian Civil Code, Article 746"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 172,
+        "citation": "Egyptian Civil Code, Article 172",
+        "distance": 0.7166406512260437,
+        "is_repealed": false
+      },
+      {
+        "article_number": 274,
+        "citation": "Egyptian Civil Code, Article 274",
+        "distance": 0.7998626232147217,
+        "is_repealed": false
+      },
+      {
+        "article_number": 544,
+        "citation": "Egyptian Civil Code, Article 544",
+        "distance": 0.8609226942062378,
+        "is_repealed": false
+      },
+      {
+        "article_number": 255,
+        "citation": "Egyptian Civil Code, Article 255",
+        "distance": 0.8729115128517151,
+        "is_repealed": false
+      },
+      {
+        "article_number": 746,
+        "citation": "Egyptian Civil Code, Article 746",
+        "distance": 0.9065394401550293,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n( ١ تسقط بالتقادم دعوي التعويض الناشئه عن العمل غير المشروع ( بانقضاء ثالث سنوات من اليوم الذي علم فيه المضرور بحدوث الفور وبالشخص المسئول عنه. وتسقط هذه الدعوي في كل حال ، بانقضاء خمس عشره سنه من يوم وقوع العمل غير المشروع. ( ٢ ( علي انه اذا كانت هذه الدعوي ناشئه عن جريمه ، وكانت الدعوي الجنائيه لم تسقط بعد انقضاء المواعيد المذكوره في الفقره السابقه ، فان دعوي التعويض ال تسقط اال بسقوط الدعوي الجنائيه. ٢ - المسئوليه عن عمل الغير\n\nEnglish:\nAn action for damages arising from an unlawful act is prescribed after three years from the date upon which the victim knew of the injury and identity of the person who was responsible. An action for damages is prescribed in any case after fifteen years from the date on which the unlawful act was committed. When a claim arises out of a penal offence and the penal action is not prescribed after the delays set out in the preceding paragraph, the action for damages is only prescribed when the penal action itself is prescribed. 2- Liability arising from the acts of another",
+      "Arabic:\n(١( اذا كان االلتزام مقترنا باجل واقف ، فانه ال يكون نافذا اال في الوقت الذي ينقضي فيه االجل ، علي انه يجوز للدائن حتي قبل انقضاء االجل ان يتخذ من االجراءات ما يحافظ به علي حقوقه ، وله بوجه خاص ان يطالب بتامين اذا يخشي افالس المدين او اعساره واستند في ذلك الي سبب معقول. (٢( ويترتب علي انقضاء االجل الفاسخ زوال االلتزام ، دون ان يكون لهذا الزوال اثر رجعي. الفصل الثاني تعدد محل االلتزام ١- االلتزام التخييري\n\nEnglish:\nAn obligation with a suspensive term only becomes due on the date of the expiration of the term. The creditor may, however, even before the end of the term, take measures to protect his rights and may, in particular, ask for security if he fears that the debtor may become bankrupt or insolvent, and has reasonable grounds for his fears. At the end of a resolutory term, the obligation is extinguished without such extinction having any retroactive effect.",
+      "Arabic:\nاذا اتفق علي الفوائد ، كان للمدين اذا انقضت سنه اشهر علي القرض ان يعلن رغبته في الغاء العقد ورد ما اقترضه ، علي ان يتم الرد في اجل ال يجاوز سته اشهر من تاريخ هذا االعالن ، وفي هذه الحاله يلزم المدين باداء الفوائد المستحقه عن سته االشهر التاليه لالعالن ، وال يجوز بوجه من الوجوه الزامه بان يؤدي فائده او مقابال من اي نوع بسبب تعجيل الوفاء ، وال يجوز االتفاق علي اسقاط حق المقترض في الرد او الحد منه. ٢- الدخل الدائم\n\nEnglish:\nIf interest is agreed, the debtor may, after six months from the date of the loan, give notice of his intention to terminate the contract and to restitute the thing taken on loan, provided that the restitution takes place within a term not exceeding six months of the date of notice. In such a case the debtor shall be liable to pay the interest due for the six months following the notice. He will not, in any case, be bound to pay interest or to perform a prestation of any kind by reason of the fact that payment is made before due date. The right of the borrower to effect restitution cannot be forfeited or limited by agreement. 2- Annuities.",
+      "Arabic:\n(١( يترتب علي الحكم بشهر االعسار ان يحل كل ما في ذمه المذين من ذيون مؤجله. ويخصم من هذه الديون مقدار الفائده االتفاقيه او القانونيه عن المده التي سقطت بسقوط االجل. (٢( ومع ذلك يجوز للقاضي ان يحكم بناء علي طلب المدين وفي مواجهه ذوي الشان من دائنيه، بابقاء االجل او مده بالنسبه الي الديون المؤجله كما يجوز له ان يمنح المدين اجال بالنسبه الي الديون الحاليه اذا راي ان هذا االجراء تبرره الظروف، وانه خير وسيله تكفل مصالح المدين والدائنين جميعا.\n\nEnglish:\nA judgment declaring insolvency renders all debts not yet due by the debtor payable immediately. The agreed or legal interest in respect of the period still to run will be deducted from the debts. The judge may, however, on the petition of the debtor, and in the presence of the interested creditors, maintain or prolong the time fixed for payment of debts not yet due, he may also allow the debtor a delay in respect of debts that have fallen due, if he considers that the circumstances justify such measure and that such measure and that such a measure is in the best way to protect the joint interests of the debtor and the creditors.",
+      "Arabic:\nاذا لم يقم المدين بالتزامه كان للمستحق ان يطلب تنفيذ العقد ، فان كان ايضا العقد بعوض جاز له ان يطلب فسخه مع التعويض ان كان له محل. الفصل الثالث عقد التامين ١- احكام عامه"
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q016",
+    "question": "What happens when the obligation is to transfer ownership of a specifically identified thing?",
+    "language": "en",
+    "ground_truth": "Subject to the rules on transcription, an obligation to transfer ownership or another real right transfers that right automatically when the object is specifically identified and owned by the debtor.",
+    "reference_text": "An obligation to transfer ownership or any other real right transfers that right ipso facto if the object is specifically identified and owned by the debtor.",
+    "scope": "in_scope",
+    "answer": "When the obligation is to transfer ownership of a **specifically identified thing**, the ownership is transferred by the contract itself.  \nAccording to Article 932 of the Egyptian Civil Code, “the ownership of movables and immovables and other real rights are transferred by contract, when the contract refers to an object belonging to the person disposing of it” (Article 932). Thus, once the contract identifies the particular thing and the disposer is the owner of that thing, ownership passes to the transferee under the terms of the contract.  \n\n*This is general legal information and not a substitute for advice from a qualified Egyptian lawyer.*",
+    "citations": [
+      "Egyptian Civil Code, Article 1065",
+      "Egyptian Civil Code, Article 525",
+      "Egyptian Civil Code, Article 932",
+      "Egyptian Civil Code, Article 981",
+      "Egyptian Civil Code, Article 1021"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 1065,
+        "citation": "Egyptian Civil Code, Article 1065",
+        "distance": 0.7267525792121887,
+        "is_repealed": false
+      },
+      {
+        "article_number": 525,
+        "citation": "Egyptian Civil Code, Article 525",
+        "distance": 0.8014597296714783,
+        "is_repealed": false
+      },
+      {
+        "article_number": 932,
+        "citation": "Egyptian Civil Code, Article 932",
+        "distance": 0.8072692155838013,
+        "is_repealed": false
+      },
+      {
+        "article_number": 981,
+        "citation": "Egyptian Civil Code, Article 981",
+        "distance": 0.8682282567024231,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1021,
+        "citation": "Egyptian Civil Code, Article 1021",
+        "distance": 0.8771824240684509,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا اراد الحائز تطهير العقار وجب عليه ان يوجه الي الدائنين المقيده حقوقهم في مواطنهم المختاره المذكوره في القيد اعالنات تشتمل علي البيانات االتيه: ) ا ) خالصه من سند ملكيه الحائز تقتصر علي بيان نوع التصرف وتاريخه واسم المالك السابق للعقار مع تعيين هذا المالك تعيبنا دقيقا ومحل العقار مع تعيينه وتحديده بالدفه . واذا كان التصرف بيعا يذكر ايضا الثمن وما عسي ان يوجد من تكاليف تعتبر جزءا من هذا الثمن. ب) تاريخ تسجيل ملكيه الحائز ورقم هذا التسجيل. ) ) جـ) المبلغ الذي يقدره الحائز قيمه للعقار ولو كان التصرف بيعا ويجب اال يقل هذا المبلغ عن السعر الذي يتخذ اساسا لتقدير الثمن في حاله نزع الملكيه ، وال ان يقل في اي حال عن الباقي في ذمه الحائز من ثمن العقار اذا كان التصرف بيعا . واذا كانت اجزاء العاقر مثقله برهون مختلفه وجب قيمه كل جزء علي حده. د ) قائمه بالحقوق التي تم قيدها علي العقار قبل تسجيل سند الحائز ) تشتمل علي بيان تاريخ هذه القيود ومقدار هذه الحقوق واسماء الدائنين.\n\nEnglish:\nIf the third part holder decides to proceed with the purge of the property, he must serve upon the inscribed creditors, at their elected domiciles indicated in their inscriptions, summons containing the following particulars: a- an extract of his title deed, setting the out particulars and the nature and date of the act of disposition, the name in full and precise particulars of the previous owner of the property, the situation and a detailed and precise description of the property, and, if the disposal is a sale, the price and the charges, if any, that may be considered as part of the price; b- the date and number of the transcription of his title; c- the sum at which he values the property, even if the property is disposed of by sale: this sum must not be less than the reserve price in the case of expropriation nor in any case less than the sum remaining to be paid by the third party holder on the price of the property if the act of disposition was a sale. If parts of the property are charged with separate mortgages, each part must be valued separately; d- a list of rights inscribed on the property before the transcription of his title: this list shall contain the date of the inscriptions, the amount of the inscribed debts and the names of the creditors.",
+      "Arabic:\nاذا كان الحد الشركاء دائنون شخصيون ، فليس لهم اثناء قيام الشركه ان يتقاضوا حقوقهم مما يخص ذلك الشريك في راس المال ، وانما لهم ان يتقاضوها مما يخصه في االرباح ، اما بعد تصفيه الشركه فيكون لهم ان يتقاضوا حقوقهم من نصيب مدينهم في اموال الشركه بعد استترال ديونها . ومع ذلك يجوز لهم قبل التصفيه توقيع الحجز التحفظي علي نصيب هذا المدين. ٤- طرق انقضاء الشركه\n\nEnglish:\nPersonal creditors of a partner cannot, during the continuance of a partnership obtain payment of their claims out of such partner's share in the capital but only out of his share in the profits. Such creditors may, upon liquidation of the partnership, enforce their rights on their debtor's share in the partnership assets after payment of the partnership debts, and may, before the liquidation of the partnership, make a protective attachment (saisic conservatoire) on his share. 4- Ways in which a partnership comes to an end",
+      "Arabic:\nتنتقل الملكيه وغيرها من الحقوق العينيه في المنقول والعقار بالعقد ، متي رد علي محل مملوك للمتصرف طبقا للماده ٢٠٤ وذلك مع مراعاه النصوص االتيه.\n\nEnglish:\nThe ownership of movables and immovables and other real rights are transferred by contract, when the contract refers to an object belonging to the person disposing of it, in accordance with Article 204 and subject also to the following provisions.",
+      "Arabic:\nاذا تلقي شخص الحيازه من مالك او حائز سابق واثبت انه ادي الي سلفه ما انفق من مصروفات فان له ان يطالبهما المسترد.\n\nEnglish:\nA person who takes possession from a previous owner or possessor, may, if he establishes that he has paid to such previous owner or possessor the expenditure incurred by him, demand repayment from the person claiming ownership.",
+      "Arabic:\n(١) ال يلزم مالك العقار المرتفق به ان يقوم باي عمل لمصلحه العاقر اضافيا المرتفق اال ان يكون عمال يقتضيه استعمال االرتفاق علي الوجه المالوف ما لم يشترط غير ذلك. (٢( فاذا كان مالك العاقر المرتفق به هو المكلف بان يقوم بتلك االعمال دائما علي نفقته ، كان له ان يتخلص من هذا التكليف بالتخلي عن العقار المرتفق به كله او بعضه لمالك العقار المرتفق. ايضا (٣( واذا كانت االعمال نافعه لمالك العاقر المرتفق به ، كانت نفقه الصيانه علي الطرفين كل بنسبه ما يعود عليه من الفائده.\n\nEnglish:\nIn the absence of an agreement to the contrary, the owner of the servient tenement is under no obligation to carry out work for the benefit of the dominant tenement, unless it is an accessory work necessitated by the normal use of the servitude. Article1022 In the absence of an agreement to the contrary, the cost of the necessary works for the use and preservation of the servitude must be borne by the owner of the dominant tenement. If the owner of the servient tenement is responsible for carrying out these works at his own cost, he has always the right to free himself of this burden by abandoning the servient tenement wholly or in part to the owner of the dominant property. If the works also benefit the owner of the servient tenement, the cost of upkeep falls on the two parties in proportion to the profit derived by each of them."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q017",
+    "question": "ما المقصود بالالتزام المضاف إلى أجل؟",
+    "language": "ar",
+    "ground_truth": "يكون الالتزام لأجل إذا كان نفاذه أو انقضاؤه مترتبًا على أمر مستقبل محقق الوقوع، ويعد الأمر محقق الوقوع إذا كان وقوعه حتميًا ولو لم يُعرف وقت وقوعه.",
+    "reference_text": "An obligation is for a term if its performance or extinction depends on a future certain event.",
+    "scope": "in_scope",
+    "answer": "لا يمكن تحديد المقصود بـ«الالتزام المضاف إلى أجل» استناداً إلى النصوص القانونية التي تم استرجاعها.",
+    "citations": [
+      "Egyptian Civil Code, Article 360",
+      "Egyptian Civil Code, Article 357",
+      "Egyptian Civil Code, Article 1111",
+      "Egyptian Civil Code, Article 352",
+      "Egyptian Civil Code, Article 153"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 360,
+        "citation": "Egyptian Civil Code, Article 360",
+        "distance": 0.8332807421684265,
+        "is_repealed": false
+      },
+      {
+        "article_number": 357,
+        "citation": "Egyptian Civil Code, Article 357",
+        "distance": 0.8457398414611816,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1111,
+        "citation": "Egyptian Civil Code, Article 1111",
+        "distance": 0.873248815536499,
+        "is_repealed": false
+      },
+      {
+        "article_number": 352,
+        "citation": "Egyptian Civil Code, Article 352",
+        "distance": 0.8781265020370483,
+        "is_repealed": false
+      },
+      {
+        "article_number": 153,
+        "citation": "Egyptian Civil Code, Article 153",
+        "distance": 0.8796989321708679,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n(١( اذا اتفق المتعاقدون في االنابه علي ان يستبدلوا بالتزام سابق التزاما جديدا ، كانت هذه االنابه تجديدا لاللتزام بتغيير المدين ، ويترتب عليها ان تبرا ذمه المنيب قبل المناب لديه ، علي ان يكون االلتزام الجديد الذي ارتضاه المناب صحيحا واال يكون المناب معسرا وقت االنابه. (٢( ومع ذلك ال يفترض التجديد في االنابه ، فاذا لم يكن هناك اتفاق علي التجديد قام االلتزام الجديد الي جانب االلتزام االول.\n\nEnglish:\nWhen, in a case of delegation, the contracting parties agree to substitute a new obligation for the original obligation, such a delegation constitutes a novation by the change of the debtor. It results in the liberation of the original debtor from the obligation to his creditor, provided that the new obligation assumed by the new debtor is valid and that such new debtor is not insolvent at the time of the delegation. Novation is not assumed in a case of delegation; in the absence of an agreement providing for novation, the original obligation continues concurrently with the new obligation.",
+      "Arabic:\n)١( اذا كانت هناك تامينات عينيه قدمها المدين لكفاله االلتزام االصلي ، فان االتفاق علي نقل هذه التامينات الي االلتزام الجديد تراعي فيه االحكام االتيه: )ا ) اذا كان التجديد بتغيير الدين ، جاز للدائن والمدين ان يتفقا علي انتقال التامينات لاللتزام الجديد في الحدود التي ال تلحق ضررا بالغير. )ب ) اذا كان التجديد بتغيير المدين ، جاز للدائن والمدين الجديد ان يتفقا علي استبقاء التامينات العينيه ، دون حاجه الي رضاء المدين القديم. )جـ ) اذا كان التجديد بتغيير الدائن ، جاز للمتعاقدين ثالثتهم ان يتفقوا علي استبقاء التامينات. )٢( وال يكون االتفاق علي نقل التامينات العينيه نافذا في حق الغير اال اذا تم مع التجديد في وقت واحد ، هذا مع مراعاه االحكام المتعلقه بالتسجيل.\n\nEnglish:\nIf the debtor has given real securities in guarantee of the original obligation, the following conditions will be observed in the agreement providing for the transfer of these securities to the new obligation: a) when the novation results from a change of the debt, the creditor and the debtor may agree that the securities shall be transferred to the new obligation, to the extent that such a transfer does not cause prejudice to third parties; b) when the novation results from a change of the debtor, the creditor and the new debtor may agree, without the consent of the original debtor, that the real securities shall be maintained; c) when the novation results from a change of the creditor, the three contracting parties may agree that the securities shall be maintained. The agreement providing for the transfer of the real securities cannot be set up against third parties, unless it is made at the same time as the novation, and the provisions as to registration of real rights are complied with.",
+      "Arabic:\nال يقتصر الرهن الحيازي علي ضمان الحق وانما يضمن ايضا وفي نفس المرتبه ما ياتي: ) ا ) المصروفات الضروريه التي انفقت للمحافظه علي الشيء. ) ب) التعويضات عن االضرار الناشئه من عيوب الشيء. ) جـ) مصروفات العقد الذي انشا الدين ومصروفات عقد الرهن الحيازي وقيده عند االقتضاء. ) د) المصروفات التي اقتضاها تنفيذ الرهن الحيازي. ) هـ) جميع الفوائد المستحقه مع مراعاه ما جاء في الماده ٢٣٠. الفصل الثالث انقضاء الرهن الحيازي\n\nEnglish:\nA contract of pledge secures not only the capital of the debt, but also and in the same rank: a- expenses of a necessary kind incurred for the preservation of the thing pledged; b- compensation for loses resulting from defects in the thing pledged; c- the cost of the contract of loan, of the contract of pledge and its inscription, if any; d- the costs incurred for the enforcement of the pledge; e- all interest that has fallen due, subject to the provisions of Article 230.",
+      "Arabic:\nيتجدد االلتزام: ) اوال ) بتغيير الدين اذ اتفق الطرفان علي ان يستبدال بااللتزام االصلي التزاما جيدا يختلف عنه في محله او في مصدره. )ثانيا ) بتغيير المدين اذا اتفق الدائن مع اجنبي علي ان يكون هذا االجنبي مدينا مكان المدين االصلي وعلي ان تبرا ذمه المدين االصلي دون لرضائه ، او اذا حصل المدين علي رضاء الدائن بشخص اجنبي قبل ان يكون هو المدين الجديد. ثالثا ) بتغيير الدائن اذا اتفق الدائن والمدين واجنبي علي ان يكون هذا ) االجنبي هو الدائن الجديد.\n\nEnglish:\nThere is novation of an obligation: i) by a change of the debt, when the two parties agree to substitute a new obligation for the original obligation, which new obligation differs from the original obligation as regards its object or as regards its source; ii) by a change of the debtor, when a creditor and a third party agree that such third party shall take the place of the original debtor and that the original debtor shall be released of the debt without his consent being necessary, or when the debtor has procured the consent of the creditor to substitute the debtor by a third party who consents to be the new debtor; iii) by a change of the creditor, when the creditor, the debtor and a third party agree that this third party shall be the new creditor.",
+      "Arabic:\n( ١ اذا تعهد شخص بان يجعل الغير يلتزم بامر فال يلزم الغير بتعهده ، ( فاذا رفض الغير ان يلتزم ، وجب علي المتعهد ان يعوض من تعاقد معه ، ويجوز له مع ذلك ان يتخلص من التعويض بان يقوم هو نفسه بتنفيذ االلتزام الذي تعهد به. ( ٢ اما اذا قبل الغير هذا التعهد ، فان قبوله ال ينتج اثرا اال من وقت ( صدوره ، ما لم يتبين انه قصد صراحه او ضمنا ان يستند اثر هذا القبول الي الوقت الذي صدر فيه التعهد.\n\nEnglish:\nA person who binds himself to procure the performance of an obligation by a third party, does not in so doing bind the third party. If the third party refuses to perform the obligation, the person who bound himself to obtain such performance, will be liable to indemnify the other contracting party by himself performing the obligation, the performance of which he undertook to procure. In the event of the third party consenting to perform the obligation, his consent is effective only from the time that it is given, unless it is indicated expressly or by implication that the consent is retroactive as from the date of agreement between the contracting parties."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q018",
+    "question": "كيف يحدد القاضي الأجل إذا كان المدين لا يلتزم بالوفاء إلا عند المقدرة أو الميسرة؟",
+    "language": "ar",
+    "ground_truth": "يعين القاضي ميعادًا مناسبًا لحلول الأجل مع مراعاة موارد المدين الحالية والمستقبلة والعناية المتوقعة من رجل حريص على الوفاء بالتزامه.",
+    "reference_text": "The judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and the diligence of a man anxious to perform his obligations.",
+    "scope": "in_scope",
+    "answer": "المدين الذي يلتزم بالوفاء “عند المقدرة أو الميسرة” يُعَدّ في القانون المصري كمدين يملك حقاً في طلب تأخير أو تمديد الأجل، ويُقرّ القاضي ذلك وفقاً للظروف المحيطة بالموضوع.  \n\n- **المرجعية القانونية**: وفقاً للمادة 255 من قانون المدني، يجوز للقاضي، عند طلب المدين وبحضور الدائنين، أن يظل أو يمدّ الأجل المتفق عليه للديون المؤجلة، أو يمنح المدين تأخيراً في الديون الحالية إذا رأى أن الظروف تبرر ذلك وتحقق مصلحة جميع الأطراف.  \n- **المنهج**: يضع القاضي الأجل بناءً على ما يراه معقولاً ومناسباً للمدين، مع مراعاة عدم تجاوز حدود القانون أو مخالفة النظام العام (المادة 200).  \n\n> **ملاحظة**: هذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ مختص.",
+    "citations": [
+      "Egyptian Civil Code, Article 192",
+      "Egyptian Civil Code, Article 221",
+      "Egyptian Civil Code, Article 1014",
+      "Egyptian Civil Code, Article 200",
+      "Egyptian Civil Code, Article 255"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 192,
+        "citation": "Egyptian Civil Code, Article 192",
+        "distance": 0.6197758913040161,
+        "is_repealed": false
+      },
+      {
+        "article_number": 221,
+        "citation": "Egyptian Civil Code, Article 221",
+        "distance": 0.6507315635681152,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1014,
+        "citation": "Egyptian Civil Code, Article 1014",
+        "distance": 0.7145941853523254,
+        "is_repealed": false
+      },
+      {
+        "article_number": 200,
+        "citation": "Egyptian Civil Code, Article 200",
+        "distance": 0.7376285791397095,
+        "is_repealed": false
+      },
+      {
+        "article_number": 255,
+        "citation": "Egyptian Civil Code, Article 255",
+        "distance": 0.7429381012916565,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١ ( يجب علي الفضولي ان يبذل في القيام بالعمل عنايه الشخص العادي ، ويكون مسئوال عن خطئه. ومع ذلك يجوز للقاضي ان ينقص التعويض المترتب علي هذا الخطا ، اذا كانت الظروف تبرر ذلك. )٢ ( واذا عهد الفضولي الي غيره بكل العمل او ببعضه كان مسئوال عن تصرفات نائبه ، دون اخالل بما لرب العمل من الرجوع مباشره علي هذا النائب. )٣ ( واذا تعدد الفضوليون في القيام بعمل واحد ، كانوا متضامنين في المسئوليه.\n\nEnglish:\nA voluntary agent must us in the management of the work he has undertaken all the care that one would expect from a reasonable person and shall be responsible for his mistakes. The judge may, however, reduce the amount of damages due as a result of such mistakes, if circumstances justify such a reduction. When a voluntary agent delegates to a third party the whole or part of the work of which he has assumed the management, he shall be responsible for the acts of his delegate, without prejudice to the right of the person for whom he acts to his direct remedy against the delegate. When there are several voluntary agents doing the same work, they are all jointly and severally responsible.",
+      "Arabic:\n( ١ ( اذا لم يكن التعويض مقدرا في العقد او بنص في القانون ، فالقاضي هو الذي يقدره ، ويشمل التعويض ما لحق الدائن من خساره وما فاته من كسب ، بشرط ان يكون هذا نتيجه طبيعيه لعدم الوفاء بااللتزام او للتاخر في الوفاء به ، ويعتبر الضرر نتيجه طبيعيه اذا لم يكن في استطاعه الدائن ان يتوقاه ببذل جهد معقول. )٢ ومع ذلك اذا كان االلتزام مصدره العقد ، فال يلتزم المد̈ين الذي لم ( غشا جسيما يرتكب او خطا اال بتعويض الضرر الذي كان يمكن توقعه عاده وقت التعاقد.\n\nEnglish:\nThe judge will fix the amount of damages, if it has not been fixed in the contract or by law. The amount of damages includes losses suffered by the creditor and profits of which he has been deprived, provided that they are the normal result of the failure to perform the obligation or of delay in such performance. These losses shall be considered to be a normal result, if the creditor is not able to avoid them by making a reasonable effort. When, however, the obligation arises from a contract, a debtor who has not been guilty of fraud or gross negligence will not be held liable for damages greater than those which could have normally been foreseen at the time of entering into the contract.",
+      "Arabic:\n)١( خلو االنتفاع عقد يؤجر به الوقف عينا ولو بغير اذن القاضي مقابل اجره ثابته لزمن غير معين. ) ٢( ويلتزم المستاجر بمقتضي هذا العقد ان يجعل العين صالحه لالستعمال . وبحق للوقف ان يفسخ العقد في اي وقت بعد التنبيه في الميعاد القانوني طبقا للقواعد الخاصه بعقد االجاره علي شرط ان يفوض الوقف المستاجر طبقا عن النفقات الحكام الماده ١٧٩. ٣( وتسري عليه االحكام الخاصه بايجار العقارات الموقوفه دون اخالل ) بما نصت عليه الفقرتان السابقتان. الفصل الثالث حق االرتفاق\n\nEnglish:\nThe Kholou-el-intifaa is a contract by which a wakf grants a lease of a property even without the permission of the Judge, in consideration of a fixed rent for an indefinite period of time. In accordance with this contract, the lessee undertakes to render the property fit for exploitation; the wakf may, at any time, resiliate the contract by due notice in accordance with the rules as to contracts of lease, provided that the wakf compensates the lessee for his expenses in accordance with the provisions of Article 179. Subject to he provisions of the two preceding paragraphs, the provisions relating to leases of wakf property are applicable to such a contract.",
+      "Arabic:\nيقدر القاضي ، عند عدم النص ، ما اذا كان هناك التزام طبيعي. وفي كل حال ال يجوز ان يقوم التزام طبيعي يخالف النظام العام.\n\nEnglish:\nThe judge shall decide, in the absence of any provision of the law, whether a natural obligation exists. There cannot ever be a natural obligation that is contrary to public policy.",
+      "Arabic:\n(١( يترتب علي الحكم بشهر االعسار ان يحل كل ما في ذمه المذين من ذيون مؤجله. ويخصم من هذه الديون مقدار الفائده االتفاقيه او القانونيه عن المده التي سقطت بسقوط االجل. (٢( ومع ذلك يجوز للقاضي ان يحكم بناء علي طلب المدين وفي مواجهه ذوي الشان من دائنيه، بابقاء االجل او مده بالنسبه الي الديون المؤجله كما يجوز له ان يمنح المدين اجال بالنسبه الي الديون الحاليه اذا راي ان هذا االجراء تبرره الظروف، وانه خير وسيله تكفل مصالح المدين والدائنين جميعا.\n\nEnglish:\nA judgment declaring insolvency renders all debts not yet due by the debtor payable immediately. The agreed or legal interest in respect of the period still to run will be deducted from the debts. The judge may, however, on the petition of the debtor, and in the presence of the interested creditors, maintain or prolong the time fixed for payment of debts not yet due, he may also allow the debtor a delay in respect of debts that have fallen due, if he considers that the circumstances justify such measure and that such measure and that such a measure is in the best way to protect the joint interests of the debtor and the creditors."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q019",
+    "question": "ما تعريف عقد البيع في القانون المدني؟",
+    "language": "ar",
+    "ground_truth": "البيع عقد يلتزم فيه البائع بأن ينقل للمشتري ملكية شيء أو حقًا ماليًا آخر في مقابل ثمن نقدي.",
+    "reference_text": "Sale is a contract whereby the vendor binds himself to transfer to the purchaser the ownership of a thing or any other property right in consideration of a price in money.",
+    "scope": "in_scope",
+    "answer": "تعريف عقد البيع في القانون المدني المصري هو كما جاء في المادة 418 من القانون المدني:  \n«البيع عقد يلتزم فيه البائع أن ينقل للمشتري ملكية شيء أو حقًا ماليًا آخر مقابل ثمن نقدي».  \n\n(المادة 418)",
+    "citations": [
+      "Egyptian Civil Code, Article 433",
+      "Egyptian Civil Code, Article 418",
+      "Egyptian Civil Code, Article 464",
+      "Egyptian Civil Code, Article 430",
+      "Egyptian Civil Code, Article 152"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 433,
+        "citation": "Egyptian Civil Code, Article 433",
+        "distance": 0.8628592491149902,
+        "is_repealed": false
+      },
+      {
+        "article_number": 418,
+        "citation": "Egyptian Civil Code, Article 418",
+        "distance": 0.8732367753982544,
+        "is_repealed": false
+      },
+      {
+        "article_number": 464,
+        "citation": "Egyptian Civil Code, Article 464",
+        "distance": 0.9026690721511841,
+        "is_repealed": false
+      },
+      {
+        "article_number": 430,
+        "citation": "Egyptian Civil Code, Article 430",
+        "distance": 0.9036449193954468,
+        "is_repealed": false
+      },
+      {
+        "article_number": 152,
+        "citation": "Egyptian Civil Code, Article 152",
+        "distance": 0.9072374701499939,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n(١( اذا عين في العقد مقدار المبيع كان البائع مسئوال عن نقص هذا القدر بحسب ما يقضي به العرف ما لم يتفق علي غير ذلك ، علي انه ال يجوز للمشتري ان يطلب فسخ العقد لنقض في المبيع اال اذا اثبت ان هذا النقص من الجسامه بحيث او انه كان يعلمه لما اتم العقد. (٢( اما اذا تبين ان القدر الذي يشتمل عليه المبيع يزيد علي ما ذكر في العقد وكان الثمن مقدرا بحساب الوحده ، وجب علي المشتري ، اذا كان المبيع غير قابل للتبعيض ، ان يكمل الثمن اال اذا كانت الزياده جسيمه فيجوز له ان يطلب فسخ العقد وكل هذا ما لم يوجد اتفاق يخالفه.\n\nEnglish:\nWhen the quantity of the thing sold is fixed in the contract, the vendor, subject to any agreement to the contrary, is liable for any deficiency in such quantity in accordance with custom. The purchaser has not, however, the right to demand cancellation of the contract by reason of such deficiency, unless he establishes that the deficiency is so great that if he had known of it he would not have entered into the contract. If, on the contrary, the quantity exceeds that indicated in the contract, and if the price has been fixed by unit, the purchaser must, when the object of the purchase cannot be divided, make up the price, unless the excess is very great, in which case he may demand cancellation of the contract, all subject to an agreement to the contrary.",
+      "Arabic:\nالبيع عقد يلتزم بع البائع ان ينقل للمشتري ملكيه شيء او حقا ماليا اخر في مقابل ثمن نقدي.\n\nEnglish:\nSale is a contract whereby the vendor binds himself to transfer to the purchaser the ownership of a thing or any other propriety right in consideration of a price in money.",
+      "Arabic:\nنفقات تسلم المبيع علي المشتري ما لم يوجد عرف او اتفاق يقضي بغير ذلك. ٢- بعض انواع البيوع بيع الوفاء\n\nEnglish:\nSubject to usage or to an agreement to the contrary, the costs of taking delivery of the thing sold are borne by the purchaser. 2.Different Forms of Sale Sale with a Right of Redemption",
+      "Arabic:\n)١( اذا كان البيع مؤجل الثمن ، جاز للبائع ان يشترط ان يكون نقل الملكيه الي المشتري موقوفا علي استيفاء الثمن كله ولو تم تسليم المبيع. ) ٢( فاذا كان الثمن يدفع اقساطا ، جاز للمتعاقدين ان يتفقا علي ان يستبقي البائع جزءا منه تعويضا له عن فسخ البيع اذا لم توف جميع االقساط . ومع ذلك يجوز للقاضي تبعا للظروف ان يخفض التعويض المتفق عليه وفقا للفقره الثانيه من الماده ٢٢٤. ٣( واذا وفيت االقساط جميعا ، فان انتقال الملكيه الي المشتري يعتبر ) مستندا الي وقت البيع . )٤( وتسري احكام الفقرات الثالث السابقه ولو سمي المتعاقدان البيع ايجارا.\n\nEnglish:\nIn a credit sale the vendor may stipulate that the transfer of ownership to the purchaser is subject to integral payment of the price, even if the thing sold has been delivered. If the price is payable by installments, the contracting parties may agree that the vendor may retain a part of the price by way of damages should the sale be cancelled for non-payment of all the installments. The judge may, however, according to circumstances, reduce the amount of damages agreed, by applying the provisions of paragraph 2 of Article 224. When all the installments have been paid, the transfer of the ownership of the thing sold shall be deemed to have taken place as from the date of sale. The provisions of the three preceding paragraphs are applicable even if the contracting parties have described the contract of sale as a contract of lease.",
+      "Arabic:\nال يرتب العقد التزاما في ذمه الغير. ولكن يجوز ان يكسبه حقا.\n\nEnglish:\nA contract does not create obligations binding upon third parties, but may create rights in their favor."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q020",
+    "question": "What must a purchaser know about the thing sold?",
+    "language": "en",
+    "ground_truth": "The purchaser must have sufficient knowledge of the thing sold; this is sufficient when the contract describes the thing and its essential qualities so that it can be identified.",
+    "reference_text": "The purchaser must have a sufficient acquaintance with the thing sold.",
+    "scope": "in_scope",
+    "answer": "According to the Egyptian Civil Code, a purchaser has the following obligations and rights regarding the thing sold:\n\n1. **Inspection and notification of defects**  \n   * When the purchaser takes delivery, he must examine the thing as soon as he is able to do so in accordance with common usage.  \n   * If he discovers a defect for which the vendor is answerable, he must give notice to the vendor within a reasonable time; otherwise the thing is deemed accepted.  \n   * If the defect could not have been discovered by normal inspection, the purchaser must notify the vendor immediately upon discovery; otherwise the thing is deemed accepted with its defects.  \n   (Article 449)\n\n2. **Vendor’s warranty and liability**  \n   * The vendor is liable for any defect that existed at delivery or that diminishes the value or usefulness of the thing for its intended purpose, even if the vendor was unaware of the defect.  \n   * The vendor is not liable for defects that the purchaser knew about at the time of sale or could have discovered by a reasonable inspection, unless the purchaser proves that the vendor falsely assured him of the absence of such defects.  \n   (Article 447)\n\n3. **State of the thing at delivery**  \n   * The vendor must deliver the thing in the same condition it was in at the time of the sale.  \n   (Article 431)\n\nThese provisions mean that a purchaser must actively inspect the thing upon delivery, promptly notify the vendor of any defects, and understand that the vendor is responsible for undisclosed defects that affect value or use.  \n\n*This is general legal information and not a substitute for advice from a qualified Egyptian lawyer.*",
+    "citations": [
+      "Egyptian Civil Code, Article 418",
+      "Egyptian Civil Code, Article 449",
+      "Egyptian Civil Code, Article 447",
+      "Egyptian Civil Code, Article 443",
+      "Egyptian Civil Code, Article 431"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 418,
+        "citation": "Egyptian Civil Code, Article 418",
+        "distance": 0.9862704277038574,
+        "is_repealed": false
+      },
+      {
+        "article_number": 449,
+        "citation": "Egyptian Civil Code, Article 449",
+        "distance": 0.9867993593215942,
+        "is_repealed": false
+      },
+      {
+        "article_number": 447,
+        "citation": "Egyptian Civil Code, Article 447",
+        "distance": 0.9961995482444763,
+        "is_repealed": false
+      },
+      {
+        "article_number": 443,
+        "citation": "Egyptian Civil Code, Article 443",
+        "distance": 1.0124530792236328,
+        "is_repealed": false
+      },
+      {
+        "article_number": 431,
+        "citation": "Egyptian Civil Code, Article 431",
+        "distance": 1.0189578533172607,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nالبيع عقد يلتزم بع البائع ان ينقل للمشتري ملكيه شيء او حقا ماليا اخر في مقابل ثمن نقدي.\n\nEnglish:\nSale is a contract whereby the vendor binds himself to transfer to the purchaser the ownership of a thing or any other propriety right in consideration of a price in money.",
+      "Arabic:\n)١( اذا تسلم المشتري المبيع ، وجب عليه التحقق من حالته بمجرد ان يتمكن من ذلك ، وفقا للمالوف في التعامل ، فاذا كشف عيبا يضمنه البائع وجب عليه ان يخطره به خالل مده معقوله ، فان لم يفعل اعتبر قابال للمبيع. ) ٢( اما اذا كان العيب مما ال يمكن الكشف عنه بالفحص المعتاد ثم كشفه المشتري ، وجب عليه ان يخطر به البائع بمجرد ظهوره ، واال اعتبر قابال للمبيع بما فيه من عيب.\n\nEnglish:\nWhen the purchaser has taken delivery of the thing sold, he must ascertain its condition as soon as he is able to do so in accordance with common usage. If he discovers a defect for which the vendor is answerable, he must give notice thereof to the vendor within a reasonable time, failing which he will be deemed to have accepted the thing sold. In the case, however, of defects that cannot be discovered by means of normal inspection, the purchaser shall, upon the discovery of the defect, at once give notice thereof to the vendor, failing which he will be deemed to have accepted the thing sold with its defects.",
+      "Arabic:\n(١( يكون البائع ملزما بالضمان اذا لم يتوافر في المبيع وقت التسليم الصفات التي كفل للمشتري وجودها فيه ، او اذا كان بالمبيع عيب ينقص من قيمته او من نفعه بحسب الغايه المقصوده مستفاده مما هو مبين في العقد او مما هو ظاهر من طبيعه الشيء ، او الغرض الذي اعد له ، ويضمن البائع هذا العيب ولو لم يكن عالما بوجوده. (٢( ومع ذلك ال يضمن البائع العيوب التي كان المشتري يعرفها وقت البيع ، او كان يستطيع ان يتبينها بنفسه لو انه فحص المبيع بعنايه الرجل العادي ، اال اذا اثبت المشتري ان البائع قد اكد له خلو المبيع من هذا العيب ، او اثبت ان البائع قد تعمد اخفاء العيب غشا منه.\n\nEnglish:\nThe vendor is liable under his warranty, when, at the time of delivery, the thing sold does not possess the qualities the existence of which he guaranteed to the purchaser, or when the thing sold has defects diminishing its value or usefulness for the purpose for which it was intended, as shown by the contract or resulting from the nature or the destined use of the thing. The vendor is answerable for these defects, even if he was ignorant of their existence. The vendor, however, is not answerable for the defects of which the purchaser was aware at the time of the sale or which he could have discovered himself had he examined the thing with the care of a reasonable person, unless the purchaser proves that the vendor has affirmed to him the absence of these defects or fraudulently concealed them from him.",
+      "Arabic:\nاذا استحق كل المبيع كان المشتري ان يطلب من البائع: ١- قيمه المبيع وقت االستحقاق مع الفوائد القانونيه من ذلك الوقت ٢- .قيمه الثمار التي الزم المشتري بردها لمن استحق المبيع. ٣- المصروفات النافعه التي ال يستطيع المشتري ان يلزم بها المستحق وكذلك المصروفات الكماليه اذا كان البائع سيئ النيه ٤- .جميع مصروفات دعوي الضمان ودعوي االستحقاق عدا ما كان المشتري يستطيع ان يتقيه منها لو اخطر البائع بالدعوي طبقا للماده ٤٤٠ ٥- .ويوجه عام ، تعويض المشتري عما لحقه من خساره او فاته من كسب بسبب استحقاق المبيع. كل هذا ما لم يكن رجوع المشتري مبنيا علي المطالبه بفسخ البيع او ابطاله.\n\nEnglish:\nIn case of total dispossession, the purchaser may claim from the vendor: i) the value of the thing sold at the time of dispossession, together with legal interest from that time; ii) the value of the profits derived from the thing sold that the purchaser has been obliged to restore to the person entitled to the thing; iii) all sums usefully spent which he cannot claim from the person entitled to the thing, together with expenditure of a superfluous character if the vendor acted in bad faith; iv) all costs incurred in the action upon the warranty and the action of revendication, with the exception of those costs that the purchaser could have avoided by notifying the vendor of the action of revendication, in accordance with Article 440; and v) generally, compensation for the losses sustained and profits missed as a result of dispossession of the thing sold. Unless in all these cases the purchaser's action against the vendor is based on a demand for dissolution or for annulment of the sale.",
+      "Arabic:\nيلتزم البائع بتسليم المبيع للمشتري بالحاله التي كان عليها وقت البيع.\n\nEnglish:\nThe vendor is bound to deliver the thing sold to the purchaser in the state in which it was at the time of the sale."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q021",
+    "question": "ما التزام البائع فيما يتعلق بنقل الحق المبيع؟",
+    "language": "ar",
+    "ground_truth": "يلتزم البائع باتخاذ ما هو ضروري لنقل الحق المبيع إلى المشتري، والامتناع عن أي عمل يجعل نقل الحق مستحيلًا أو عسيرًا.",
+    "reference_text": "The vendor is bound to do what is necessary to transfer the right sold to the purchaser and to abstain from any act making the transfer impossible or difficult.",
+    "scope": "in_scope",
+    "answer": "التزام البائع فيما يتعلق بنقل الملكية للشيء المبيع هو أن يحرِّر المشتري من حيازة الشيء ويمنحه حق الملكية فيه، وذلك وفقاً للظروف المتفق عليها في العقد.  \n\n- **المبيع في حالة البيع العادي**: يُنقل الملكية إلى المشتري عند التسليم، أي عندما يُضع المبيع تحت تصرف المشتري بحيث يستطيع حيازته واستخدامه دون عائق. (المادة 435).  \n\n- **المبيع في حالة البيع المؤجل أو على أقساط**: يجوز للبائع أن يربط نقل الملكية بالاستيفاء الكامل للثمن، حتى لو تم تسليم المبيع. (المادة 430).  \n\nإذن، يُلزم البائع بنقل الملكية للمتلقي عند التسليم، ما لم يُقرّ الطرفان بخلاف ذلك، وفي حالة البيع المؤجل يُمكن أن يُحجز نقل الملكية حتى يُدفع الثمن كاملاً.",
+    "citations": [
+      "Egyptian Civil Code, Article 457",
+      "Egyptian Civil Code, Article 452",
+      "Egyptian Civil Code, Article 435",
+      "Egyptian Civil Code, Article 447",
+      "Egyptian Civil Code, Article 430"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 457,
+        "citation": "Egyptian Civil Code, Article 457",
+        "distance": 0.6801482439041138,
+        "is_repealed": false
+      },
+      {
+        "article_number": 452,
+        "citation": "Egyptian Civil Code, Article 452",
+        "distance": 0.6991735696792603,
+        "is_repealed": false
+      },
+      {
+        "article_number": 435,
+        "citation": "Egyptian Civil Code, Article 435",
+        "distance": 0.701453447341919,
+        "is_repealed": false
+      },
+      {
+        "article_number": 447,
+        "citation": "Egyptian Civil Code, Article 447",
+        "distance": 0.7140681147575378,
+        "is_repealed": false
+      },
+      {
+        "article_number": 430,
+        "citation": "Egyptian Civil Code, Article 430",
+        "distance": 0.7156349420547485,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( يكون الثمن مستحق الوفاء في الوقت الذي يسلم فيه المبيع ما لم يوجد اتفاق او عرف يقضي بغير ذلك. ٢( فاذا تعرض احد للمشتري مستندا الي حق سابق علي البيع او ايل من ) البائع ، او اذا خيف علي المبيع ان يترع من يد المشتري ، جاز له ما لم يمنعه شرط في العقد ان يحبس الثمن حتي ينقطع التعرض او يزول الخطر . ومع ذلك يجوز للبائع في هذه الحاله ان يطالب باستيفاء الثمن علي ان يقدم كفيال. ) ٣( ويسري حكم الفقره السابقه في حاله ما اذا كشف المشتري عيبا في المبيع.\n\nEnglish:\nSubject to a clause or custom to the contrary, the price is payable at the time of delivery of the thing sold is made. When the purchaser is disturbed in his enjoyment by a third party invoking a right existing prior to the sale or derived from the vendor, or if he is in danger of being dispossessed of the thing sold, he may, subject to an agreement to the contrary, retain the price until the disturbance in his enjoyment or the danger of dispossession has ceased. The vendor may, however, in such a case, demand payment of the price upon his supplying security. The provisions of the preceding paragraph will also apply if the purchaser has discovered a defect in the thing sold.",
+      "Arabic:\n)١( تسقط بالتقادم دعوي الضمان اذا انقضت سنه من وقت تسليم المبيع ولو لم يكشف المشتري العيب اال بعد ذلك ما لم يقبل البائع ان يلتزم بالضمان لمده اطول. ) ٢( علي انه ال يجوز للبائع ان يتمسك بالنسبه لتمام التقادم اذا ثبت به تعمد اخفاء العيب غشا منه.",
+      "Arabic:\n)١( يكون التسليم بوضع المبيع تحت تصرف لمشتري بحيث يتمكن من حيازته واالنتفاع به دون عائق ولو لم يستول عليه استيالء ماديا مادام البائع قد اعمله بذلك . ويحصل هذا التسليم علي النحو الذي يتفق مع طبيعه الشيء المبيع. ٢( ويجوز ان يتم التسليم بمجرد تراضي المتعاقدين اذا كان المبيع في ) حيازه المشتري قبل البيع او كان البائع قد استبقي المبيع في حيازته بعد البيع لسبب اخر غير الملكيه.\n\nEnglish:\nDelivery consists in placing the thing sold at the disposal of the purchaser in such a way that he can take possession of and enjoy it without hindrance, even if he does not take effective delivery thereof, provided the vendor informs him that the thing is at his disposal. Delivery is effected in accordance with the nature of the thing sold. Delivery may be completed by the mere fact of agreement between the parties when the thing sold was in possession of the purchaser prior to the sale or if the vendor retains the thing sold in his possession after the sale by virtue of some reason other than that of ownership.",
+      "Arabic:\n(١( يكون البائع ملزما بالضمان اذا لم يتوافر في المبيع وقت التسليم الصفات التي كفل للمشتري وجودها فيه ، او اذا كان بالمبيع عيب ينقص من قيمته او من نفعه بحسب الغايه المقصوده مستفاده مما هو مبين في العقد او مما هو ظاهر من طبيعه الشيء ، او الغرض الذي اعد له ، ويضمن البائع هذا العيب ولو لم يكن عالما بوجوده. (٢( ومع ذلك ال يضمن البائع العيوب التي كان المشتري يعرفها وقت البيع ، او كان يستطيع ان يتبينها بنفسه لو انه فحص المبيع بعنايه الرجل العادي ، اال اذا اثبت المشتري ان البائع قد اكد له خلو المبيع من هذا العيب ، او اثبت ان البائع قد تعمد اخفاء العيب غشا منه.\n\nEnglish:\nThe vendor is liable under his warranty, when, at the time of delivery, the thing sold does not possess the qualities the existence of which he guaranteed to the purchaser, or when the thing sold has defects diminishing its value or usefulness for the purpose for which it was intended, as shown by the contract or resulting from the nature or the destined use of the thing. The vendor is answerable for these defects, even if he was ignorant of their existence. The vendor, however, is not answerable for the defects of which the purchaser was aware at the time of the sale or which he could have discovered himself had he examined the thing with the care of a reasonable person, unless the purchaser proves that the vendor has affirmed to him the absence of these defects or fraudulently concealed them from him.",
+      "Arabic:\n)١( اذا كان البيع مؤجل الثمن ، جاز للبائع ان يشترط ان يكون نقل الملكيه الي المشتري موقوفا علي استيفاء الثمن كله ولو تم تسليم المبيع. ) ٢( فاذا كان الثمن يدفع اقساطا ، جاز للمتعاقدين ان يتفقا علي ان يستبقي البائع جزءا منه تعويضا له عن فسخ البيع اذا لم توف جميع االقساط . ومع ذلك يجوز للقاضي تبعا للظروف ان يخفض التعويض المتفق عليه وفقا للفقره الثانيه من الماده ٢٢٤. ٣( واذا وفيت االقساط جميعا ، فان انتقال الملكيه الي المشتري يعتبر ) مستندا الي وقت البيع . )٤( وتسري احكام الفقرات الثالث السابقه ولو سمي المتعاقدان البيع ايجارا.\n\nEnglish:\nIn a credit sale the vendor may stipulate that the transfer of ownership to the purchaser is subject to integral payment of the price, even if the thing sold has been delivered. If the price is payable by installments, the contracting parties may agree that the vendor may retain a part of the price by way of damages should the sale be cancelled for non-payment of all the installments. The judge may, however, according to circumstances, reduce the amount of damages agreed, by applying the provisions of paragraph 2 of Article 224. When all the installments have been paid, the transfer of the ownership of the thing sold shall be deemed to have taken place as from the date of sale. The provisions of the three preceding paragraphs are applicable even if the contracting parties have described the contract of sale as a contract of lease."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q022",
+    "question": "ما الذي يضمنه البائع للمشتري بالنسبة للانتفاع بالمبيع؟",
+    "language": "ar",
+    "ground_truth": "يضمن البائع عدم التعرض للمشتري في الانتفاع بالمبيع كله أو بعضه، سواء كان التعرض من فعله أو من فعل أجنبي تتوافر له شروط الحق المحتج به على المشتري.",
+    "reference_text": "The vendor warrants the purchaser against disturbance in his enjoyment of the thing sold, totally or partially.",
+    "scope": "in_scope",
+    "answer": "البيع يُحكم على أن البائع يضمن للمشتري حق الانتفاع بالمبيع دون عائق، أي أن يُسلم المبيع بطريقة تُتيح للمشتري حيازته واستخدامه بحرية، حتى وإن لم يتسلم المبيع فعلياً، شريطة أن يُبلغه البائع بأن المبيع متاح له. هذا ما ينص عليه **المادة 435 من قانون المدني المصري**.",
+    "citations": [
+      "Egyptian Civil Code, Article 443",
+      "Egyptian Civil Code, Article 418",
+      "Egyptian Civil Code, Article 435",
+      "Egyptian Civil Code, Article 433",
+      "Egyptian Civil Code, Article 444"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 443,
+        "citation": "Egyptian Civil Code, Article 443",
+        "distance": 0.7007004022598267,
+        "is_repealed": false
+      },
+      {
+        "article_number": 418,
+        "citation": "Egyptian Civil Code, Article 418",
+        "distance": 0.7543253302574158,
+        "is_repealed": false
+      },
+      {
+        "article_number": 435,
+        "citation": "Egyptian Civil Code, Article 435",
+        "distance": 0.78570556640625,
+        "is_repealed": false
+      },
+      {
+        "article_number": 433,
+        "citation": "Egyptian Civil Code, Article 433",
+        "distance": 0.8473495841026306,
+        "is_repealed": false
+      },
+      {
+        "article_number": 444,
+        "citation": "Egyptian Civil Code, Article 444",
+        "distance": 0.8787463903427124,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا استحق كل المبيع كان المشتري ان يطلب من البائع: ١- قيمه المبيع وقت االستحقاق مع الفوائد القانونيه من ذلك الوقت ٢- .قيمه الثمار التي الزم المشتري بردها لمن استحق المبيع. ٣- المصروفات النافعه التي ال يستطيع المشتري ان يلزم بها المستحق وكذلك المصروفات الكماليه اذا كان البائع سيئ النيه ٤- .جميع مصروفات دعوي الضمان ودعوي االستحقاق عدا ما كان المشتري يستطيع ان يتقيه منها لو اخطر البائع بالدعوي طبقا للماده ٤٤٠ ٥- .ويوجه عام ، تعويض المشتري عما لحقه من خساره او فاته من كسب بسبب استحقاق المبيع. كل هذا ما لم يكن رجوع المشتري مبنيا علي المطالبه بفسخ البيع او ابطاله.\n\nEnglish:\nIn case of total dispossession, the purchaser may claim from the vendor: i) the value of the thing sold at the time of dispossession, together with legal interest from that time; ii) the value of the profits derived from the thing sold that the purchaser has been obliged to restore to the person entitled to the thing; iii) all sums usefully spent which he cannot claim from the person entitled to the thing, together with expenditure of a superfluous character if the vendor acted in bad faith; iv) all costs incurred in the action upon the warranty and the action of revendication, with the exception of those costs that the purchaser could have avoided by notifying the vendor of the action of revendication, in accordance with Article 440; and v) generally, compensation for the losses sustained and profits missed as a result of dispossession of the thing sold. Unless in all these cases the purchaser's action against the vendor is based on a demand for dissolution or for annulment of the sale.",
+      "Arabic:\nالبيع عقد يلتزم بع البائع ان ينقل للمشتري ملكيه شيء او حقا ماليا اخر في مقابل ثمن نقدي.\n\nEnglish:\nSale is a contract whereby the vendor binds himself to transfer to the purchaser the ownership of a thing or any other propriety right in consideration of a price in money.",
+      "Arabic:\n)١( يكون التسليم بوضع المبيع تحت تصرف لمشتري بحيث يتمكن من حيازته واالنتفاع به دون عائق ولو لم يستول عليه استيالء ماديا مادام البائع قد اعمله بذلك . ويحصل هذا التسليم علي النحو الذي يتفق مع طبيعه الشيء المبيع. ٢( ويجوز ان يتم التسليم بمجرد تراضي المتعاقدين اذا كان المبيع في ) حيازه المشتري قبل البيع او كان البائع قد استبقي المبيع في حيازته بعد البيع لسبب اخر غير الملكيه.\n\nEnglish:\nDelivery consists in placing the thing sold at the disposal of the purchaser in such a way that he can take possession of and enjoy it without hindrance, even if he does not take effective delivery thereof, provided the vendor informs him that the thing is at his disposal. Delivery is effected in accordance with the nature of the thing sold. Delivery may be completed by the mere fact of agreement between the parties when the thing sold was in possession of the purchaser prior to the sale or if the vendor retains the thing sold in his possession after the sale by virtue of some reason other than that of ownership.",
+      "Arabic:\n(١( اذا عين في العقد مقدار المبيع كان البائع مسئوال عن نقص هذا القدر بحسب ما يقضي به العرف ما لم يتفق علي غير ذلك ، علي انه ال يجوز للمشتري ان يطلب فسخ العقد لنقض في المبيع اال اذا اثبت ان هذا النقص من الجسامه بحيث او انه كان يعلمه لما اتم العقد. (٢( اما اذا تبين ان القدر الذي يشتمل عليه المبيع يزيد علي ما ذكر في العقد وكان الثمن مقدرا بحساب الوحده ، وجب علي المشتري ، اذا كان المبيع غير قابل للتبعيض ، ان يكمل الثمن اال اذا كانت الزياده جسيمه فيجوز له ان يطلب فسخ العقد وكل هذا ما لم يوجد اتفاق يخالفه.\n\nEnglish:\nWhen the quantity of the thing sold is fixed in the contract, the vendor, subject to any agreement to the contrary, is liable for any deficiency in such quantity in accordance with custom. The purchaser has not, however, the right to demand cancellation of the contract by reason of such deficiency, unless he establishes that the deficiency is so great that if he had known of it he would not have entered into the contract. If, on the contrary, the quantity exceeds that indicated in the contract, and if the price has been fixed by unit, the purchaser must, when the object of the purchase cannot be divided, make up the price, unless the excess is very great, in which case he may demand cancellation of the contract, all subject to an agreement to the contrary.",
+      "Arabic:\n)١( اذا استحق بعض المبيع او وجد مثقال بتكليف وكانت خساره المشتري من ذلك قد بلغت قدر لو علمه لما اتم العقد ، كان له ان يطالب البائع بالمبالغ المبينه في الماده السابقه علي ان يرد له المبيع وما افاده منه. ) ٢( فاذا اختار المشتري استبقاء المبيع ، او كانت الخساره التي لحقته لم تبلغ القدر المبين ف الفقره السابقه ، لم يكن له اال ان يطالب بالتعويض عما اصابه من ضرر بسبب االستحقاق.\n\nEnglish:\nIn case of partial dispossession, or if the thing sold is encumbered with a charge, the purchaser, if the loss is of such a nature that, had he been cognizant thereof, he would not have entered into the contract, may claim from the vendor the sums provided for in the preceding article, provided that he returns to the vendor the things sold and the profits derived therefrom. When the purchaser prefers to retain the thing sold or when the loss sustained by him does not attain the degree of gravity defined in the preceding paragraph, he has only the right to apply for compensation in respect of the loss he has sustained as a result of the dispossession."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q023",
+    "question": "What is the default rule for costs and fees of a sale?",
+    "language": "en",
+    "ground_truth": "Unless an agreement or usage provides otherwise, the purchaser bears the costs of the deed of sale, stamp duties, transcription fees and other expenses.",
+    "reference_text": "In the absence of an agreement or usage to the contrary, the costs of the deed of sale, stamp duties, transcription fees and all other expenses are borne by the purchaser.",
+    "scope": "in_scope",
+    "answer": "I’m sorry, but the retrieved excerpts do not contain a statement that specifies the default rule for costs and fees of a sale. Therefore, I cannot determine that rule from the provided context.",
+    "citations": [
+      "Egyptian Civil Code, Article 430",
+      "Egyptian Civil Code, Article 443",
+      "Egyptian Civil Code, Article 452",
+      "Egyptian Civil Code, Article 433",
+      "Egyptian Civil Code, Article 1065"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 430,
+        "citation": "Egyptian Civil Code, Article 430",
+        "distance": 1.0829453468322754,
+        "is_repealed": false
+      },
+      {
+        "article_number": 443,
+        "citation": "Egyptian Civil Code, Article 443",
+        "distance": 1.0836623907089233,
+        "is_repealed": false
+      },
+      {
+        "article_number": 452,
+        "citation": "Egyptian Civil Code, Article 452",
+        "distance": 1.0879108905792236,
+        "is_repealed": false
+      },
+      {
+        "article_number": 433,
+        "citation": "Egyptian Civil Code, Article 433",
+        "distance": 1.1210381984710693,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1065,
+        "citation": "Egyptian Civil Code, Article 1065",
+        "distance": 1.1292181015014648,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( اذا كان البيع مؤجل الثمن ، جاز للبائع ان يشترط ان يكون نقل الملكيه الي المشتري موقوفا علي استيفاء الثمن كله ولو تم تسليم المبيع. ) ٢( فاذا كان الثمن يدفع اقساطا ، جاز للمتعاقدين ان يتفقا علي ان يستبقي البائع جزءا منه تعويضا له عن فسخ البيع اذا لم توف جميع االقساط . ومع ذلك يجوز للقاضي تبعا للظروف ان يخفض التعويض المتفق عليه وفقا للفقره الثانيه من الماده ٢٢٤. ٣( واذا وفيت االقساط جميعا ، فان انتقال الملكيه الي المشتري يعتبر ) مستندا الي وقت البيع . )٤( وتسري احكام الفقرات الثالث السابقه ولو سمي المتعاقدان البيع ايجارا.\n\nEnglish:\nIn a credit sale the vendor may stipulate that the transfer of ownership to the purchaser is subject to integral payment of the price, even if the thing sold has been delivered. If the price is payable by installments, the contracting parties may agree that the vendor may retain a part of the price by way of damages should the sale be cancelled for non-payment of all the installments. The judge may, however, according to circumstances, reduce the amount of damages agreed, by applying the provisions of paragraph 2 of Article 224. When all the installments have been paid, the transfer of the ownership of the thing sold shall be deemed to have taken place as from the date of sale. The provisions of the three preceding paragraphs are applicable even if the contracting parties have described the contract of sale as a contract of lease.",
+      "Arabic:\nاذا استحق كل المبيع كان المشتري ان يطلب من البائع: ١- قيمه المبيع وقت االستحقاق مع الفوائد القانونيه من ذلك الوقت ٢- .قيمه الثمار التي الزم المشتري بردها لمن استحق المبيع. ٣- المصروفات النافعه التي ال يستطيع المشتري ان يلزم بها المستحق وكذلك المصروفات الكماليه اذا كان البائع سيئ النيه ٤- .جميع مصروفات دعوي الضمان ودعوي االستحقاق عدا ما كان المشتري يستطيع ان يتقيه منها لو اخطر البائع بالدعوي طبقا للماده ٤٤٠ ٥- .ويوجه عام ، تعويض المشتري عما لحقه من خساره او فاته من كسب بسبب استحقاق المبيع. كل هذا ما لم يكن رجوع المشتري مبنيا علي المطالبه بفسخ البيع او ابطاله.\n\nEnglish:\nIn case of total dispossession, the purchaser may claim from the vendor: i) the value of the thing sold at the time of dispossession, together with legal interest from that time; ii) the value of the profits derived from the thing sold that the purchaser has been obliged to restore to the person entitled to the thing; iii) all sums usefully spent which he cannot claim from the person entitled to the thing, together with expenditure of a superfluous character if the vendor acted in bad faith; iv) all costs incurred in the action upon the warranty and the action of revendication, with the exception of those costs that the purchaser could have avoided by notifying the vendor of the action of revendication, in accordance with Article 440; and v) generally, compensation for the losses sustained and profits missed as a result of dispossession of the thing sold. Unless in all these cases the purchaser's action against the vendor is based on a demand for dissolution or for annulment of the sale.",
+      "Arabic:\n)١( تسقط بالتقادم دعوي الضمان اذا انقضت سنه من وقت تسليم المبيع ولو لم يكشف المشتري العيب اال بعد ذلك ما لم يقبل البائع ان يلتزم بالضمان لمده اطول. ) ٢( علي انه ال يجوز للبائع ان يتمسك بالنسبه لتمام التقادم اذا ثبت به تعمد اخفاء العيب غشا منه.",
+      "Arabic:\n(١( اذا عين في العقد مقدار المبيع كان البائع مسئوال عن نقص هذا القدر بحسب ما يقضي به العرف ما لم يتفق علي غير ذلك ، علي انه ال يجوز للمشتري ان يطلب فسخ العقد لنقض في المبيع اال اذا اثبت ان هذا النقص من الجسامه بحيث او انه كان يعلمه لما اتم العقد. (٢( اما اذا تبين ان القدر الذي يشتمل عليه المبيع يزيد علي ما ذكر في العقد وكان الثمن مقدرا بحساب الوحده ، وجب علي المشتري ، اذا كان المبيع غير قابل للتبعيض ، ان يكمل الثمن اال اذا كانت الزياده جسيمه فيجوز له ان يطلب فسخ العقد وكل هذا ما لم يوجد اتفاق يخالفه.\n\nEnglish:\nWhen the quantity of the thing sold is fixed in the contract, the vendor, subject to any agreement to the contrary, is liable for any deficiency in such quantity in accordance with custom. The purchaser has not, however, the right to demand cancellation of the contract by reason of such deficiency, unless he establishes that the deficiency is so great that if he had known of it he would not have entered into the contract. If, on the contrary, the quantity exceeds that indicated in the contract, and if the price has been fixed by unit, the purchaser must, when the object of the purchase cannot be divided, make up the price, unless the excess is very great, in which case he may demand cancellation of the contract, all subject to an agreement to the contrary.",
+      "Arabic:\nاذا اراد الحائز تطهير العقار وجب عليه ان يوجه الي الدائنين المقيده حقوقهم في مواطنهم المختاره المذكوره في القيد اعالنات تشتمل علي البيانات االتيه: ) ا ) خالصه من سند ملكيه الحائز تقتصر علي بيان نوع التصرف وتاريخه واسم المالك السابق للعقار مع تعيين هذا المالك تعيبنا دقيقا ومحل العقار مع تعيينه وتحديده بالدفه . واذا كان التصرف بيعا يذكر ايضا الثمن وما عسي ان يوجد من تكاليف تعتبر جزءا من هذا الثمن. ب) تاريخ تسجيل ملكيه الحائز ورقم هذا التسجيل. ) ) جـ) المبلغ الذي يقدره الحائز قيمه للعقار ولو كان التصرف بيعا ويجب اال يقل هذا المبلغ عن السعر الذي يتخذ اساسا لتقدير الثمن في حاله نزع الملكيه ، وال ان يقل في اي حال عن الباقي في ذمه الحائز من ثمن العقار اذا كان التصرف بيعا . واذا كانت اجزاء العاقر مثقله برهون مختلفه وجب قيمه كل جزء علي حده. د ) قائمه بالحقوق التي تم قيدها علي العقار قبل تسجيل سند الحائز ) تشتمل علي بيان تاريخ هذه القيود ومقدار هذه الحقوق واسماء الدائنين.\n\nEnglish:\nIf the third part holder decides to proceed with the purge of the property, he must serve upon the inscribed creditors, at their elected domiciles indicated in their inscriptions, summons containing the following particulars: a- an extract of his title deed, setting the out particulars and the nature and date of the act of disposition, the name in full and precise particulars of the previous owner of the property, the situation and a detailed and precise description of the property, and, if the disposal is a sale, the price and the charges, if any, that may be considered as part of the price; b- the date and number of the transcription of his title; c- the sum at which he values the property, even if the property is disposed of by sale: this sum must not be less than the reserve price in the case of expropriation nor in any case less than the sum remaining to be paid by the third party holder on the price of the property if the act of disposition was a sale. If parts of the property are charged with separate mortgages, each part must be valued separately; d- a list of rights inscribed on the property before the transcription of his title: this list shall contain the date of the inscriptions, the amount of the inscribed debts and the names of the creditors."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q024",
+    "question": "ما مدة تقادم دعوى ضمان العيب في المبيع؟",
+    "language": "ar",
+    "ground_truth": "تسقط دعوى الضمان بالتقادم بعد سنة من وقت تسليم المبيع، ولو لم يكتشف المشتري العيب إلا بعد ذلك، ما لم يقبل البائع مدة أطول، ولا يجوز للبائع التمسك بالتقادم إذا تعمد إخفاء العيب غشًا.",
+    "reference_text": "An action on a warranty is prescribed in one year from delivery, subject to the statutory exceptions.",
+    "scope": "in_scope",
+    "answer": "مدة تقادم دعوى ضمان العيب في المبيع هي **سنة واحدة** من تاريخ تسليم المبيع، وفقاً للمادة 452 من قانون المدني المصري.  \n\n(ملاحظة: يُعَدّ هذا توضيحاً قانونياً عاماً ولا يُعَدّ بديلاً عن استشارة محامٍ مؤهل.)",
+    "citations": [
+      "Egyptian Civil Code, Article 452",
+      "Egyptian Civil Code, Article 451",
+      "Egyptian Civil Code, Article 447",
+      "Egyptian Civil Code, Article 457",
+      "Egyptian Civil Code, Article 544"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 452,
+        "citation": "Egyptian Civil Code, Article 452",
+        "distance": 0.6328997611999512,
+        "is_repealed": false
+      },
+      {
+        "article_number": 451,
+        "citation": "Egyptian Civil Code, Article 451",
+        "distance": 0.7899774312973022,
+        "is_repealed": false
+      },
+      {
+        "article_number": 447,
+        "citation": "Egyptian Civil Code, Article 447",
+        "distance": 0.9133520722389221,
+        "is_repealed": false
+      },
+      {
+        "article_number": 457,
+        "citation": "Egyptian Civil Code, Article 457",
+        "distance": 0.9285049438476562,
+        "is_repealed": false
+      },
+      {
+        "article_number": 544,
+        "citation": "Egyptian Civil Code, Article 544",
+        "distance": 0.9373977780342102,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( تسقط بالتقادم دعوي الضمان اذا انقضت سنه من وقت تسليم المبيع ولو لم يكشف المشتري العيب اال بعد ذلك ما لم يقبل البائع ان يلتزم بالضمان لمده اطول. ) ٢( علي انه ال يجوز للبائع ان يتمسك بالنسبه لتمام التقادم اذا ثبت به تعمد اخفاء العيب غشا منه.",
+      "Arabic:\nتبقي دعوي الضمان ولو هلك المبيع باي سبب كان.\n\nEnglish:\nAn action on a warranty exists even if the thing sold has perished, whatever may be the cause. rticle 452 An action on a warranty is prescribed in one year from the time of delivery of the thing sold, even if the purchaser discovers the defect after the expiration of this delay, unless the vendor agrees to be bound by the warranty for a longer period. The vendor, however, cannot avail himself of the prescription of one year if it is proved that he has fraudulently concealed the defect from the purchaser.",
+      "Arabic:\n(١( يكون البائع ملزما بالضمان اذا لم يتوافر في المبيع وقت التسليم الصفات التي كفل للمشتري وجودها فيه ، او اذا كان بالمبيع عيب ينقص من قيمته او من نفعه بحسب الغايه المقصوده مستفاده مما هو مبين في العقد او مما هو ظاهر من طبيعه الشيء ، او الغرض الذي اعد له ، ويضمن البائع هذا العيب ولو لم يكن عالما بوجوده. (٢( ومع ذلك ال يضمن البائع العيوب التي كان المشتري يعرفها وقت البيع ، او كان يستطيع ان يتبينها بنفسه لو انه فحص المبيع بعنايه الرجل العادي ، اال اذا اثبت المشتري ان البائع قد اكد له خلو المبيع من هذا العيب ، او اثبت ان البائع قد تعمد اخفاء العيب غشا منه.\n\nEnglish:\nThe vendor is liable under his warranty, when, at the time of delivery, the thing sold does not possess the qualities the existence of which he guaranteed to the purchaser, or when the thing sold has defects diminishing its value or usefulness for the purpose for which it was intended, as shown by the contract or resulting from the nature or the destined use of the thing. The vendor is answerable for these defects, even if he was ignorant of their existence. The vendor, however, is not answerable for the defects of which the purchaser was aware at the time of the sale or which he could have discovered himself had he examined the thing with the care of a reasonable person, unless the purchaser proves that the vendor has affirmed to him the absence of these defects or fraudulently concealed them from him.",
+      "Arabic:\n)١( يكون الثمن مستحق الوفاء في الوقت الذي يسلم فيه المبيع ما لم يوجد اتفاق او عرف يقضي بغير ذلك. ٢( فاذا تعرض احد للمشتري مستندا الي حق سابق علي البيع او ايل من ) البائع ، او اذا خيف علي المبيع ان يترع من يد المشتري ، جاز له ما لم يمنعه شرط في العقد ان يحبس الثمن حتي ينقطع التعرض او يزول الخطر . ومع ذلك يجوز للبائع في هذه الحاله ان يطالب باستيفاء الثمن علي ان يقدم كفيال. ) ٣( ويسري حكم الفقره السابقه في حاله ما اذا كشف المشتري عيبا في المبيع.\n\nEnglish:\nSubject to a clause or custom to the contrary, the price is payable at the time of delivery of the thing sold is made. When the purchaser is disturbed in his enjoyment by a third party invoking a right existing prior to the sale or derived from the vendor, or if he is in danger of being dispossessed of the thing sold, he may, subject to an agreement to the contrary, retain the price until the disturbance in his enjoyment or the danger of dispossession has ceased. The vendor may, however, in such a case, demand payment of the price upon his supplying security. The provisions of the preceding paragraph will also apply if the purchaser has discovered a defect in the thing sold.",
+      "Arabic:\nاذا اتفق علي الفوائد ، كان للمدين اذا انقضت سنه اشهر علي القرض ان يعلن رغبته في الغاء العقد ورد ما اقترضه ، علي ان يتم الرد في اجل ال يجاوز سته اشهر من تاريخ هذا االعالن ، وفي هذه الحاله يلزم المدين باداء الفوائد المستحقه عن سته االشهر التاليه لالعالن ، وال يجوز بوجه من الوجوه الزامه بان يؤدي فائده او مقابال من اي نوع بسبب تعجيل الوفاء ، وال يجوز االتفاق علي اسقاط حق المقترض في الرد او الحد منه. ٢- الدخل الدائم\n\nEnglish:\nIf interest is agreed, the debtor may, after six months from the date of the loan, give notice of his intention to terminate the contract and to restitute the thing taken on loan, provided that the restitution takes place within a term not exceeding six months of the date of notice. In such a case the debtor shall be liable to pay the interest due for the six months following the notice. He will not, in any case, be bound to pay interest or to perform a prestation of any kind by reason of the fact that payment is made before due date. The right of the borrower to effect restitution cannot be forfeited or limited by agreement. 2- Annuities."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q025",
+    "question": "متى يكون شرط إسقاط ضمان العيب أو تقليله باطلًا؟",
+    "language": "ar",
+    "ground_truth": "يجوز للمتعاقدين زيادة الضمان أو إنقاصه أو إسقاطه باتفاق خاص، لكن الشرط الذي يسقط الضمان أو ينقصه يكون باطلًا إذا تعمد البائع إخفاء العيب في المبيع غشًا.",
+    "reference_text": "The parties may increase, restrict or abolish the warranty, but a clause abolishing or restricting it is void if the vendor fraudulently conceals defects.",
+    "scope": "in_scope",
+    "answer": "لا يمكن تحديد ذلك استناداً إلى النصوص القانونية التي تم إحضارها.",
+    "citations": [
+      "Egyptian Civil Code, Article 452",
+      "Egyptian Civil Code, Article 1048",
+      "Egyptian Civil Code, Article 672",
+      "Egyptian Civil Code, Article 183",
+      "Egyptian Civil Code, Article 274"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 452,
+        "citation": "Egyptian Civil Code, Article 452",
+        "distance": 0.7690646052360535,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1048,
+        "citation": "Egyptian Civil Code, Article 1048",
+        "distance": 0.8165212869644165,
+        "is_repealed": false
+      },
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.8367990851402283,
+        "is_repealed": false
+      },
+      {
+        "article_number": 183,
+        "citation": "Egyptian Civil Code, Article 183",
+        "distance": 0.8530593514442444,
+        "is_repealed": false
+      },
+      {
+        "article_number": 274,
+        "citation": "Egyptian Civil Code, Article 274",
+        "distance": 0.8553602695465088,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( تسقط بالتقادم دعوي الضمان اذا انقضت سنه من وقت تسليم المبيع ولو لم يكشف المشتري العيب اال بعد ذلك ما لم يقبل البائع ان يلتزم بالضمان لمده اطول. ) ٢( علي انه ال يجوز للبائع ان يتمسك بالنسبه لتمام التقادم اذا ثبت به تعمد اخفاء العيب غشا منه.",
+      "Arabic:\n)١( اذا تسبب الراهن بخطئه في هالك العقار المرهون او تلفه ، كان الدائن المرتهن مخبرا بين ان يقتضي تامينا كافيا او ان يستوفي حقه فورا. ) ٢( فاذا كان الهالك او التلف قد نشا عن سبب اجنبي ولم يقبل الدائن بقاء الدين بال تامين ، كان المدين مخبرا بين ان يقدم تامينا كافيا او ان يوفي الدين فورا قبل حلول االجل ، وفي الحاله االخيره اذا لم يكن للدين فوائد فال يكون للدائن حق اال في استيفاء مبلغ يعادل قيمه الدين منقوصا منها الفوائد بالسعر القانوني عن لمده ما بين تاريخ الوفاء وتاريخ حلول الدين. ٣( وفي جميع االحوال اذا وقعت اعمال من شانها ان تعرض العقار ) المرهون للهالك او التلف او تجعله غير كاف للضمان ، كان للدائن ان يطلب الي القاضي وقف هذه االعمال واتخاذ الوسائل التي تمنع وقوع الضرر.\n\nEnglish:\nIf the mortgaged property perishes or deteriorates by the fault of the mortgagor, the mortgagee may either claim adequate security or immediate payment of the debt. If the loss or deterioration is not imputable to the mortgagor and the mortgagee does not agree to leave his claim without security, the debtor may either furnish adequate security or pay the debt in full before it falls due. In the latter case, if the debt does not carry interest, the mortgagee has only a right to an amount equal to the amount of his claim less the interest calculated at the legal rate from the date of payment to the date of maturity. In all cases, if acts are done which may result in the loss of or deterioration to the mortgaged property, or which may render the mortgaged property insufficient to secure the debt, the mortgagee may apply to the Judge to order the cessation of such acts and the adoption of necessary measures to avoid the occurrence of the loss.",
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place.",
+      "Arabic:\n( ١ يصح كذلك استرداد غير المستحق ، اذا كان الوفاء قد تم تنفينا ( اللتزام لم يحل اجله وكان الموفي جاهال قيام االجل. ٢ علي انه يجوز للدائن ان يقتصر علي رد ما استفاده بسبب الوفاء ) ( المعجل في حدود ما لحق المدين من ضرر. فاذا كان االلتزام الذي لم يحل اجله نقودا ، التزم الدائن ان يرد للمدين فائدتها بسعرها القانوني او االتفاقي عن المده الباقيه لحلول االجل.\n\nEnglish:\nRestitution may also be made of a payment effected in the performance of an obligation which had not at the time fallen due, if the payor was not aware that payment was not then due. A creditor may, however, limit restitution to the profit he has gained as a result of the premature payment to the extent of the loss suffered by the debtor. When the obligation which has not fallen due is for a sum of money, the creditor must restitute to the debtor interest thereon at the legal or at an agreed rate for the time to run until the due date of payment.",
+      "Arabic:\n(١( اذا كان االلتزام مقترنا باجل واقف ، فانه ال يكون نافذا اال في الوقت الذي ينقضي فيه االجل ، علي انه يجوز للدائن حتي قبل انقضاء االجل ان يتخذ من االجراءات ما يحافظ به علي حقوقه ، وله بوجه خاص ان يطالب بتامين اذا يخشي افالس المدين او اعساره واستند في ذلك الي سبب معقول. (٢( ويترتب علي انقضاء االجل الفاسخ زوال االلتزام ، دون ان يكون لهذا الزوال اثر رجعي. الفصل الثاني تعدد محل االلتزام ١- االلتزام التخييري\n\nEnglish:\nAn obligation with a suspensive term only becomes due on the date of the expiration of the term. The creditor may, however, even before the end of the term, take measures to protect his rights and may, in particular, ask for security if he fears that the debtor may become bankrupt or insolvent, and has reasonable grounds for his fears. At the end of a resolutory term, the obligation is extinguished without such extinction having any retroactive effect."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q026",
+    "question": "ما التزام المستأجر بشأن دفع الأجرة؟",
+    "language": "ar",
+    "ground_truth": "يجب على المستأجر دفع الأجرة في المواعيد المتفق عليها، وإذا لم يوجد اتفاق ففي المواعيد التي يحددها عرف الجهة، ويكون الوفاء في موطن المستأجر ما لم يوجد اتفاق أو عرف مخالف.",
+    "reference_text": "The lessee must pay the rent at the agreed times, or at times established by local custom in the absence of agreement.",
+    "scope": "in_scope",
+    "answer": "المستأجر ملزم بدفع الأجرة المتفق عليها في عقد الإيجار.  \n- إذا لم يحدد الطرفان مبلغ الأجرة أو طريقة تقديرها، يُستند إلى الأجرة المعتادة في العقارات المماثلة (المادة 562).  \n- عند دفع مستأجر أي قسط من الأجرة، يُعتبر ذلك بمثابة إثبات على أن القسط السابق قد تم سداده، ما لم يُثبت خلاف ذلك (المادة 587).  \n\nهذه المعلومات عامة ولا تُعَدّ بديلاً عن استشارة محامٍ.",
+    "citations": [
+      "Egyptian Civil Code, Article 562",
+      "Egyptian Civil Code, Article 587",
+      "Egyptian Civil Code, Article 608",
+      "Egyptian Civil Code, Article 1143",
+      "Egyptian Civil Code, Article 558"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 562,
+        "citation": "Egyptian Civil Code, Article 562",
+        "distance": 0.7776951789855957,
+        "is_repealed": false
+      },
+      {
+        "article_number": 587,
+        "citation": "Egyptian Civil Code, Article 587",
+        "distance": 0.7782593369483948,
+        "is_repealed": false
+      },
+      {
+        "article_number": 608,
+        "citation": "Egyptian Civil Code, Article 608",
+        "distance": 0.8828551769256592,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1143,
+        "citation": "Egyptian Civil Code, Article 1143",
+        "distance": 0.9183006286621094,
+        "is_repealed": false
+      },
+      {
+        "article_number": 558,
+        "citation": "Egyptian Civil Code, Article 558",
+        "distance": 0.9263497591018677,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nاذا لم يتفق المتعاقدان علي مقدار االجره او علي كيفيه تقديرها ، او اذا تعذر اثبات مقدار االجره ، وجب اعتبار اجره المثل.\n\nEnglish:\nIf the parties have not agreed the amount of the rent or the manner in which the rent shall be fixed, or if the amount of the rent cannot be established, it must be based on the current rent for other similar properties.",
+      "Arabic:\nالوفاء بسقط من االجره قرينه علي الوفاء باالقساط السابقه علي هذا القسط حتي يقوم الدليل علي عكس ذلك.\n\nEnglish:\nThe payment of a term's rent establishes in favor of the payee a presumption, subject to proof to the contrary, that former terms have been paid.",
+      "Arabic:\n(١) اذا كان االيجار معين المده ، جاز لكل من المتعاقدين ان يطلب انهاء قبل انقضاء مدته اذا جدت ظروف خطيره غير متوقعه من شانها ان تجعل مرهقا تنفيذ االيجار من مبدا االمر او في اثناء سريانه ، علي ان يراعي من يطلب انهاء العقد مواعيد التنبيه باالخالء المبينه بالماده ٥٦٣ ، وعلي تعويضا ان يعوض الطرف االخر عادال . (٢) فاذا كان المؤجر هو الذي يطلب انهاء العقد ، فال يجبر المستاجر علي رد العين المؤجره حتي يستوفي التعويض او يحصل علي تامين كاف .\n\nEnglish:\nWhen a lease is made for a fixed period, either of the contracting parties may, if serious and unforeseen circumstances arise of a such nature as to render, from the commencement of or during the lease, the performance too burdensome, demand the termination of the lease before its expiration, provided he gives notice in accordance with the delays provided for in Article 563 and pays equitable compensation to the other party. If it is the lessor who demands termination of the lease, the lessee will not be compelled to hand back the leased property before he has been compensated or obtained adequate guarantee.",
+      "Arabic:\n(١( اجره المباني واالراضي الزراعيه لسنتين او لمده االيجار ان قلت عن ذلك ، وكل حق اخر للمؤجر بمقتضي عقد االيجار ، يكون لها جميعا امتياز علي ما يكون موجودا بالعين المؤجره ومملوكا للمستاجر من منقول قابل للحجز ومن محصول زراعي. ( ٢( ويثبت االمتياز ولو كانت المنقوالت مملوكه لزوجه المستاجر او كانت مملوكه للغير ولم يثبت ان المؤجر كان يعلم وقت وضعها في العين المؤجره بوجود حق للغير عليها ، وذلك دون اخالل باالحكام المتعلقه بالمنقوالت المسروقه او الضائعه. ٣( ويقع االمتياز ايضا علي المنقوالت والمحصوالت المملوكه للمستاجر ( من الباطن اذا كان المؤجر قد اشترط صراحه عدم االيجار من الباطن ، فاذا لم يشترط ذلك فال يثبت االمتياز اال للمبالغ التي تكون مستحقه للمستاجر االصلي في ذمه المستاجر من الباطن في الوقت الذي ينذره فيه المؤجر. ( ٤( وتستوفي هذه المبالغ الممتازه من ثمن االموال المثقله باالمتياز بعد الحقوق المتقدمه الذكر ، اال ما كان من هذه الحقوق غير نافذ في حق المؤجر باعتباره حائزا حسن النيه. ( ٥( واذا نقلت االموال المثقله باالمتياز من العين المؤجره علي الرغم من معارضه المؤجر او علي غير علم منه ولم يبق في العين امول كافيه لضمان الحقوق الممتازه ، بقي االمتياز قائما علي االموال التي نقلت دون ان يضر ذلك بالحق الذي كسبه غير الحسن النيه علي هذه االموال ، ويبقي االمتياز قائما ولو اضر بحق الغير لمده ثالث سنوات من يوم نقلها اذا اوقع المؤجر عليها حجزا استحقاقيا في الميعاد القانوني . ومع ذلك اذا بيعت هذه االموال الي مشتري حسن النيه في سوق عام او في مزاد علي او ممن يتجر في مثلها ، وجب علي المؤجر ان يرد الثمن الي هذا المشتري.\n\nEnglish:\nHouse and agricultural rents for two years, or for the duration of the lease if less than two years, and all sums due to the lessor by virtue of the contract of lease, are secured by a privilege over all attachable movables and crops existing on the leased property and belonging to the lessee. Subject to the provisions relating to stolen or lost property, this privilege is enforceable even when the immovables belong to the wife of the lessee or to a third party, as long as it is not established that the lessor had knowledge, at the time the movables were brought onto the leased property, of the existence of a third party's rights. This privilege is also enforceable over movables and crops belonging to a sub-lessee, if the lessor had expressly prohibited sub-letting. If sub-letting was not prohibited, the privilege will only be enforceable up to the amount due by the sub-lessee to the principal lessee on the date a formal summons is served by the lessor upon the sub-lessee. These privileged claims are payable out of the proceeds of sale of such movables and crops subject to such privilege, immediately after the claims above mentioned, with the exception of such claims in respect of which the privilege does not operate as against the lessor in as much as he is a third party holder in good faith. If movables and crops so charged are removed from the leased property, notwithstanding the objection of the lessor or without his knowledge, and the movables remaining on the property are not sufficient to secure the privileged claim, the privilege is enforceable on the movables and crops so removed subject to rights acquired on these movables and crops by third parties in good faith. The privilege shall remain in force for three years from the date of removal, even to the detriment of a third party's rights, if the lessor effects within the prescribed time limit an attachment on the movables and crops removed. If, however, the movables and crops are sold to a purchaser in good faith in the market by public auction or by a merchant dealing in similar articles, the lessor must reimburse the purchaser with the price.",
+      "Arabic:\nااليجار عقد يلتزم المؤجر بمقتضاه ان يمكن المستاجر من االنتفاع بشيء معين مده معينه لقاء اجر معلوم.\n\nEnglish:\nA lease is a contract by which the lessor undertakes to enable the lessee to enjoy a specific thing for a certain time in return of a fixed rent."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q027",
+    "question": "ما واجب المستأجر إذا ظهرت حاجة إلى إصلاحات عاجلة في العين المؤجرة؟",
+    "language": "ar",
+    "ground_truth": "يجب على المستأجر أن يبادر إلى إخطار المؤجر بكل أمر يستوجب تدخله، ومن ذلك الحاجة إلى ترميمات مستعجلة أو اكتشاف عيب أو وقوع اغتصاب أو تعرض أو ضرر من الغير.",
+    "reference_text": "The lessee must forthwith notify the lessor of all matters requiring his intervention, such as urgent repairs, defects, encroachments and disturbances or damage by third parties.",
+    "scope": "in_scope",
+    "answer": "لا يمكن تحديد واجب المستأجر في حالة ظهور حاجة إلى إصلاحات عاجلة في العين المؤجرة استناداً إلى النصوص القانونية التي تم توفيرها.",
+    "citations": [
+      "Egyptian Civil Code, Article 608",
+      "Egyptian Civil Code, Article 592",
+      "Egyptian Civil Code, Article 572",
+      "Egyptian Civil Code, Article 562",
+      "Egyptian Civil Code, Article 925"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 608,
+        "citation": "Egyptian Civil Code, Article 608",
+        "distance": 0.8261556029319763,
+        "is_repealed": false
+      },
+      {
+        "article_number": 592,
+        "citation": "Egyptian Civil Code, Article 592",
+        "distance": 0.8533235788345337,
+        "is_repealed": false
+      },
+      {
+        "article_number": 572,
+        "citation": "Egyptian Civil Code, Article 572",
+        "distance": 0.9890518188476562,
+        "is_repealed": false
+      },
+      {
+        "article_number": 562,
+        "citation": "Egyptian Civil Code, Article 562",
+        "distance": 0.9984300136566162,
+        "is_repealed": false
+      },
+      {
+        "article_number": 925,
+        "citation": "Egyptian Civil Code, Article 925",
+        "distance": 0.9987046718597412,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n(١) اذا كان االيجار معين المده ، جاز لكل من المتعاقدين ان يطلب انهاء قبل انقضاء مدته اذا جدت ظروف خطيره غير متوقعه من شانها ان تجعل مرهقا تنفيذ االيجار من مبدا االمر او في اثناء سريانه ، علي ان يراعي من يطلب انهاء العقد مواعيد التنبيه باالخالء المبينه بالماده ٥٦٣ ، وعلي تعويضا ان يعوض الطرف االخر عادال . (٢) فاذا كان المؤجر هو الذي يطلب انهاء العقد ، فال يجبر المستاجر علي رد العين المؤجره حتي يستوفي التعويض او يحصل علي تامين كاف .\n\nEnglish:\nWhen a lease is made for a fixed period, either of the contracting parties may, if serious and unforeseen circumstances arise of a such nature as to render, from the commencement of or during the lease, the performance too burdensome, demand the termination of the lease before its expiration, provided he gives notice in accordance with the delays provided for in Article 563 and pays equitable compensation to the other party. If it is the lessor who demands termination of the lease, the lessee will not be compelled to hand back the leased property before he has been compensated or obtained adequate guarantee.",
+      "Arabic:\n(١( اذا اوجد المستاجر في العين المؤجره بناء او غراسا او غير ذلك من التحسينات مما يزيد في قيمه العقار، التزام المؤجر ان يرد للمستاجر عند انقضاء االيجار ما انفقه في هذه التحسينات او ما زاد في قيمه العقار ما لم يكن هناك اتفاق يقضي بغير ذلك. (٢( فاذا كانت تلك التحسينات قد استحدثت دون علم المؤجر او رغم معارضته ، كان له ايضا ان يطلب من المستاجر ازالتها . وله ان يطلب فوق ذلك تعويضا عن الضرر الذي يصيب العقار من هذه االزاله ان كان للتعويض مقتض. (٣( فاذا اختار المؤجر ان يحتفظ بهذه التحسينات في مقابل رد احدي القيمتين المتقدم ذكرها ، جاز للمحكمه ان تنظره الي احل الوفاء بها. التنازل عن االيجار وااليجار من الباطن\n\nEnglish:\nIf the lessee has erected buildings, planted trees or made other improvements which have increased the value of the property, the lessor is, subject to an agreement to the contrary, bound at the end of the lease to repay him the expenses incurred by him or the increase in value of the property. If such improvements were made without the knowledge of the lessor or notwithstanding his objections, the lessor may claim their removal and may in addition call on the lessee to pay compensation, if compensation is due, for any damage to property resulting from such removal. If the lessor prefers to keep improvements and pay one of the two amounts indicated above, the Court may give him time for settlement. Assignment of lease and sub-lease",
+      "Arabic:\n(١( اذا ادعي اجنبي حقا يتعارض مع ما للمستاجر من حقوق بمقتضي عقد االيجار ، وجب علي المستاجر ان يبادر باخطار المؤجر بذلك وكان له ان يخرج من الدعوي ، وفي هذه الحاله ال توجه االجراءات اال الي المؤجر. (٢( فاذا ترتب علي هذا االدعاء ان حرم المستاجر فعال من االنتفاع الذي له بموجب عقد االيجار ، جاز له تبعا للظروف ان يطلب الفسخ او انقاص االجره مع التعويض ان كان له مقتضي.\n\nEnglish:\nIf a third party claims to have rights incompatible with those derived by the lessee from the agreement of lease , the lessee shall forthwith give notice to the lessor of such claim and shall be entitled to demand that he be dismissed from the case. In which event proceedings will be taken solely against the lessor. If, as a result of such a claim, the lessee is effectively deprived of the enjoyment to which he is entitled in accordance with the agreement of lease, he may, in accordance with the circumstances, claim resiliation of the lease or a reduction of rent together with payment of damages if damages are due.",
+      "Arabic:\nاذا لم يتفق المتعاقدان علي مقدار االجره او علي كيفيه تقديرها ، او اذا تعذر اثبات مقدار االجره ، وجب اعتبار اجره المثل.\n\nEnglish:\nIf the parties have not agreed the amount of the rent or the manner in which the rent shall be fixed, or if the amount of the rent cannot be established, it must be based on the current rent for other similar properties.",
+      "Arabic:\n)١( اذا كان من اقام المنشات المشار اليها في الماده السابقه يعتقد بحسن نيه ان له الحق في اقامتها ، فال يكون لصاحب االرض ان يطلب االزاله ، وانما يخير بين ان يدفع قيمه المواد واجره العمل او ان يدفع مبلغا يساوي ما زاد في ثمن االرض بسبب هذه المنشات ، هذا ما لم يطلب صاحب المنشات نزعها. ) ٢( اال انه اذا كانت المنشات قد بلغت حدا من الجسامه يرهق صاحب االرض ان يؤدي ما هو مستحق عنها ، كان له ان يطلب تملك االرض لمن اقام المنشات نظير تعويض عادل.\n\nEnglish:\nIf the third party who carried out the works mentioned in the preceding article honestly believed that he was entitled to do so, the owner of the land has no the right to demand their removal, but he may, at his option, and provided the third party does not claim their removal, pay the third party either the value of the materials and the cost of the work or a sum equal to the increased value that the works have given to the land. If, however, the works are so extensive that the payment of the amount due in respect thereof is onerous for the owner of the land, he may claim the conveyance of the ownership of the land to the third party against payment of an adequate compensation."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q028",
+    "question": "Who is generally responsible for fire damage to leased property?",
+    "language": "en",
+    "ground_truth": "The lessee is responsible for damage to the leased property by fire unless he proves that the cause was not imputable to him. Where several lessees occupy the property, liability is allocated as provided by the article, subject to the stated exception.",
+    "reference_text": "The lessee is responsible for damage to the leased property by fire, unless he can establish that the cause thereof was not imputable to him.",
+    "scope": "in_scope",
+    "answer": "I’m sorry, but the provided excerpts do not contain any provision that specifies who is responsible for fire damage to leased property. Therefore, I cannot determine the answer from the retrieved context.",
+    "citations": [
+      "Egyptian Civil Code, Article 177",
+      "Egyptian Civil Code, Article 766",
+      "Egyptian Civil Code, Article 1065",
+      "Egyptian Civil Code, Article 925",
+      "Egyptian Civil Code, Article 1143"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 177,
+        "citation": "Egyptian Civil Code, Article 177",
+        "distance": 0.8787966370582581,
+        "is_repealed": false
+      },
+      {
+        "article_number": 766,
+        "citation": "Egyptian Civil Code, Article 766",
+        "distance": 1.00106942653656,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1065,
+        "citation": "Egyptian Civil Code, Article 1065",
+        "distance": 1.1031441688537598,
+        "is_repealed": false
+      },
+      {
+        "article_number": 925,
+        "citation": "Egyptian Civil Code, Article 925",
+        "distance": 1.1061570644378662,
+        "is_repealed": false
+      },
+      {
+        "article_number": 1143,
+        "citation": "Egyptian Civil Code, Article 1143",
+        "distance": 1.1142947673797607,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n( ١ حارس البناء ، ولو لم يكن مالكا له ، مسئول عما يحدث انهدام البناء ( من ضرر ، ولو كان ا داما جزئيا ، ما لم يثبت ان الحادث ال يرجع سببه الي اهمال في الصيانه او قدم في البناء او عيب فيه. ( ٢ ويجوز لمن كان مهددا بضرر يصيبه من البناء ان يطالب المالك ( باتخاذ ما يلزم من التدابير الضروريه لدرء الخطر فان لم يقم المالك بذلك جاز الحصول علي اذن من المحكمه في اتخاذ هذه التدابير علي حسابه.\n\nEnglish:\nA person in charge of a building, even if he is not its owner, is liable for damage caused by the collapse of the building, even if such collapse is partial, unless he shows that the accident did not occur as a result of negligent maintenance or the age of, or the defect in the building. A person who is in danger of damage from a building is entitled to call on the owner to take the necessary precautions to prevent the danger, and if the owner fails to take such precautions, to obtain an order from the Court authorizing him to take necessary precautions himself at the cost of the owner.",
+      "Arabic:\n)١( في التامين من الحريق يكون المؤمن مسئوال عن كافه االضرار الناشئه عن حريق ، او عن بدايه حريق يمكن ان يصبح حريقا كامال ، او عن خطر حريق يمكن ان يتحقق. ) ٢( وال يقتصر التزامه علي االضرار الناشئه مباشره عن الحريق بل يتناول ايضا االضرار التي تكون نتيجه حتميه لذلك ، وباالخص ما يلحق االشياء المؤمن عليها من ضرر بسبب اتخاذ وسائل االنقاذ او لمنع امتداد الحريق. ) ٣( ويكون مسئوال عن ضياع االشياء المؤمن عليها او اختفائها اثناء الحريق ما لم يثبت ان ذلك كان نتيجه سرقه ، كل هذا ولو اتفق علي غيره.\n\nEnglish:\nIn insurance against fire, the insurer is liable for all damage resulting from a fire or the beginning of a fire which may become an actual fire, or from the risk of a fire which may occur. His liability is not limited solely to the damage resulting directly from the fire but also includes damage which is necessarily the result of the fire and particularly damage caused to things covered by the insurance by reason of salvage measures or of measures to prevent the extension of the fire. Notwithstanding any agreement to the contrary, the insurer is also liable for the loss or disappearance of the things covered by the insurance, occurring during the fire, unless he can establish that this was occasioned by theft.",
+      "Arabic:\nاذا اراد الحائز تطهير العقار وجب عليه ان يوجه الي الدائنين المقيده حقوقهم في مواطنهم المختاره المذكوره في القيد اعالنات تشتمل علي البيانات االتيه: ) ا ) خالصه من سند ملكيه الحائز تقتصر علي بيان نوع التصرف وتاريخه واسم المالك السابق للعقار مع تعيين هذا المالك تعيبنا دقيقا ومحل العقار مع تعيينه وتحديده بالدفه . واذا كان التصرف بيعا يذكر ايضا الثمن وما عسي ان يوجد من تكاليف تعتبر جزءا من هذا الثمن. ب) تاريخ تسجيل ملكيه الحائز ورقم هذا التسجيل. ) ) جـ) المبلغ الذي يقدره الحائز قيمه للعقار ولو كان التصرف بيعا ويجب اال يقل هذا المبلغ عن السعر الذي يتخذ اساسا لتقدير الثمن في حاله نزع الملكيه ، وال ان يقل في اي حال عن الباقي في ذمه الحائز من ثمن العقار اذا كان التصرف بيعا . واذا كانت اجزاء العاقر مثقله برهون مختلفه وجب قيمه كل جزء علي حده. د ) قائمه بالحقوق التي تم قيدها علي العقار قبل تسجيل سند الحائز ) تشتمل علي بيان تاريخ هذه القيود ومقدار هذه الحقوق واسماء الدائنين.\n\nEnglish:\nIf the third part holder decides to proceed with the purge of the property, he must serve upon the inscribed creditors, at their elected domiciles indicated in their inscriptions, summons containing the following particulars: a- an extract of his title deed, setting the out particulars and the nature and date of the act of disposition, the name in full and precise particulars of the previous owner of the property, the situation and a detailed and precise description of the property, and, if the disposal is a sale, the price and the charges, if any, that may be considered as part of the price; b- the date and number of the transcription of his title; c- the sum at which he values the property, even if the property is disposed of by sale: this sum must not be less than the reserve price in the case of expropriation nor in any case less than the sum remaining to be paid by the third party holder on the price of the property if the act of disposition was a sale. If parts of the property are charged with separate mortgages, each part must be valued separately; d- a list of rights inscribed on the property before the transcription of his title: this list shall contain the date of the inscriptions, the amount of the inscribed debts and the names of the creditors.",
+      "Arabic:\n)١( اذا كان من اقام المنشات المشار اليها في الماده السابقه يعتقد بحسن نيه ان له الحق في اقامتها ، فال يكون لصاحب االرض ان يطلب االزاله ، وانما يخير بين ان يدفع قيمه المواد واجره العمل او ان يدفع مبلغا يساوي ما زاد في ثمن االرض بسبب هذه المنشات ، هذا ما لم يطلب صاحب المنشات نزعها. ) ٢( اال انه اذا كانت المنشات قد بلغت حدا من الجسامه يرهق صاحب االرض ان يؤدي ما هو مستحق عنها ، كان له ان يطلب تملك االرض لمن اقام المنشات نظير تعويض عادل.\n\nEnglish:\nIf the third party who carried out the works mentioned in the preceding article honestly believed that he was entitled to do so, the owner of the land has no the right to demand their removal, but he may, at his option, and provided the third party does not claim their removal, pay the third party either the value of the materials and the cost of the work or a sum equal to the increased value that the works have given to the land. If, however, the works are so extensive that the payment of the amount due in respect thereof is onerous for the owner of the land, he may claim the conveyance of the ownership of the land to the third party against payment of an adequate compensation.",
+      "Arabic:\n(١( اجره المباني واالراضي الزراعيه لسنتين او لمده االيجار ان قلت عن ذلك ، وكل حق اخر للمؤجر بمقتضي عقد االيجار ، يكون لها جميعا امتياز علي ما يكون موجودا بالعين المؤجره ومملوكا للمستاجر من منقول قابل للحجز ومن محصول زراعي. ( ٢( ويثبت االمتياز ولو كانت المنقوالت مملوكه لزوجه المستاجر او كانت مملوكه للغير ولم يثبت ان المؤجر كان يعلم وقت وضعها في العين المؤجره بوجود حق للغير عليها ، وذلك دون اخالل باالحكام المتعلقه بالمنقوالت المسروقه او الضائعه. ٣( ويقع االمتياز ايضا علي المنقوالت والمحصوالت المملوكه للمستاجر ( من الباطن اذا كان المؤجر قد اشترط صراحه عدم االيجار من الباطن ، فاذا لم يشترط ذلك فال يثبت االمتياز اال للمبالغ التي تكون مستحقه للمستاجر االصلي في ذمه المستاجر من الباطن في الوقت الذي ينذره فيه المؤجر. ( ٤( وتستوفي هذه المبالغ الممتازه من ثمن االموال المثقله باالمتياز بعد الحقوق المتقدمه الذكر ، اال ما كان من هذه الحقوق غير نافذ في حق المؤجر باعتباره حائزا حسن النيه. ( ٥( واذا نقلت االموال المثقله باالمتياز من العين المؤجره علي الرغم من معارضه المؤجر او علي غير علم منه ولم يبق في العين امول كافيه لضمان الحقوق الممتازه ، بقي االمتياز قائما علي االموال التي نقلت دون ان يضر ذلك بالحق الذي كسبه غير الحسن النيه علي هذه االموال ، ويبقي االمتياز قائما ولو اضر بحق الغير لمده ثالث سنوات من يوم نقلها اذا اوقع المؤجر عليها حجزا استحقاقيا في الميعاد القانوني . ومع ذلك اذا بيعت هذه االموال الي مشتري حسن النيه في سوق عام او في مزاد علي او ممن يتجر في مثلها ، وجب علي المؤجر ان يرد الثمن الي هذا المشتري.\n\nEnglish:\nHouse and agricultural rents for two years, or for the duration of the lease if less than two years, and all sums due to the lessor by virtue of the contract of lease, are secured by a privilege over all attachable movables and crops existing on the leased property and belonging to the lessee. Subject to the provisions relating to stolen or lost property, this privilege is enforceable even when the immovables belong to the wife of the lessee or to a third party, as long as it is not established that the lessor had knowledge, at the time the movables were brought onto the leased property, of the existence of a third party's rights. This privilege is also enforceable over movables and crops belonging to a sub-lessee, if the lessor had expressly prohibited sub-letting. If sub-letting was not prohibited, the privilege will only be enforceable up to the amount due by the sub-lessee to the principal lessee on the date a formal summons is served by the lessor upon the sub-lessee. These privileged claims are payable out of the proceeds of sale of such movables and crops subject to such privilege, immediately after the claims above mentioned, with the exception of such claims in respect of which the privilege does not operate as against the lessor in as much as he is a third party holder in good faith. If movables and crops so charged are removed from the leased property, notwithstanding the objection of the lessor or without his knowledge, and the movables remaining on the property are not sufficient to secure the privileged claim, the privilege is enforceable on the movables and crops so removed subject to rights acquired on these movables and crops by third parties in good faith. The privilege shall remain in force for three years from the date of removal, even to the detriment of a third party's rights, if the lessor effects within the prescribed time limit an attachment on the movables and crops removed. If, however, the movables and crops are sold to a purchaser in good faith in the market by public auction or by a merchant dealing in similar articles, the lessor must reimburse the purchaser with the price."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q029",
+    "question": "من يملك حق الشفعة في الحالات التي يحددها القانون؟",
+    "language": "ar",
+    "ground_truth": "يثبت حق الشفعة، بحسب الحالات، لمالك الرقبة، والشريك في الشيوع، وصاحب حق الانتفاع، وبعض أصحاب حقوق الحكر، والجار المالك في الحالات المنصوص عليها.",
+    "reference_text": "The right of preemption belongs to specified persons including the bare owner, co-owner in common, usufructuary, certain hekr holders and the neighboring owner in stated cases.",
+    "scope": "in_scope",
+    "answer": "لا يمكن تحديد من يملك حق الشفعة في الحالات التي يحددها القانون استناداً إلى النصوص القانونية التي تم إحضارها. لا توجد أي إشارة في المقالات المقتبسة (الأحكام 672، 235، 200، 988، 86) إلى حق الشفعة أو إلى من يحق له ممارسته.  \n\n**ملاحظة:** هذه الإجابة هي معلومات قانونية عامة وليست بديلاً عن استشارة محامٍ مؤهل.",
+    "citations": [
+      "Egyptian Civil Code, Article 672",
+      "Egyptian Civil Code, Article 235",
+      "Egyptian Civil Code, Article 200",
+      "Egyptian Civil Code, Article 988",
+      "Egyptian Civil Code, Article 86"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 672,
+        "citation": "Egyptian Civil Code, Article 672",
+        "distance": 0.7945860028266907,
+        "is_repealed": false
+      },
+      {
+        "article_number": 235,
+        "citation": "Egyptian Civil Code, Article 235",
+        "distance": 0.7955515384674072,
+        "is_repealed": false
+      },
+      {
+        "article_number": 200,
+        "citation": "Egyptian Civil Code, Article 200",
+        "distance": 0.8079862594604492,
+        "is_repealed": false
+      },
+      {
+        "article_number": 988,
+        "citation": "Egyptian Civil Code, Article 988",
+        "distance": 0.8131853938102722,
+        "is_repealed": false
+      },
+      {
+        "article_number": 86,
+        "citation": "Egyptian Civil Code, Article 86",
+        "distance": 0.8309618234634399,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\n)١( كل انحراف او غلط يقع عند تطبيق تعريفه االسعار علي العقود الفرديه يكون قابال للتصحيح. ٢( فاذا وقع االنحراف او الغلط ضد مصلحه العميل ، كان له الحق في ) استرداد ما دفعه زياده علي االسعار المقرره . واذا وقع ضد مصلحه الملتزم بالمرفق العام ، كان له الحق في استكمال ما نقص من االسعار المقرره . ويكون باطال كل اتفاق يخالف ذلك . ويسقط الحق في الحالين بانقضاء سنه من وقت قبض االجور التي ال تتفق مع االسعار المقرره.\n\nEnglish:\nAny irregularity or mistake in the application of the rates to individual contracts is subject to rectification. If the irregularity or mistake operates to the detriment of the consumer, he shall be entitled to recover the amount paid in excess of the authorized charge. If such an irregularity or mistake operates to the detriment of the concessionaire of the public utility service, he shall be entitled to collect an amount to make up the authorized charge. Any agreement to the contrary is void. The right of recovery in either case is barred by prescription after one year from the date when the collection of the interest charge took place.",
+      "Arabic:\n)١( لكل دائن ولو لم يكن حقه مستحق االداء ان يستعمل باسم مدينه جميع حقوق هذا المدين، اال ما كان منها متصال بشخصه خاصه او غير قابل للحجز. )٢( وال يكون استعمال الدائن لحقوق مدينه مقبوال اال اذا اثبت ان المدين لم يستعمل هذه الحقوق وان عدم استعماله لها من شانه ان يسبب اعساره او ان يزيد في هذا االعسار. وال يشترط اعذار المدين الستعمال حقه ولكن يجب ادخاله خصما في الدعوي.\n\nEnglish:\nEvery creditor, even if his claim has not fallen due, may exercise in the name of his debtor all his debtor's rights of action save only those that are purely personal or cannot be attached. The exercise by a creditor of the rights of his debtor is not admissible, unless the creditor proves that the debtor himself has not exercised such rights and that the debtor's failure to do so is such as to result in or increase his insolvency. The creditor need not necessarily formally summon the debtor to exercise his rights but he must always join the debtor in the proceedings.",
+      "Arabic:\nيقدر القاضي ، عند عدم النص ، ما اذا كان هناك التزام طبيعي. وفي كل حال ال يجوز ان يقوم التزام طبيعي يخالف النظام العام.\n\nEnglish:\nThe judge shall decide, in the absence of any provision of the law, whether a natural obligation exists. There cannot ever be a natural obligation that is contrary to public policy.",
+      "Arabic:\n)١( علي المنتفع ان يستعمل الشيء بحالته التي تسلمه بها ويحسب ما اعد له وان يديره اداره حسنه. ٢( للمالك ان يعترض علي اي استعمال غير مشروع او غير متفق مع ) طبيعه الشيء ، فاذا اثبت ان حقوقه في خطر جاز له ان يطالب بتقديم تامينات ، فان لم يقدمها المنتفع او ظل علي الرغم من اعتراض المالك يستعمل العين استعماال غير مشروع او غير متفق مع طبيعتها . فللقاضي ان يترع هذه العين من تحت يده وان يسلمها الي اخر يتولي ادارتها ، بل له تبعا لخطوره الحال ان يحكم بانتهاء حق االنتفاع دون اخالل بحقوق الغير.\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+      "Arabic:\nالحقوق التي ترد علي شيء غير مادي تنظمها قوانين خاصه.\n\nEnglish:\nRights in respect of a non-material object are regulated by special laws."
+    ],
+    "model": "openai/gpt-oss-20b"
+  },
+  {
+    "id": "q030",
+    "question": "What was the exact temperature recorded in Cairo at noon yesterday?",
+    "language": "en",
+    "ground_truth": "The Egyptian Civil Code document does not contain this information, so the question cannot be answered from the provided source.",
+    "reference_text": null,
+    "scope": "out_of_scope",
+    "answer": "I’m sorry, but I cannot determine the temperature recorded in Cairo at noon yesterday from the legal context that was provided.",
+    "citations": [
+      "Egyptian Civil Code, Article 10",
+      "Egyptian Civil Code, Article 380",
+      "Egyptian Civil Code, Article 33",
+      "Egyptian Civil Code, Article 3",
+      "Egyptian Civil Code, Article 253"
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 10,
+        "citation": "Egyptian Civil Code, Article 10",
+        "distance": 1.4222095012664795,
+        "is_repealed": false
+      },
+      {
+        "article_number": 380,
+        "citation": "Egyptian Civil Code, Article 380",
+        "distance": 1.4386435747146606,
+        "is_repealed": false
+      },
+      {
+        "article_number": 33,
+        "citation": "Egyptian Civil Code, Article 33",
+        "distance": 1.4493287801742554,
+        "is_repealed": false
+      },
+      {
+        "article_number": 3,
+        "citation": "Egyptian Civil Code, Article 3",
+        "distance": 1.4566558599472046,
+        "is_repealed": false
+      },
+      {
+        "article_number": 253,
+        "citation": "Egyptian Civil Code, Article 253",
+        "distance": 1.4814149141311646,
+        "is_repealed": false
+      }
+    ],
+    "retrieved_contexts": [
+      "Arabic:\nالقانون المصري هو المرجع في تكييف العالقات عندما يطلب تحديد نوع هذه العالقات في قضيه تتنازع فيها القوانين' لمعرفه القانون الواجب تطبيقه من بينها.\n\nEnglish:\nEgyptian law will rule to determine the nature of a legal relationship in order to ascertain the law applicable in the event of a conflict between various laws in any particular suit.",
+      "Arabic:\nتحسب مده التقادم بااليام وال بالساعات وال بحسب اليوم االول ، وتكمل المده بانقضاء اخر يوم منها.\n\nEnglish:\nPeriods of prescription are calculated in days, not in hours; the first day does not count and prescription is completed when the last day is at an end.",
+      "Arabic:\n( الجنسيه المصريه ينظمها قانون خاص.\n\nEnglish:\nEgyptian nationality is governed by a special law.",
+      "Arabic:\nتحسب المواعيد بالتقويم الميالدي، ما لم ينص هذا القانون علي غير ذلك.\n\nEnglish:\nPeriods of limitation will be calculated according to the Gregorian calendar, unless expressly provided otherwise by a law.",
+      "Arabic:\n(١( علي كاتب المحكمه في اليوم الذي تقيد فيه دعوي االعسار ان يسجل صحيفتها في سجل خاص يرتب بحسب اسماء المعسرين. وعليه ان يؤشر في هامش التسجيل المذكور بالحكم الصادر في الدعوي وبكل حكم يصدر بتاييده اه بالغائه وذلك كله يوم صدور الحكم. (٢( وعلي الكاتب ايضا ان يرسل الي قلم كتاب محكمه مصر صوره من هذه التسجيالت والتاشيرات الثباتها في سجل عام، ينظم وفقا لقرار يصدر من وزير العدل.\n\nEnglish:\nThe registrar (greffier) of the court shall, on the day on which the suit for the declaration of insolvency is filed for registration, register the writ introducing the action, in a special register of the names of persons who are insolvent. The greffier shall also record in the margin of such registration the judgment delivered in the case and any judgment conforming or setting aside such judgment; this registration and these entries must be made on the date the judgment is delivered. The greffier shall in addition send to the greffier of the court in Cairo a copy of such registrations and marginal entries for the purpose of their being recorded in a general register; the regulations as to this general register shall be laid down by an “Arrêté” of the Minister of Justice."
+    ],
+    "model": "openai/gpt-oss-20b"
+  }
+]
