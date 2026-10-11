@@ -38,3 +38,25 @@ stages:
       hash: md5
       md5: 1015a868598f1eb03961d77ae23d24c4
       size: 1384621
+  build_index:
+    cmd: python -m src.indexing --input data/processed/chunks.json --out 
+      data/processed/vector_store
+    deps:
+    - path: data/processed/chunks.json
+      hash: md5
+      md5: 1015a868598f1eb03961d77ae23d24c4
+      size: 1384621
+    - path: src/config.py
+      hash: md5
+      md5: 36d5e40155819e6edaf26eb584db6148
+      size: 1775
+    - path: src/indexing.py
+      hash: md5
+      md5: 91476262ed187ffc918ae45c4c53a487
+      size: 6221
+    outs:
+    - path: data/processed/vector_store
+      hash: md5
+      md5: d614f9ff0c8f728d7dd05803e0dbc495.dir
+      size: 15424218
+      nfiles: 6

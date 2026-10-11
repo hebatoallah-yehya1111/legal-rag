@@ -16,7 +16,7 @@ stages:
     outs:
       - data/processed/chunks.json
 
-    build_index:
+  build_index:
     cmd: python -m src.indexing --input data/processed/chunks.json --out data/processed/vector_store
     deps:
       - data/processed/chunks.json
