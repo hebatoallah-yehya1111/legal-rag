@@ -1,7 +1,7 @@
 import pytest
 
-from legal_rag.ingestion import is_repealed, normalize_arabic_digits, validate_articles
-from legal_rag.schema import Article
+from src.ingestion import is_repealed, normalize_arabic_digits, validate_articles
+from src.schema import Article
 
 
 def test_normalize_arabic_digits():
@@ -16,7 +16,7 @@ def test_is_repealed_flags_known_range():
 def make_article(number: int, text: str = "نص المادة") -> Article:
     return Article(
         article_number=number,
-        text_ar=text,
+        ar_text=text,
         citation=f"Egyptian Civil Code, Article {number}",
     )
 

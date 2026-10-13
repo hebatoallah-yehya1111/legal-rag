@@ -48,15 +48,15 @@ stages:
       size: 1384621
     - path: src/config.py
       hash: md5
-      md5: 36d5e40155819e6edaf26eb584db6148
-      size: 1775
+      md5: 57c050ec068d1ae89d7f65253577d087
+      size: 1727
     - path: src/indexing.py
       hash: md5
-      md5: 91476262ed187ffc918ae45c4c53a487
-      size: 6221
+      md5: dea6580d431e48c54c796de01c18400d
+      size: 6261
     outs:
     - path: data/processed/vector_store
       hash: md5
-      md5: d614f9ff0c8f728d7dd05803e0dbc495.dir
-      size: 15424218
+      md5: 12874e58e4c36b2b90269f8914f101e3.dir
+      size: 16894682
       nfiles: 6

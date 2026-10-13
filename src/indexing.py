@@ -129,6 +129,8 @@ def build_index(
             "description": "Bilingual Arabic-English Egyptian Civil Code RAG index",
             "embedding_model": EMBEDDING_MODEL,
             "language_support": "ar,en",
+             "hnsw:space": "cosine",
+
         },
     )
 

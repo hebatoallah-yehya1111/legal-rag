@@ -1,37 +1,48 @@
 [build-system]
-requires = ["setuptools>=68.0"]
+requires = ["setuptools>=68.0,<76"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "legal-rag"
 version = "0.1.0"
 description = "Arabic Legal Document Q&A - RAG system over the Egyptian Civil Code"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13"
 dependencies = [
-    "fastapi>=0.110",
-    "uvicorn[standard]>=0.29",
-    "pydantic>=2.6",
-    "python-dotenv>=1.0",
-    "pypdf>=4.0",
-    "pdfplumber>=0.11",
-    "arabic-reshaper>=3.0",
-    "python-bidi>=0.4",
-    "sentence-transformers>=2.5",
-    "chromadb>=0.4",
-    "mlflow>=2.11",
-    "dvc>=3.48",
-    "ragas>=0.1",
-    "langfuse>=2.20",
-    "groq>=0.9",
+    "fastapi>=0.110,<1.0",
+    "uvicorn[standard]>=0.29,<1.0",
+    "pydantic>=2.6,<3.0",
+    "python-dotenv>=1.0,<2.0",
+    "pypdf>=4.0,<6.0",
+    "pdfplumber>=0.11,<1.0",
+    "arabic-reshaper>=3.0,<4.0",
+    "python-bidi>=0.4,<1.0",
+    "sentence-transformers>=2.5,<4.0",
+    "chromadb>=0.4,<2.0",
+    "mlflow>=2.11,<4.0",
+    "dvc>=3.48,<4.0",
+    "langfuse>=2.20,<3.0",
+    "groq>=0.9,<1.0",
+    "langchain-groq>=0.2,<0.3",
+    "langchain-huggingface>=0.1,<0.2",
+     "langchain-google-genai",
 
 ]
 
 [project.optional-dependencies]
+evaluation = [
+    "ragas==0.2.15",
+    "datasets>=2.14,<4.0",
+    "langchain-community==0.3.31",
+    "langchain-core>=0.3.78,<0.4.0",
+    "langchain-openai>=0.3,<0.4",
+    "openai>=1.50,<3.0",
+]
+
 dev = [
-    "pytest>=8.0",
-    "pytest-asyncio>=0.23",
-    "httpx>=0.27",
-    "ruff>=0.3",
+    "pytest>=8.0,<9.0",
+    "pytest-asyncio>=0.23,<2.0",
+    "httpx>=0.27,<1.0",
+    "ruff>=0.3,<1.0",
 ]
 
 [tool.setuptools.packages.find]

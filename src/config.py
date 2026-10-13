@@ -32,7 +32,7 @@ CHUNKS_JSON_PATH = Path(
 
 EMBEDDING_MODEL = os.getenv(
     "EMBEDDING_MODEL",
-    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "BAAI/bge-m3",
 )
 
 VECTOR_DB_DIR = Path(

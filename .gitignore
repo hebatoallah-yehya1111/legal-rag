@@ -9,6 +9,7 @@ venv/
 !/data/processed/.gitkeep
 !/data/raw/*.dvc
 !/data/processed/*.dvc
+data/evaluation/*.checkpoint.json
 
 .env
 reports/*.html

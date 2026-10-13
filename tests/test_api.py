@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from legal_rag.api import app
+from src.api import app
 
 client = TestClient(app)
 
