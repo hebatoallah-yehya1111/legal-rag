@@ -10,42 +10,50 @@ stages:
       size: 2599703
     - path: src/ingestion.py
       hash: md5
-      md5: 3eba8b73ca86354f2d6ead6bf9ace405
-      size: 12749
+      md5: bb0bef88c0e48966df28c4652e710fe8
+      size: 17482
     - path: src/schema.py
       hash: md5
-      md5: 0a2d220e4d39158da81c683eba4d107d
-      size: 465
+      md5: 92d9c09f8666421e74bda43c8235aa74
+      size: 504
     outs:
     - path: data/processed/articles.json
       hash: md5
-      md5: fb153518b49b54baf07eb112c278f549
-      size: 1285866
+      md5: 42ab7b498a74d39ad25baca8ae6308e8
+      size: 1328105
   build_chunks:
     cmd: python -m src.chunking --input data/processed/articles.json --out 
       data/processed/chunks.json
     deps:
     - path: data/processed/articles.json
       hash: md5
-      md5: fb153518b49b54baf07eb112c278f549
-      size: 1285866
+      md5: 42ab7b498a74d39ad25baca8ae6308e8
+      size: 1328105
+    - path: data/processed/corpus_validated.flag
+      hash: md5
+      md5: 444bcb3a3fcf8389296c49467f27e1d6
+      size: 2
     - path: src/chunking.py
       hash: md5
       md5: fc3cc2b2abd97076106453ea30327b81
       size: 6310
+    - path: src/config.py
+      hash: md5
+      md5: 57c050ec068d1ae89d7f65253577d087
+      size: 1727
     outs:
     - path: data/processed/chunks.json
       hash: md5
-      md5: 1015a868598f1eb03961d77ae23d24c4
-      size: 1384621
+      md5: b82ec833c4088bc05270feb4231bee52
+      size: 1384567
   build_index:
     cmd: python -m src.indexing --input data/processed/chunks.json --out 
       data/processed/vector_store
     deps:
     - path: data/processed/chunks.json
       hash: md5
-      md5: 1015a868598f1eb03961d77ae23d24c4
-      size: 1384621
+      md5: b82ec833c4088bc05270feb4231bee52
+      size: 1384567
     - path: src/config.py
       hash: md5
       md5: 57c050ec068d1ae89d7f65253577d087
@@ -57,6 +65,24 @@ stages:
     outs:
     - path: data/processed/vector_store
       hash: md5
-      md5: 12874e58e4c36b2b90269f8914f101e3.dir
-      size: 16894682
+      md5: 357276c5fe79a8652227c3e216fefdf1.dir
+      size: 16915162
       nfiles: 6
+  validate_corpus:
+    cmd: python -m pytest tests/test_corpus.py -q && python -c "from pathlib 
+      import Path; 
+      Path('data/processed/corpus_validated.flag').write_text('ok')"
+    deps:
+    - path: data/processed/articles.json
+      hash: md5
+      md5: 42ab7b498a74d39ad25baca8ae6308e8
+      size: 1328105
+    - path: tests/test_corpus.py
+      hash: md5
+      md5: e9fb84745b00a8fbc73a3c5f6debe04a
+      size: 4028
+    outs:
+    - path: data/processed/corpus_validated.flag
+      hash: md5
+      md5: 444bcb3a3fcf8389296c49467f27e1d6
+      size: 2

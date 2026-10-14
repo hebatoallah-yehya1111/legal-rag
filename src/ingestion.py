@@ -9,8 +9,9 @@ import re
 from pathlib import Path
 
 import pdfplumber
+from pdfplumber.utils import extract_words
 
-from schema import Article
+from src.schema import Article
 
 logger = logging.getLogger(__name__)
 
@@ -23,16 +24,23 @@ KNOWN_REPEALED_RANGES: list[tuple[int, int]] = [
     (389, 417),
 ]
 
+# Articles that exist in the PDF with English text but have NO Arabic text.
 KNOWN_MISSING_ARABIC_MARKERS: set[int] = {1022}
 
 
 def is_expected_gap(article_number: int) -> bool:
     return is_repealed(article_number) or article_number in KNOWN_MISSING_ARABIC_MARKERS
 
+
 COLUMN_THRESHOLD = 300
 
 ARABIC_ARTICLE_LINE_RE = re.compile(r"^مادة[\s()]*([٠-٩]+)[\s()]*$")
-ENGLISH_ARTICLE_LINE_RE = re.compile(r"^Article\s+(\d+)\s*$")
+# The PDF has typos in some headers: "Article1022" (no space) and
+# "rticle 452" (missing A), so the leading A is optional and the space is too.
+ENGLISH_ARTICLE_LINE_RE = re.compile(r"^A?rticle\s*(\d+)\s*$")
+# Some headers share a line with the first words of the article text,
+# e.g. "Article 277 If the option belongs to the debtor ...".
+ENGLISH_MERGED_HEADER_RE = re.compile(r"^A?rticle\s*(\d+)\s+(\S.*)$")
 
 BOOK_KEYWORD = "الكتاب"
 CHAPTER_KEYWORD = "الباب"
@@ -45,6 +53,44 @@ ENGLISH_BOOK = "Obligations Generally"
 ENGLISH_CHAPTER = "Sources of Obligations"
 ENGLISH_SECTION = "Contracts"
 ENGLISH_TOPIC_LINE_RE = re.compile(r"^(\d+)\.\s+(.+?)\s*:?$")
+
+
+# ---------------------------------------------------------------------
+# Lam-alef ligature protection
+# ---------------------------------------------------------------------
+# The PDF stores the lam-alef ligature as ONE glyph whose text is "لا"
+# (already in logical order), while every other glyph is in visual order.
+# Reversing the whole word later would turn "لا" into "ال".
+# Fix: swap each multi-character Arabic glyph for a private-use
+# placeholder BEFORE reversing, then restore it AFTER reversing.
+
+_LIGATURE_TO_PLACEHOLDER: dict[str, str] = {}
+_PLACEHOLDER_TO_LIGATURE: dict[str, str] = {}
+_PRIVATE_USE_START = 0xE000
+
+
+def _is_arabic_text(text: str) -> bool:
+    return all("\u0600" <= c <= "\u06FF" for c in text)
+
+
+def protect_ligature_chars(chars: list[dict]) -> list[dict]:
+    protected = []
+    for ch in chars:
+        text = ch["text"]
+        if len(text) > 1 and _is_arabic_text(text):
+            if text not in _LIGATURE_TO_PLACEHOLDER:
+                placeholder = chr(_PRIVATE_USE_START + len(_LIGATURE_TO_PLACEHOLDER))
+                _LIGATURE_TO_PLACEHOLDER[text] = placeholder
+                _PLACEHOLDER_TO_LIGATURE[placeholder] = text
+            ch = {**ch, "text": _LIGATURE_TO_PLACEHOLDER[text]}
+        protected.append(ch)
+    return protected
+
+
+def restore_ligatures(text: str) -> str:
+    for placeholder, ligature in _PLACEHOLDER_TO_LIGATURE.items():
+        text = text.replace(placeholder, ligature)
+    return text
 
 
 def normalize_english_heading(text: str) -> str:
@@ -67,7 +113,7 @@ def fix_arabic_word(text: str) -> str:
         seg if is_arabic_digits_only(seg) else seg[::-1]
         for seg in reversed(segments)
     ]
-    return "".join(fixed_segments)
+    return restore_ligatures("".join(fixed_segments))
 
 
 def group_words_into_lines(words: list[dict]) -> dict[int, list[dict]]:
@@ -112,7 +158,7 @@ def extract_raw_blocks(pdf_path: Path) -> list[dict]:
     with pdfplumber.open(pdf_path) as pdf:
         total = len(pdf.pages)
         for page_number, page in enumerate(pdf.pages):
-            words = page.extract_words()
+            words = extract_words(protect_ligature_chars(page.chars))
             english_words = [w for w in words if w["x0"] < COLUMN_THRESHOLD]
             arabic_words = [w for w in words if w["x0"] >= COLUMN_THRESHOLD]
 
@@ -193,8 +239,17 @@ def _collect_english_metadata_by_article(
             continue
 
         match = ENGLISH_ARTICLE_LINE_RE.match(line)
-        if match:
-            current_number = int(match.group(1))
+        merged = ENGLISH_MERGED_HEADER_RE.match(line)
+        if merged and not (
+            current_number is None or int(merged.group(1)) == current_number + 1
+        ):
+            # Not the next article in sequence, so this is a wrapped
+            # cross-reference such as "Article 901 has been delivered ...".
+            merged = None
+
+        header = match or merged
+        if header:
+            current_number = int(header.group(1))
             texts_by_number.setdefault(current_number, [])
             metadata_by_number[current_number] = {
                 "book": current_book,
@@ -202,6 +257,8 @@ def _collect_english_metadata_by_article(
                 "section": current_section,
                 "topic": current_topic,
             }
+            if merged and not match:
+                texts_by_number[current_number].append(merged.group(2).strip())
             i += 1
             continue
 
@@ -213,7 +270,10 @@ def _collect_english_metadata_by_article(
             # Article marker. This matches the PDF structure where a real
             # topic heading is immediately followed by its Article number.
             next_line = lines[i + 1] if i + 1 < len(lines) else ""
-            if ENGLISH_ARTICLE_LINE_RE.match(next_line):
+            if (
+                ENGLISH_ARTICLE_LINE_RE.match(next_line)
+                or ENGLISH_MERGED_HEADER_RE.match(next_line)
+            ):
                 current_topic = topic_match.group(2).strip()
                 i += 1
                 continue
@@ -276,6 +336,44 @@ def _insert_repealed_placeholders(articles: list[Article]) -> list[Article]:
     return [by_number[n] for n in sorted(by_number)]
 
 
+def _insert_missing_arabic_placeholders(
+    articles: list[Article],
+    english_by_number: dict[int, str],
+    metadata_by_number: dict[int, dict[str, str | None]],
+) -> list[Article]:
+    """Keep articles that exist in the PDF with English text only.
+
+    These are NOT repealed. The record keeps an empty ar_text, the English
+    text, and ar_missing_in_source=True so downstream code (chunking, the
+    API) can decide how to handle it instead of silently skipping it.
+    """
+    by_number = {a.article_number: a for a in articles}
+
+    for number in sorted(KNOWN_MISSING_ARABIC_MARKERS):
+        if number in by_number:
+            continue
+
+        meta = metadata_by_number.get(number, {})
+        preceding = max((n for n in by_number if n < number), default=None)
+        context = by_number.get(preceding)
+
+        by_number[number] = Article(
+            article_number=number,
+            book=meta.get("book") or (context.book if context else None),
+            chapter=meta.get("chapter") or (context.chapter if context else None),
+            section=meta.get("section") or (context.section if context else None),
+            topic=meta.get("topic") or (context.topic if context else None),
+            ar_text="",
+            text_en=english_by_number.get(number),
+            is_repealed=False,
+            ar_missing_in_source=True,
+            source_page=context.source_page if context else None,
+            citation=f"Egyptian Civil Code, Article {number}",
+        )
+
+    return [by_number[n] for n in sorted(by_number)]
+
+
 def parse_articles(raw_blocks: list[dict]) -> list[Article]:
     english_by_number, metadata_by_number = _collect_english_metadata_by_article(
         raw_blocks
@@ -303,6 +401,9 @@ def parse_articles(raw_blocks: list[dict]) -> list[Article]:
                 ar_text=text_ar,
                 text_en=english_by_number.get(current_number),
                 is_repealed=is_repealed(current_number),
+                ar_missing_in_source=(
+                    current_number in KNOWN_MISSING_ARABIC_MARKERS and not text_ar
+                ),
                 source_page=(
                     current_page + SOURCE_PAGE_OFFSET
                     if current_page is not None
@@ -330,7 +431,11 @@ def parse_articles(raw_blocks: list[dict]) -> list[Article]:
                 current_body_lines.append(line)
 
     flush_current_article()
-    return _insert_repealed_placeholders(articles)
+
+    articles = _insert_repealed_placeholders(articles)
+    return _insert_missing_arabic_placeholders(
+        articles, english_by_number, metadata_by_number
+    )
 
 
 def validate_articles(articles: list[Article]) -> None:
@@ -340,6 +445,12 @@ def validate_articles(articles: list[Article]) -> None:
     assert not unexplained_gaps, f"Unexplained gaps in article numbers: {unexplained_gaps}"
 
     for article in articles:
+        if article.ar_missing_in_source:
+            assert (article.text_en or "").strip(), (
+                f"Article {article.article_number} has no Arabic and no English text"
+            )
+            continue
+
         assert article.ar_text.strip(), f"Article {article.article_number} has empty ar_text"
         assert len(article.ar_text) < 5000, (
             f"Article {article.article_number} text_ar looks too long "
@@ -347,7 +458,13 @@ def validate_articles(articles: list[Article]) -> None:
         )
 
     flagged = sum(1 for a in articles if a.is_repealed)
-    logger.info("Validated %d articles (%d flagged as repealed).", len(articles), flagged)
+    missing_ar = sum(1 for a in articles if a.ar_missing_in_source)
+    logger.info(
+        "Validated %d articles (%d repealed, %d without Arabic text).",
+        len(articles),
+        flagged,
+        missing_ar,
+    )
 
 
 def build_corpus(pdf_path: Path, out_path: Path) -> list[Article]:

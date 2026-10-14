@@ -8,11 +8,21 @@ stages:
     outs:
       - data/processed/articles.json
 
+  validate_corpus:
+    cmd: python -m pytest tests/test_corpus.py -q && python -c "from pathlib import Path; Path('data/processed/corpus_validated.flag').write_text('ok')"
+    deps:
+      - data/processed/articles.json
+      - tests/test_corpus.py
+    outs:
+      - data/processed/corpus_validated.flag
+
   build_chunks:
     cmd: python -m src.chunking --input data/processed/articles.json --out data/processed/chunks.json
     deps:
       - data/processed/articles.json
+      - data/processed/corpus_validated.flag
       - src/chunking.py
+      - src/config.py
     outs:
       - data/processed/chunks.json
 

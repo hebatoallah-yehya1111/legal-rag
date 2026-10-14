@@ -12,6 +12,7 @@ class Article(BaseModel):
     is_repealed: bool = False
     source_page: int | None = None
     citation: str
+    ar_missing_in_source: bool = False
 
     def display_citation(self) -> str:
         return self.citation or f"Egyptian Civil Code, Article {self.article_number}"

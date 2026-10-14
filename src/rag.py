@@ -133,12 +133,17 @@ class LegalRAG:
         ]
 
         return {
-            "question": question,
-            "answer": answer_text,
-            "citations": citations,
-            "retrieved_articles": retrieved_articles,
-            "model": self.model,
-        }
+    "question": question,
+    "answer": answer_text,
+    "citations": citations,
+    "retrieved_articles": retrieved_articles,
+    "retrieved_contexts": [
+        result.get("document", "")
+        for result in results
+        if result.get("document")
+    ],
+    "model": self.model,
+}
 
 
 def main() -> None:
