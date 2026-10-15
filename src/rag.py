@@ -56,10 +56,12 @@ class LegalRAG:
         self.top_k = top_k
         self.retriever = Retriever()
 
-    def retrieve_context(self, question: str) -> tuple[list[dict[str, Any]], str]:
+    def retrieve_context(
+        self, question: str, top_k: int | None = None
+    ) -> tuple[list[dict[str, Any]], str]:
         """Retrieve relevant articles and format them as model context."""
 
-        results = self.retriever.search(question, top_k=self.top_k)
+        results = self.retriever.search(question, top_k=top_k or self.top_k)
 
         context_parts = []
 
@@ -78,10 +80,14 @@ class LegalRAG:
 
         return results, "\n\n---\n\n".join(context_parts)
 
-    def answer(self, question: str) -> dict[str, Any]:
-        """Generate an answer grounded in retrieved legal context."""
+    def answer(self, question: str, top_k: int | None = None) -> dict[str, Any]:
+        """Generate an answer grounded in retrieved legal context.
 
-        results, context = self.retrieve_context(question)
+        top_k is a per-call override, so concurrent API requests never
+        change each other's value on the shared object.
+        """
+
+        results, context = self.retrieve_context(question, top_k=top_k)
 
         if not results or not context.strip():
             return {
@@ -92,6 +98,7 @@ class LegalRAG:
                 ),
                 "citations": [],
                 "retrieved_articles": [],
+                "retrieved_contexts": [],
                 "model": self.model,
             }
 
@@ -133,17 +140,17 @@ class LegalRAG:
         ]
 
         return {
-    "question": question,
-    "answer": answer_text,
-    "citations": citations,
-    "retrieved_articles": retrieved_articles,
-    "retrieved_contexts": [
-        result.get("document", "")
-        for result in results
-        if result.get("document")
-    ],
-    "model": self.model,
-}
+            "question": question,
+            "answer": answer_text,
+            "citations": citations,
+            "retrieved_articles": retrieved_articles,
+            "retrieved_contexts": [
+                result.get("document", "")
+                for result in results
+                if result.get("document")
+            ],
+            "model": self.model,
+        }
 
 
 def main() -> None:
