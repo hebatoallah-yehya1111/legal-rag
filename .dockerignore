@@ -1,0 +1,24 @@
+# Secrets: never bake these into the image
+.env
+.env.*
+!.env.example
+.dvc/config.local
+
+# Version control, DVC cache and environments
+.git
+.dvc/cache
+.dvc/tmp
+venv
+.venv
+**/__pycache__
+.pytest_cache
+.ruff_cache
+
+# Not needed to answer questions
+data/raw
+data/evaluation
+data/processed/articles.json
+data/processed/chunks.json
+mlruns
+tests
+*.egg-info
