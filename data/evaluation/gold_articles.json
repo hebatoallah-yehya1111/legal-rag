@@ -1,0 +1,359 @@
+[
+  {
+    "id": "q001",
+    "question": "ما القانون الذي يحكم الالتزامات غير التعاقدية؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      21
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "Non-contractual obligations are governed by the law of the State in whose territory the act that gave rise to the obligation took place."
+  },
+  {
+    "id": "q002",
+    "question": "ما القانون الذي يحكم الاختصاص والإجراءات؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      22
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "Principles of competence of courts and all questions of procedure are governed by the law of the country in which the action is brought, or in which the proceedings are taken."
+  },
+  {
+    "id": "q003",
+    "question": "متى لا تسري أحكام المواد الخاصة بالقانون الواجب التطبيق؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      23
+    ],
+    "match_status": "manual",
+    "match_score": 0.118,
+    "reference_text": "The preceding rules do not apply where a special law or an international treaty in force in Egypt provides otherwise."
+  },
+  {
+    "id": "q004",
+    "question": "كيف يجب تنفيذ العقد وفقًا للقانون المدني؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      148
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "A contract must be performed in accordance with its contents and in compliance with the requirements of good faith."
+  },
+  {
+    "id": "q005",
+    "question": "ماذا يجوز للقاضي أن يفعل إذا تضمن عقد الإذعان شروطًا تعسفية؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      149
+    ],
+    "match_status": "partial",
+    "match_score": 0.808,
+    "reference_text": "When a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform them in accordance with equity."
+  },
+  {
+    "id": "q006",
+    "question": "What does the Civil Code require regarding good-faith performance of a contract?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      148
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "A contract must be performed in accordance with its contents and in compliance with the requirements of good faith."
+  },
+  {
+    "id": "q007",
+    "question": "What happens when a contract of adhesion contains unfair or leonine conditions?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      149
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "When a contract of adhesion contains leonine conditions, the judge may modify these conditions or relieve the adhering party of the obligation to perform these conditions in accordance with the principles of equity."
+  },
+  {
+    "id": "q008",
+    "question": "متى لا يكون الشخص مسؤولًا عن التعويض بسبب سبب خارج عن إرادته؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      165
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "A person is not liable to make reparation if he proves that the injury resulted from a cause beyond his control, such as unforeseen circumstances, force majeure, the fault of the victim or of a third party."
+  },
+  {
+    "id": "q009",
+    "question": "ما أثر الدفاع الشرعي على المسؤولية عن الضرر؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      166
+    ],
+    "match_status": "partial",
+    "match_score": 0.714,
+    "reference_text": "A person who causes an injury in legitimate defense is not responsible provided that he does not exceed the measures necessary for his defense."
+  },
+  {
+    "id": "q010",
+    "question": "متى يمكن أن يُعفى الموظف العام من المسؤولية عن عمل أضر بالغير؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      167
+    ],
+    "match_status": "manual",
+    "match_score": 0.474,
+    "reference_text": "A public official is not responsible if he acted in pursuance of an order from a superior which he had to obey or thought he had to obey, and he had reasonable grounds for believing the act lawful and acted with care."
+  },
+  {
+    "id": "q011",
+    "question": "ماذا يحدث إذا تسبب شخص في ضرر لتفادي ضرر أكبر؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      168
+    ],
+    "match_status": "partial",
+    "match_score": 0.714,
+    "reference_text": "A person who causes injury to another in order to avoid greater injury is only responsible for such damages as the judge deems equitable."
+  },
+  {
+    "id": "q012",
+    "question": "كيف تكون مسؤولية عدة أشخاص عن عمل ضار واحد؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      169
+    ],
+    "match_status": "partial",
+    "match_score": 0.625,
+    "reference_text": "When several persons are responsible for an injury, they are jointly and severally responsible to make reparation; liability is shared equally unless the judge fixes individual shares."
+  },
+  {
+    "id": "q013",
+    "question": "What is the effect of force majeure or the victim’s fault on tort liability?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      165
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "A person is not liable to make reparation if he proves that the injury resulted from a cause beyond his control."
+  },
+  {
+    "id": "q014",
+    "question": "How does the Code treat several persons responsible for the same injury?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      169
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "When several persons are responsible for an injury, they are jointly and severally responsible to make reparation for the injury."
+  },
+  {
+    "id": "q015",
+    "question": "متى يُجبر المدين على التنفيذ العيني؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      203
+    ],
+    "match_status": "partial",
+    "match_score": 0.8,
+    "reference_text": "A debtor shall be compelled, upon being summoned, specifically to perform his obligation if such performance is possible."
+  },
+  {
+    "id": "q016",
+    "question": "What happens when the obligation is to transfer ownership of a specifically identified thing?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      204
+    ],
+    "match_status": "manual",
+    "match_score": 0.435,
+    "reference_text": "An obligation to transfer ownership or any other real right transfers that right ipso facto if the object is specifically identified and owned by the debtor."
+  },
+  {
+    "id": "q017",
+    "question": "ما المقصود بالالتزام المضاف إلى أجل؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      271
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "An obligation is for a term if its performance or extinction depends on a future certain event."
+  },
+  {
+    "id": "q018",
+    "question": "كيف يحدد القاضي الأجل إذا كان المدين لا يلتزم بالوفاء إلا عند المقدرة أو الميسرة؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      272
+    ],
+    "match_status": "partial",
+    "match_score": 0.897,
+    "reference_text": "The judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and the diligence of a man anxious to perform his obligations."
+  },
+  {
+    "id": "q019",
+    "question": "ما تعريف عقد البيع في القانون المدني؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      418
+    ],
+    "match_status": "partial",
+    "match_score": 0.857,
+    "reference_text": "Sale is a contract whereby the vendor binds himself to transfer to the purchaser the ownership of a thing or any other property right in consideration of a price in money."
+  },
+  {
+    "id": "q020",
+    "question": "What must a purchaser know about the thing sold?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      419
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "The purchaser must have a sufficient acquaintance with the thing sold."
+  },
+  {
+    "id": "q021",
+    "question": "ما التزام البائع فيما يتعلق بنقل الحق المبيع؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      428
+    ],
+    "match_status": "manual",
+    "match_score": 0.385,
+    "reference_text": "The vendor is bound to do what is necessary to transfer the right sold to the purchaser and to abstain from any act making the transfer impossible or difficult."
+  },
+  {
+    "id": "q022",
+    "question": "ما الذي يضمنه البائع للمشتري بالنسبة للانتفاع بالمبيع؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      439
+    ],
+    "match_status": "partial",
+    "match_score": 0.786,
+    "reference_text": "The vendor warrants the purchaser against disturbance in his enjoyment of the thing sold, totally or partially."
+  },
+  {
+    "id": "q023",
+    "question": "What is the default rule for costs and fees of a sale?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      462
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "In the absence of an agreement or usage to the contrary, the costs of the deed of sale, stamp duties, transcription fees and all other expenses are borne by the purchaser."
+  },
+  {
+    "id": "q024",
+    "question": "ما مدة تقادم دعوى ضمان العيب في المبيع؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      452
+    ],
+    "match_status": "partial",
+    "match_score": 0.571,
+    "reference_text": "An action on a warranty is prescribed in one year from delivery, subject to the statutory exceptions."
+  },
+  {
+    "id": "q025",
+    "question": "متى يكون شرط إسقاط ضمان العيب أو تقليله باطلًا؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      453
+    ],
+    "match_status": "manual",
+    "match_score": 0.286,
+    "reference_text": "The parties may increase, restrict or abolish the warranty, but a clause abolishing or restricting it is void if the vendor fraudulently conceals defects."
+  },
+  {
+    "id": "q026",
+    "question": "ما التزام المستأجر بشأن دفع الأجرة؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      586
+    ],
+    "match_status": "partial",
+    "match_score": 0.526,
+    "reference_text": "The lessee must pay the rent at the agreed times, or at times established by local custom in the absence of agreement."
+  },
+  {
+    "id": "q027",
+    "question": "ما واجب المستأجر إذا ظهرت حاجة إلى إصلاحات عاجلة في العين المؤجرة؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      585
+    ],
+    "match_status": "partial",
+    "match_score": 0.696,
+    "reference_text": "The lessee must forthwith notify the lessor of all matters requiring his intervention, such as urgent repairs, defects, encroachments and disturbances or damage by third parties."
+  },
+  {
+    "id": "q028",
+    "question": "Who is generally responsible for fire damage to leased property?",
+    "language": "en",
+    "scope": "in_scope",
+    "gold_articles": [
+      584
+    ],
+    "match_status": "exact",
+    "match_score": 1.0,
+    "reference_text": "The lessee is responsible for damage to the leased property by fire, unless he can establish that the cause thereof was not imputable to him."
+  },
+  {
+    "id": "q029",
+    "question": "من يملك حق الشفعة في الحالات التي يحددها القانون؟",
+    "language": "ar",
+    "scope": "in_scope",
+    "gold_articles": [
+      936
+    ],
+    "match_status": "manual",
+    "match_score": 0.167,
+    "reference_text": "The right of preemption belongs to specified persons including the bare owner, co-owner in common, usufructuary, certain hekr holders and the neighboring owner in stated cases."
+  },
+  {
+    "id": "q030",
+    "question": "What was the exact temperature recorded in Cairo at noon yesterday?",
+    "language": "en",
+    "scope": "out_of_scope",
+    "gold_articles": [],
+    "match_status": "out_of_scope",
+    "match_score": null
+  }
+]
