@@ -31,19 +31,19 @@ flowchart LR
 
 You need Python 3.10-3.12, Docker, and a free Groq API key (https://console.groq.com).
 
-The `dvc pull` remote is a private Google Drive folder, so a reviewer cannot pull from it. Everything is
-rebuilt from the source PDF instead, which `dvc repro` does.
+The DVC remote is a private Google Drive folder, so a reviewer cannot run `dvc pull`. It is not needed:
+the source PDF is committed in `data/raw`, and `dvc repro` rebuilds the corpus and the vector store from it.
 
 ```bash
-# 1. Get the code and the source PDF
+# 1. Get the code (the source PDF is already in data/raw)
 git clone https://github.com/hebatoallah-yehya1111/legal-rag.git && cd legal-rag
-# Download the PDF from <PDF_LINK> and save it as data/raw/egyptian_civil_code.pdf
 
 # 2. Rebuild the corpus and the vector store from the PDF (about 25 minutes on CPU)
 pip install -e ".[pipeline]" && dvc repro
 
 # 3. Add your Groq key and start the API on http://localhost:8000
-cp .env.example .env   # then put your key in .env as GROQ_API_KEY=...
+cp .env.example .env   # Windows PowerShell: copy .env.example .env
+# then put your key in .env as GROQ_API_KEY=...
 docker compose up --build
 ```
 
