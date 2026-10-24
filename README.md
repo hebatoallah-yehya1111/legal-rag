@@ -232,7 +232,7 @@ dvc.yaml    corpus -> validate -> chunks -> index pipeline
 Dockerfile  CPU image with the embedding model and the vector store baked in
 ```
 
-### Constraints and Resource Limitations
+## Constraints and Resource Limitations
 
 **Use of Groq's Free API Tier:** The project relies on Groq's free API tier to access a hosted Large Language Model (LLM). Although this made it possible to implement and test the generation component without paying for a commercial API, the free tier is subject to rate limits and usage quotas. These restrictions can limit the number and frequency of requests, particularly during repeated evaluations, load testing, and experiments requiring many LLM calls. As a result, some experiments may take longer or require multiple runs, and high-concurrency testing may produce rate-limit errors such as HTTP 429 responses. These constraints should be considered when interpreting the project's evaluation and performance results.
 
