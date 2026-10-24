@@ -5,8 +5,8 @@ from sentence_transformers import SentenceTransformer
 
 from src.config import (
     EMBEDDING_MODEL,
-    VECTOR_DB_DIR,
     VECTOR_COLLECTION_NAME,
+    VECTOR_DB_DIR,
 )
 
 

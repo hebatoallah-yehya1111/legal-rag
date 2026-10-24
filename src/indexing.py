@@ -7,8 +7,8 @@ from sentence_transformers import SentenceTransformer
 
 from src.config import (
     EMBEDDING_MODEL,
-    VECTOR_DB_DIR,
     VECTOR_COLLECTION_NAME,
+    VECTOR_DB_DIR,
 )
 
 
@@ -48,7 +48,7 @@ def build_metadata(chunk: dict) -> dict:
         "chunk_index": int(chunk.get("chunk_index", 0)),
         "chunk_count": int(chunk.get("chunk_count", 1)),
         "is_repealed": bool(chunk.get("is_repealed", False)),
-        "source_page": int(chunk.get("source_page", -1)),
+        "source_page": int(chunk.get("source_page") or -1),
         "section": chunk.get("section") or "",
         "topic": chunk.get("topic") or "",
     }

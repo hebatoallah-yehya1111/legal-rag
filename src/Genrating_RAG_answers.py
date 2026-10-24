@@ -7,7 +7,6 @@ from typing import Any
 
 from src.rag import LegalRAG
 
-
 DATASET_PATH = Path("data/evaluation/evaluation_dataset.json")
 RESULTS_PATH = Path("data/evaluation/rag_results.json")
 

@@ -25,6 +25,11 @@ class FakeRAG:
             ],
         }
 
+    def stream_answer(self, question, top_k=5):
+        self.last_top_k = top_k
+        yield "إجابة "
+        yield "متدفقة"
+
 
 class BrokenRAG:
     def answer(self, question, top_k=5):
@@ -98,3 +103,54 @@ def test_ask_hides_internal_errors(client):
     response = client.post("/ask", json={"question": "ما هي شروط العقد؟"})
     assert response.status_code == 500
     assert "secret internal failure" not in response.text
+
+def test_stream_endpoint_emits_server_sent_events(client, fake_rag):
+    response = client.post("/ask/stream", json={"question": "ما هي شروط العقد؟"})
+    assert response.status_code == 200
+    assert response.headers["content-type"].startswith("text/event-stream")
+    assert '"token": "إجابة "' in response.text
+    assert '"token": "متدفقة"' in response.text
+    assert "event: done" in response.text
+
+
+def test_stream_endpoint_passes_top_k(client, fake_rag):
+    client.post("/ask/stream", json={"question": "ما هي شروط العقد؟", "top_k": 3})
+    assert fake_rag.last_top_k == 3
+
+
+def test_provider_rate_limit_returns_429():
+    class LimitedRAG:
+        def answer(self, question, top_k=5):
+            raise api.RateLimitError("too many tokens")
+
+    api.app.dependency_overrides[api.get_rag] = lambda: LimitedRAG()
+    try:
+        response = TestClient(api.app).post("/ask", json={"question": "ما هو العقد؟"})
+    finally:
+        api.app.dependency_overrides.clear()
+
+    assert response.status_code == 429
+    assert "Retry-After" in response.headers
+
+
+def test_get_rag_builds_one_instance_under_concurrency(monkeypatch):
+    import threading
+    import time
+
+    created = []
+
+    class SlowRAG:
+        def __init__(self):
+            created.append(1)
+            time.sleep(0.2)
+
+    monkeypatch.setattr(api, "LegalRAG", SlowRAG)
+    monkeypatch.setattr(api, "_rag_instance", None)
+
+    threads = [threading.Thread(target=api.get_rag) for _ in range(6)]
+    for thread in threads:
+        thread.start()
+    for thread in threads:
+        thread.join()
+
+    assert len(created) == 1

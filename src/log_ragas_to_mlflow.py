@@ -92,7 +92,7 @@ def main() -> None:
         mlflow.log_artifact(str(REPORT_PATH), artifact_path="evaluation")
 
         print("MLflow run logged successfully.")
-        print(f"Experiment: egyptian-legal-rag")
+        print("Experiment: egyptian-legal-rag")
         print(f"Questions: {total_questions}")
         for name in REQUIRED_METRICS:
             print(f"{name}: {metrics[name]:.4f}")

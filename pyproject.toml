@@ -29,6 +29,18 @@ pipeline = [
 ]
 
 # RAGAS evaluation with the Gemini judge.
+observability = [
+    "langfuse>=3.0,<4.0",
+]
+
+load-test = [
+    "locust>=2.24,<3.0",
+]
+
+serving = [
+    "bentoml>=1.3,<2.0",
+]
+
 evaluation = [
     "ragas==0.2.15",
     "datasets>=2.14,<4.0",
@@ -39,6 +51,7 @@ evaluation = [
     "langchain-huggingface>=0.1,<0.2",
     # Pin this to the version you have installed (pip show langchain-google-genai).
     "langchain-google-genai",
+    "langchain-groq>=0.2,<1.0",
 ]
 
 dev = [

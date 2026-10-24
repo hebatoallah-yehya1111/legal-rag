@@ -17,7 +17,6 @@ from src.config import (
 )
 from src.rag import LegalRAG
 
-
 ROOT = Path(__file__).resolve().parents[1]
 DATASET = ROOT / "data" / "evaluation" / "evaluation_dataset.json"
 OUTPUT_DIR = ROOT / "data" / "evaluation" / "top_k"

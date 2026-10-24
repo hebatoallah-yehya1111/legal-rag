@@ -1,0 +1,374 @@
+{
+  "evaluator": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "embedding_model": "BAAI/bge-m3"
+  },
+  "source_file": "C:\\Users\\Lyn\\Downloads\\legal-rag-reviewed\\legal-rag-scaffold\\data\\evaluation\\rag_results.json",
+  "total_valid_questions": 49,
+  "successfully_scored_questions": {
+    "faithfulness": 49,
+    "answer_relevancy": 49,
+    "context_precision": 49,
+    "context_recall": 49
+  },
+  "complete_by_metric": {
+    "faithfulness": true,
+    "answer_relevancy": true,
+    "context_precision": true,
+    "context_recall": true
+  },
+  "evaluation_complete": true,
+  "faithfulness_threshold": 0.75,
+  "metrics": {
+    "faithfulness": 0.6798811732485202,
+    "answer_relevancy": 0.6840764945124396,
+    "context_precision": 0.899659863872534,
+    "context_recall": 0.9387755102040817
+  },
+  "per_question": [
+    {
+      "question": "ما القانون الذي يحكم الالتزامات غير التعاقدية؟",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.7826202515472381,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الذي يحكم الاختصاص والإجراءات؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.6578337316724298,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى لا تسري أحكام المواد الخاصة بالقانون الواجب التطبيق؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.624215128876728,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "كيف يجب تنفيذ العقد وفقًا للقانون المدني؟",
+      "faithfulness": 0.8888888888888888,
+      "answer_relevancy": 0.6882267998014132,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ماذا يجوز للقاضي أن يفعل إذا تضمن عقد الإذعان شروطًا تعسفية؟",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.6292741055247056,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What does the Civil Code require regarding good-faith performance of a contract?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7930015164851091,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What happens when a contract of adhesion contains unfair or leonine conditions?",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.948841897535512,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى لا يكون الشخص مسؤولًا عن التعويض بسبب سبب خارج عن إرادته؟",
+      "faithfulness": 0.8888888888888888,
+      "answer_relevancy": 0.7419631027292882,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما أثر الدفاع الشرعي على المسؤولية عن الضرر؟",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.5646773970108152,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى يمكن أن يُعفى الموظف العام من المسؤولية عن عمل أضر بالغير؟",
+      "faithfulness": 0.625,
+      "answer_relevancy": 0.7874995164368853,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ماذا يحدث إذا تسبب شخص في ضرر لتفادي ضرر أكبر؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.7431772869479268,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "كيف تكون مسؤولية عدة أشخاص عن عمل ضار واحد؟",
+      "faithfulness": 0.5555555555555556,
+      "answer_relevancy": 0.48565075462382074,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What is the effect of force majeure or the victim’s fault on tort liability?",
+      "faithfulness": 0.9166666666666666,
+      "answer_relevancy": 0.48157934198609875,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "How does the Code treat several persons responsible for the same injury?",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.8220225741665723,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى يُجبر المدين على التنفيذ العيني؟",
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.6126271136556667,
+      "context_precision": 0.9999999999666667,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What happens when the obligation is to transfer ownership of a specifically identified thing?",
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.8086950733164923,
+      "context_precision": 0.9999999999666667,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما المقصود بالالتزام المضاف إلى أجل؟",
+      "faithfulness": 0.7777777777777778,
+      "answer_relevancy": 0.8687293198320868,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "كيف يحدد القاضي الأجل إذا كان المدين لا يلتزم بالوفاء إلا عند المقدرة أو الميسرة؟",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.7349225024337578,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما تعريف عقد البيع في القانون المدني؟",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.6678939683881622,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What must a purchaser know about the thing sold?",
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.7022815220412792,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما التزام البائع فيما يتعلق بنقل الحق المبيع؟",
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.7662160195355464,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما الذي يضمنه البائع للمشتري بالنسبة للانتفاع بالمبيع؟",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5514792207029438,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "What is the default rule for costs and fees of a sale?",
+      "faithfulness": 0.8571428571428571,
+      "answer_relevancy": 0.7204559665343614,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما مدة تقادم دعوى ضمان العيب في المبيع؟",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.6392697170115582,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى يكون شرط إسقاط ضمان العيب أو تقليله باطلًا؟",
+      "faithfulness": 0.6,
+      "answer_relevancy": 0.7039434772261777,
+      "context_precision": 0.5833333333041666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما التزام المستأجر بشأن دفع الأجرة؟",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.659477336999286,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما واجب المستأجر إذا ظهرت حاجة إلى إصلاحات عاجلة في العين المؤجرة؟",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.671327714790241,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "Who is generally responsible for fire damage to leased property?",
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.8387000212469548,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "من يملك حق الشفعة في الحالات التي يحددها القانون؟",
+      "faithfulness": 0.7272727272727273,
+      "answer_relevancy": 0.5299041752273794,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "What was the exact temperature recorded in Cairo at noon yesterday?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما ترتيب الرجوع إلى المصادر القانونية إذا لم يوجد نص تشريعي واجب التطبيق؟",
+      "faithfulness": 0.5714285714285714,
+      "answer_relevancy": 0.7212544094341531,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "بأي طرق يجوز إلغاء نص تشريعي قائم؟",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9568359344983433,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "هل يسأل الشخص عن الضرر الناتج عن استعماله المشروع لحقه؟",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    },
+    {
+      "question": "متى يُعد استعمال الحق غير مشروع؟",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.7336960382713658,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "على من تسري النصوص المتعلقة بالأهلية، وما أثر تغير الأهلية على التصرفات السابقة؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.6204188148825358,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "كيف تطبق النصوص الجديدة المتعلقة بالتقادم على مدد التقادم التي لم تكتمل؟",
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.6830580604244942,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى يبدأ سريان مدة التقادم الجديدة إذا كانت أقصر من المدة القديمة؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.8466754522038655,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "أي قانون يحكم الدليل الذي أُعد مقدمًا؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.6327669307313616,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "كيف يحدد القانون المصري تكييف العلاقة القانونية عند تنازع القوانين؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.7030287019841461,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الذي يحكم الحالة المدنية والأهلية للأشخاص من حيث الأصل؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.648212843729033,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الذي يحدد الشروط الموضوعية لصحة الزواج؟",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.7524353824618817,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الذي يحكم آثار الزواج والطلاق وفق المادة 13؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.9422406779780079,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
+    },
+    {
+      "question": "متى يطبق القانون المصري وحده على شروط أهلية الزواج في الحالات المشار إليها؟",
+      "faithfulness": 0.25,
+      "answer_relevancy": 0.7292863971939465,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "أي قانون يحكم الالتزام بالنفقة بين الأقارب؟",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.8266254773529825,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الواجب التطبيق على المسائل الموضوعية المتعلقة بالولاية والوصاية والقوامة؟",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.594337448780264,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "أي قانون يحكم الميراث والوصية والتصرفات المضافة إلى ما بعد الموت؟",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.7481529333815834,
+      "context_precision": 0.9999999999666667,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الذي يحكم الملكية والحقوق العينية للعقار والمنقول؟",
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.6952258498148222,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0
+    },
+    {
+      "question": "كيف يحدد القانون الواجب التطبيق على الالتزامات التعاقدية؟",
+      "faithfulness": 0.8888888888888888,
+      "answer_relevancy": 0.6770988739850087,
+      "context_precision": 0.49999999995,
+      "context_recall": 1.0
+    },
+    {
+      "question": "ما القانون الذي يحكم شكل العقود بين الأحياء؟",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.7818914497153041,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
+    }
+  ]
+}

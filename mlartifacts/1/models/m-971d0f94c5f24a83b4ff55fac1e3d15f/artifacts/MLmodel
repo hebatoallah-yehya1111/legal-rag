@@ -1,0 +1,19 @@
+artifact_path: file:C:/Users/Lyn/Downloads/legal-rag-reviewed/legal-rag-scaffold/mlartifacts/1/models/m-971d0f94c5f24a83b4ff55fac1e3d15f/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.12.6
+    streamable: false
+mlflow_version: 3.17.1
+model_id: m-971d0f94c5f24a83b4ff55fac1e3d15f
+model_size_bytes: 2092
+model_uuid: m-971d0f94c5f24a83b4ff55fac1e3d15f
+prompts: null
+run_id: e79bead8c4e44bea95b437d6294cf544
+utc_time_created: '2026-10-18 16:09:12.882463'

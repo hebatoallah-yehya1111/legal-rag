@@ -268,5 +268,185 @@
     "article_number": null,
     "reference_text": null,
     "scope": "out_of_scope"
+  },
+  {
+    "id": "q031",
+    "question": "ما ترتيب الرجوع إلى المصادر القانونية إذا لم يوجد نص تشريعي واجب التطبيق؟",
+    "language": "ar",
+    "ground_truth": "( )١( تسري النصوص التشريعيه علي جميع المسائل التي تتناولها هذه النصوص في لفظها او في فحواها. (٢) فاذا لم يوجد نص تشريعي يمكن تطبيقه، حكم القاضي بمقتضي العرف، فاذا لم يوجد، فبمقتضي مبادئ الشريعه الاسلاميه، فاذا لم يوجد فبمقتضي مبادئ القانون الطبيعي وقواعد العداله.",
+    "article_number": 1,
+    "reference_text": "Provisions of laws govern all matters to which these provisions apply in letter or spirit. In the absence of a provision of a law that is applicable, the Judge will decide according to custom and in the absence of custom in accordance with the principles of Moslem Law. In the absence of such principles, the Judge will apply the principles of natural justice and the rules of equity.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q032",
+    "question": "بأي طرق يجوز إلغاء نص تشريعي قائم؟",
+    "language": "ar",
+    "ground_truth": "لا يجوز الغاء نص تشريعي الا بتشريع لاحق ينص صراحه علي هذا الالغاء، او يشتمل علي نص يتعارض مع نص التشريع القديم ، او ينظم من جديد الموضوع الذي سبق ان قرر قواعده ذلك التشريع.",
+    "article_number": 2,
+    "reference_text": "A provision of a law can only be repealed by a subsequent law expressly providing for such repeal, or containing a provision inconsistent with a provision of the former law or regulating anew a matter previously regulated by a former law.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q033",
+    "question": "أي تقويم يُستخدم في حساب المواعيد وفق القانون المدني؟",
+    "language": "ar",
+    "ground_truth": "تحسب المواعيد بالتقويم الميلادي، ما لم ينص هذا القانون علي غير ذلك.",
+    "article_number": 3,
+    "reference_text": "Periods of limitation will be calculated according to the Gregorian calendar, unless expressly provided otherwise by a law.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q034",
+    "question": "هل يسأل الشخص عن الضرر الناتج عن استعماله المشروع لحقه؟",
+    "language": "ar",
+    "ground_truth": "استعمالا مشروعا مسئولا من استعمل حقه لا يكون عما ينشا عن ذلك من ضرر.",
+    "article_number": 4,
+    "reference_text": "A person legitimately exercises his rights is not responsible for prejudice resulting thereby.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q035",
+    "question": "متى يُعد استعمال الحق غير مشروع؟",
+    "language": "ar",
+    "ground_truth": "يكون استعمال الحق غير مشروع في الاحوال الاتيه : )ا) اذا لم يقصد به سوي الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الي تحقيقها قليله الاهميه، بحيث لا تتناسب البته مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الي تحقيقها غير مشروعه. ٢- تطبيق القانون تنازع القوانين من حيث الزمان",
+    "article_number": 5,
+    "reference_text": "The exercise of a right is considered unlawful in the following cases: a) if the sole aim thereof is to harm another person; b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another person; c) if the benefit it is desired to realize is unlawful. 2. The Application of Laws Conflicts of law as to time:",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q036",
+    "question": "على من تسري النصوص المتعلقة بالأهلية، وما أثر تغير الأهلية على التصرفات السابقة؟",
+    "language": "ar",
+    "ground_truth": "(١( النصوص المتعلقه بالاهليه تسري علي جميع الاشخاص الذين تنطبق عليهم الشروط المقرره في هذه النصوص. (٢( واذا عاد شخص توافرت فيه الاهليه بحسب نصوص قديمه ناقص الاهليه بحسب نصوص جديده فان ذلك لا يؤثر في تصرفاته السابقه.",
+    "article_number": 6,
+    "reference_text": "Legislative provisions as regards the legal capacity of a person are applicable to all persons who fulfill the conditions embodied in such provisions. When a person, who was deemed to possess legal capacity in accordance with the provisions of a former law, becomes legally incapable in accordance with the provisions of a new law, such legal incapacity does not affect the validity of acts previously done by him.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q037",
+    "question": "كيف تطبق النصوص الجديدة المتعلقة بالتقادم على مدد التقادم التي لم تكتمل؟",
+    "language": "ar",
+    "ground_truth": "(١( تسري النصوص الجديده المتعلقه بالتقادم من وقت العمل بها علي كل تقادم لم يكتمل. (٢( علي ان النصوص القديمه هي التي تسري علي المسائل الخاصه ببدء التقادم ووقفه وانقطاعه' وذلك عن المده السابقه علي العمل بالنصوص الجديده.",
+    "article_number": 7,
+    "reference_text": "New legislative provisions as regards prescription apply from such time as they come into force in all cases in which the period of prescription has not been completed. Former legislative provisions however, apply as regards the date of commencement of prescription, its suspension and its interruption in respect of the period prior to the application of the provisions of the new law.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q038",
+    "question": "متى يبدأ سريان مدة التقادم الجديدة إذا كانت أقصر من المدة القديمة؟",
+    "language": "ar",
+    "ground_truth": "(١( اذا قرر النص الجديد مده التقادم اقصر مما قرره النص القديم سرت المده الجديده من وقت العمل بالنص الجديد ولو كانت المده القديمه قد بدات قبل ذلك. (٢( اما اذا كان الباقي من المده التي نص عليها القانون القديم اقصر من المده التي قررها النص الجديد' فان التقادم يتم بانقضاء هذا الباقي.",
+    "article_number": 8,
+    "reference_text": "When the new law provides for a period of prescription shorter than the period provided for in the former law, the new period will apply from the date the new law came into force, even if the old period of prescription has already commenced to run. If, however, the remaining period still to run under the former law is shorter than that fixed by the new law, the prescription shall be completed upon the expiry of such remaining period.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q039",
+    "question": "أي قانون يحكم الدليل الذي أُعد مقدمًا؟",
+    "language": "ar",
+    "ground_truth": "مقدما تسري في شان الادله التي تعد النصوص المعمول بها في الوقت الذي كان ينبغي فيه اعداده . تنازع القوانين من حيث المكان",
+    "article_number": 9,
+    "reference_text": "Proof established in advance is governed by provisions of the law in force at the time when the proof was established or at the time when such proof should have been established. Conflicts of law as to place:",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q040",
+    "question": "كيف يحدد القانون المصري تكييف العلاقة القانونية عند تنازع القوانين؟",
+    "language": "ar",
+    "ground_truth": "القانون المصري هو المرجع في تكييف العلاقات عندما يطلب تحديد نوع هذه العلاقات في قضيه تتنازع فيها القوانين' لمعرفه القانون الواجب تطبيقه من بينها.",
+    "article_number": 10,
+    "reference_text": "Egyptian law will rule to determine the nature of a legal relationship in order to ascertain the law applicable in the event of a conflict between various laws in any particular suit.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q041",
+    "question": "ما القانون الذي يحكم الحالة المدنية والأهلية للأشخاص من حيث الأصل؟",
+    "language": "ar",
+    "ground_truth": "(١( الحاله المدنيه للاشخاص واهليتهم يسري عليها قانون الدوله التي ينتمون اليها بجنسيتهم ومع ذلك ففي التصرفات الماليه التي تعقد في مصر اجنبيا وتترتب اثارها فيها' اذا كان احد الطرفين ناقص الاهليه وكان نقص الاهليه يرجع الي سبب فيه خفاء لا يسهل علي الطرف الاخر تبينه' فان هذا السبب لا يؤثر في اهليته. (٢( اما النظام القانوني للاشخاص الاعتباريه الاجنبيه من شركات وجمعيات ومؤسسات وغيرها فيسري عليه قانون الدوله التي اتخذت فيها هذه الاشخاص مراكز ادارتها الرئيسي الفعلي. ومع ذلك فاذا باشرت نشاطها الرئيسي في مصر' فان القانون المصري هو الذي يسري.",
+    "article_number": 11,
+    "reference_text": "The status and the legal capacity of persons are governed by the law of the country to which they belong by reason of their nationality. If, however, in a transaction of a pecuniary nature, concluded and having effect in Egypt, one of the parties is a foreigner without legal capacity and such lack of capacity is due to a reason that is not apparent and which cannot be easily detected by the other party, this reason has no effect on his legal capacity. The legal status of foreign juristic persons such as companies, associations, foundations, or others, is subject to the law of the State in whose territory such juristic persons have established their actual principal seat of management. If, however, a juristic person carries on its principal activities in Egypt, Egyptian law will be applied.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q042",
+    "question": "ما القانون الذي يحدد الشروط الموضوعية لصحة الزواج؟",
+    "language": "ar",
+    "ground_truth": "( يرجع في الشروط الموضوعيه لصحه الزواج الي قانون كل من الزوجين.",
+    "article_number": 12,
+    "reference_text": "The fundamental conditions relating to the validity of marriage are governed by the (national) law of each of the two spouses.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q043",
+    "question": "ما القانون الذي يحكم آثار الزواج والطلاق وفق المادة 13؟",
+    "language": "ar",
+    "ground_truth": "(١( يسري قانون الدوله التي ينتمي اليها الزوج وقت انعقاد الزواج علي الاثار التي يرتبها عقد الزواج' بما في ذلك من اثر بالنسبه الي المال. (٢( اما الطلاق' ويسري علي التطليق والانفصال قانون الدوله التي ينتمي اليها الزوج وقت الدعوي.",
+    "article_number": 13,
+    "reference_text": "The effects of marriage, including its effects upon the property of the spouses, are regulated by the law of the country to which the husband belongs at the time of conclusion of the marriage. Repudiation of marriage is governed by the law of the country to which the husband belongs at the time of repudiation, whereas divorce and separation are governed by the law of the country to which the husband belongs at the time of the commencement of the legal proceedings.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q044",
+    "question": "متى يطبق القانون المصري وحده على شروط أهلية الزواج في الحالات المشار إليها؟",
+    "language": "ar",
+    "ground_truth": "في الاحوال المنصوص عليها في المادتين السابقتين اذا كان احد الزوجين مصريا وقت انعقاد الزواج' يسري القانون المصري وحده، فيها علي شرط الاهليه للزواج.",
+    "article_number": 14,
+    "reference_text": "If, in the cases provided for in the two preceding articles one of the two spouses is an Egyptian at the time of the conclusion of the marriage, Egyptian law alone shall apply except as regards the legal capacity to marry.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q045",
+    "question": "أي قانون يحكم الالتزام بالنفقة بين الأقارب؟",
+    "language": "ar",
+    "ground_truth": "يسري علي الالتزام بالنفقه فيما بين الاقارب قانون المدين بها.",
+    "article_number": 15,
+    "reference_text": "Obligations as regards payment of alimony to relatives are governed by the (national) law of the person liable for such payment.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q046",
+    "question": "ما القانون الواجب التطبيق على المسائل الموضوعية المتعلقة بالولاية والوصاية والقوامة؟",
+    "language": "ar",
+    "ground_truth": "تسري علي المسائل الموضوعيه الخاصه بالولايه والوصايه والقوامه وغيرها من النظم الموضوعيه لحمايه المحجور عليهم والغائبين، قانون الشخص التي تجب حمايته.",
+    "article_number": 16,
+    "reference_text": "The (national) law of a person who should be protected shall apply in respect of all fundamental matters relating to natural and legal guardianship, receivership, and other forms of protection of persons without legal capacity and of absent persons.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q047",
+    "question": "أي قانون يحكم الميراث والوصية والتصرفات المضافة إلى ما بعد الموت؟",
+    "language": "ar",
+    "ground_truth": "(١( يسري علي الميراث والوصيه وسائر التصرفات المضافه الي ما بعد الموت، قانون المورث او الموصي او من صدر منه التصرفات وقت موته. (٢( ومع ذلك يسري علي شكل الوصيه، قانون الموصي وقت الايصاء او قانون البلد الذي تمت فيه الوصيه وكذلك الحكم في شكل سائر التصرفات المضافه الي ما بعد الموت.",
+    "article_number": 17,
+    "reference_text": "Inheritances, wills and other dispositions taking effect after death are governed by the (national) law of the de cujus, the testator or the person disposing of property at death. The form of a will, however, is governed by the (national) law of testator at the time the will is made, or by the law of the country in which the will is made. The same principles apply to the form of other dispositions taking effect after death.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q048",
+    "question": "ما القانون الذي يحكم الملكية والحقوق العينية للعقار والمنقول؟",
+    "language": "ar",
+    "ground_truth": "يسري علي الحيازه والملكيه والحقوق العينيه الاخري، قانون الموقع فيما يختص بالعقار، ويسري بالنسبه الي المنقول، قانون الجهه التي يوجد فيها هذا المنقول وقت تحقق السبب الذي ترتب عليه كسب الحيازه او الملكيه او الحقوق العينيه الاخري او فقدها.",
+    "article_number": 18,
+    "reference_text": "Possession, ownership and other real rights are regulated, as regards immovables, by the law of the place in which the immovable is situate, and as regards movables, by the law of the place where the movable was situate at the time when the event occurred which resulted in the acquisition or loss of possession, ownership or other real rights.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q049",
+    "question": "كيف يحدد القانون الواجب التطبيق على الالتزامات التعاقدية؟",
+    "language": "ar",
+    "ground_truth": "(١( يسري علي الالتزامات التعاقديه. قانون الدوله التي يوجد فيها الموطن موطنا، المشترك للمتعاقدين اذا اتحدا فان اختلفا موطنا سري قانون الدوله التي تم فيها العقد. هذا ما لم يتفق المتعاقدان او يتبين من الظروف ان قانونا اخر هو الذي يراد تطبيقه. (٢( علي ان قانون موقع العقار هو الذي يسري علي العقود التي ابرمت في شان هذا العقار.",
+    "article_number": 19,
+    "reference_text": "Contractual Obligations are governed by the law of the domicile when such domicile is common to the contracting parties, and in the absence of a common domicile by the law of the place where the contract was concluded. These provisions are applicable unless the parties agree, or the circumstances indicate that it is intended to apply another law. Contracts relating to immovables, however, are governed by the law of the place in which the immovable is situate.",
+    "scope": "in_scope"
+  },
+  {
+    "id": "q050",
+    "question": "ما القانون الذي يحكم شكل العقود بين الأحياء؟",
+    "language": "ar",
+    "ground_truth": "العقود ما بين الاحياء تخضع في شكلها لقانون البلد الذي تمت فيه، ويجوز ايضا ان تخضع للقانون الذي يسري علي احكامها الموضوعيه، كما يجوز ان تخضع لقانون موطن المتعاقدين او قانونهما الوطني المشترك.",
+    "article_number": 20,
+    "reference_text": "Contracts between living persons are governed as regards their form by the law of the country in which the contracts are concluded. They may also be governed by the law regulating the basic provisions of a contract, by the law of the domicile of the parties or by their common national law.",
+    "scope": "in_scope"
   }
 ]

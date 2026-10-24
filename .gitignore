@@ -19,3 +19,8 @@ mlruns/
 .ruff_cache/
 
 scratch.py
+langfuse/
+FINISH_STEPS.md
+SUBMISSION_STATUS.md
+api.log
+crash.log

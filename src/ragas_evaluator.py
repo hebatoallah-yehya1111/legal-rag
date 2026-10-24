@@ -1,4 +1,4 @@
-"""Evaluate the Arabic legal RAG pipeline using RAGAS and Gemini.
+"""Evaluate the Arabic legal RAG pipeline using RAGAS with a Groq judge.
 
 Features:
 - One metric per question, with checkpointing after every successful score.
@@ -9,10 +9,8 @@ Features:
 - Optional CI quality gate for faithfulness.
 
 Environment:
-    GEMINI_API_KEY or GOOGLE_API_KEY
-    GEMINI_MODEL
-    GEMINI_RPM
-    GEMINI_MAX_OUTPUT_TOKENS
+    GROQ_API_KEY, RAGAS_GROQ_MODEL, RAGAS_RPM
+    RAGAS_MAX_OUTPUT_TOKENS
     RAGAS_MAX_QUESTIONS
     RAGAS_METRICS
     RAGAS_MAX_CONTEXTS
@@ -31,7 +29,6 @@ from typing import Any
 
 from datasets import Dataset
 from langchain_core.rate_limiters import InMemoryRateLimiter
-from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from ragas import evaluate
 from ragas.embeddings import LangchainEmbeddingsWrapper
@@ -45,11 +42,11 @@ from ragas.metrics import (
 from ragas.run_config import RunConfig
 
 from src.config import (
-    PROJECT_ROOT,
     EMBEDDING_MODEL,
+    GROQ_API_KEY,
+    PROJECT_ROOT,
     RAGAS_FAITHFULNESS_THRESHOLD,
 )
-
 
 # ---------------------------------------------------------------------
 # Configuration
@@ -71,14 +68,12 @@ OUTPUT_PATH = Path(
 
 CHECKPOINT_PATH = OUTPUT_PATH.with_suffix(".checkpoint.json")
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-
-# Override this with a model name supported by your Gemini API account.
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
-GEMINI_RPM = float(os.getenv("GEMINI_RPM", "8"))
+# The judge model. Keep it different from the generator model (GROQ_MODEL).
+RAGAS_GROQ_MODEL = os.getenv("RAGAS_GROQ_MODEL", "openai/gpt-oss-120b")
+RAGAS_RPM = float(os.getenv("RAGAS_RPM", "8"))
 
 # Arabic text escaped as \uXXXX inside JSON uses many tokens, so keep this high.
-MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_MAX_OUTPUT_TOKENS", "8192"))
+MAX_OUTPUT_TOKENS = int(os.getenv("RAGAS_MAX_OUTPUT_TOKENS", "8192"))
 
 MAX_QUESTIONS = int(os.getenv("RAGAS_MAX_QUESTIONS", "0"))
 MAX_CONTEXTS = int(os.getenv("RAGAS_MAX_CONTEXTS", "3"))
@@ -276,35 +271,39 @@ def save_checkpoint(
 # ---------------------------------------------------------------------
 
 def build_evaluator_llm() -> LangchainLLMWrapper:
-    if not GEMINI_API_KEY:
-        raise EnvironmentError(
-            "GEMINI_API_KEY is missing. Set it in your .env file."
-        )
+    """Build the RAGAS judge on Groq."""
 
-    if GEMINI_RPM <= 0:
-        raise ValueError("GEMINI_RPM must be greater than zero.")
+    if not GROQ_API_KEY:
+        raise OSError("GROQ_API_KEY is missing. Set it in .env.")
+    if RAGAS_RPM <= 0:
+        raise ValueError("RAGAS_RPM must be greater than zero.")
 
-    print(
-        f"Evaluator LLM: Gemini / {GEMINI_MODEL} "
-        f"(limit {GEMINI_RPM} RPM, max output {MAX_OUTPUT_TOKENS} tokens)"
-    )
+    try:
+        from langchain_groq import ChatGroq
+    except ImportError as exc:
+        raise OSError(
+            'Groq judge support is missing. Install with: pip install -e ".[evaluation]"'
+        ) from exc
 
     rate_limiter = InMemoryRateLimiter(
-        requests_per_second=GEMINI_RPM / 60.0,
+        requests_per_second=RAGAS_RPM / 60.0,
         check_every_n_seconds=0.1,
         max_bucket_size=1,
     )
 
-    llm = ChatGoogleGenerativeAI(
-        model=GEMINI_MODEL,
-        google_api_key=GEMINI_API_KEY,
+    print(
+        f"Evaluator LLM: Groq / {RAGAS_GROQ_MODEL} "
+        f"(limit {RAGAS_RPM} RPM, max output {MAX_OUTPUT_TOKENS} tokens)"
+    )
+    llm = ChatGroq(
+        model=RAGAS_GROQ_MODEL,
+        api_key=GROQ_API_KEY,
         temperature=0,
-        max_output_tokens=MAX_OUTPUT_TOKENS,
+        max_tokens=MAX_OUTPUT_TOKENS,
         timeout=180,
         max_retries=1,
         rate_limiter=rate_limiter,
     )
-
     return LangchainLLMWrapper(llm)
 
 
@@ -351,6 +350,8 @@ def classify_error(exc: Exception) -> str:
         "daily",
         "dayquota",
         "quotaexceededforday",
+        "tokensperday",
+        "requestsperday",
     )
 
     if any(marker in compact for marker in daily_markers):
@@ -420,7 +421,7 @@ def score_with_retry(
         except KeyboardInterrupt:
             raise
 
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             kind = classify_error(exc)
 
             if kind == "daily":
@@ -442,11 +443,13 @@ def score_with_retry(
                 "PermissionDenied",
                 "Unauthenticated",
                 "InvalidArgument",
+                "AuthenticationError",
+                "BadRequestError",
             }:
                 raise RuntimeError(
-                    f"Gemini configuration error ({type(exc).__name__}): "
+                    f"Evaluator configuration error ({type(exc).__name__}): "
                     f"{str(exc)[:400]}\n"
-                    "Check GEMINI_MODEL, GEMINI_API_KEY, and API access."
+                    "Check RAGAS_GROQ_MODEL, GROQ_API_KEY, and account access."
                 ) from exc
 
             if type(exc).__name__ == "OutputParserException":
@@ -518,8 +521,8 @@ def build_report(
 
     return {
         "evaluator": {
-            "provider": "google-gemini",
-            "model": GEMINI_MODEL,
+            "provider": "groq",
+            "model": RAGAS_GROQ_MODEL,
             "embedding_model": EMBEDDING_MODEL,
         },
         "source_file": str(RESULTS_PATH),
@@ -603,7 +606,7 @@ def write_report(report: dict[str, Any]) -> None:
 
 def main() -> int:
     print("=" * 60)
-    print("Arabic Legal RAG - RAGAS Evaluation (Gemini)")
+    print("Arabic Legal RAG - RAGAS Evaluation")
     print("=" * 60)
 
     if not METRIC_NAMES:

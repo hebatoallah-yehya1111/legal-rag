@@ -1,0 +1,241 @@
+{
+  "evaluator": {
+    "provider": "google-gemini",
+    "model": "gemini-3.5-flash-lite",
+    "embedding_model": "BAAI/bge-m3"
+  },
+  "source_file": "C:\\Users\\Lyn\\Downloads\\legal-rag-scaffold\\data\\evaluation\\rag_results.json",
+  "total_valid_questions": 30,
+  "successfully_scored_questions": {
+    "faithfulness": 0,
+    "answer_relevancy": 0,
+    "context_precision": 0,
+    "context_recall": 0
+  },
+  "complete_by_metric": {
+    "faithfulness": false,
+    "answer_relevancy": false,
+    "context_precision": false,
+    "context_recall": false
+  },
+  "evaluation_complete": false,
+  "faithfulness_threshold": 0.75,
+  "metrics": {
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "context_precision": null,
+    "context_recall": null
+  },
+  "per_question": [
+    {
+      "question": "ما القانون الذي يحكم الالتزامات غير التعاقدية؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما القانون الذي يحكم الاختصاص والإجراءات؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "متى لا تسري أحكام المواد الخاصة بالقانون الواجب التطبيق؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "كيف يجب تنفيذ العقد وفقًا للقانون المدني؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ماذا يجوز للقاضي أن يفعل إذا تضمن عقد الإذعان شروطًا تعسفية؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What does the Civil Code require regarding good-faith performance of a contract?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What happens when a contract of adhesion contains unfair or leonine conditions?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "متى لا يكون الشخص مسؤولًا عن التعويض بسبب سبب خارج عن إرادته؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما أثر الدفاع الشرعي على المسؤولية عن الضرر؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "متى يمكن أن يُعفى الموظف العام من المسؤولية عن عمل أضر بالغير؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ماذا يحدث إذا تسبب شخص في ضرر لتفادي ضرر أكبر؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "كيف تكون مسؤولية عدة أشخاص عن عمل ضار واحد؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What is the effect of force majeure or the victim’s fault on tort liability?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "How does the Code treat several persons responsible for the same injury?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "متى يُجبر المدين على التنفيذ العيني؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What happens when the obligation is to transfer ownership of a specifically identified thing?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما المقصود بالالتزام المضاف إلى أجل؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "كيف يحدد القاضي الأجل إذا كان المدين لا يلتزم بالوفاء إلا عند المقدرة أو الميسرة؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما تعريف عقد البيع في القانون المدني؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What must a purchaser know about the thing sold?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما التزام البائع فيما يتعلق بنقل الحق المبيع؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما الذي يضمنه البائع للمشتري بالنسبة للانتفاع بالمبيع؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What is the default rule for costs and fees of a sale?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما مدة تقادم دعوى ضمان العيب في المبيع؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "متى يكون شرط إسقاط ضمان العيب أو تقليله باطلًا؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما التزام المستأجر بشأن دفع الأجرة؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "ما واجب المستأجر إذا ظهرت حاجة إلى إصلاحات عاجلة في العين المؤجرة؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "Who is generally responsible for fire damage to leased property?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "من يملك حق الشفعة في الحالات التي يحددها القانون؟",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    },
+    {
+      "question": "What was the exact temperature recorded in Cairo at noon yesterday?",
+      "faithfulness": null,
+      "answer_relevancy": null,
+      "context_precision": null,
+      "context_recall": null
+    }
+  ]
+}
